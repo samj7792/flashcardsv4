@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { NOUNS } from "./nounData";
 import {
   getRandomNoun,
@@ -18,6 +18,7 @@ export default function NounPracticePage() {
   const [progress, setProgress] = useState<Progress>(() => {
     return loadProgress<Progress>() ?? initialProgress();
   });
+  const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     saveProgress(progress);
@@ -35,7 +36,34 @@ export default function NounPracticePage() {
     setNoun(getRandomNoun(NOUNS));
     setAnswer({});
     setResult(null);
+
+    setTimeout(() => {
+      inputRef.current?.focus();
+    });
   }
+
+  useEffect(() => {
+    function onKeyDown(e: KeyboardEvent) {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        result ? next() : submit();
+        return;
+      }
+
+      if (result) return;
+
+      if (e.key === "1") setAnswer((a) => ({ ...a, article: "der" }));
+      if (e.key === "2") setAnswer((a) => ({ ...a, article: "die" }));
+      if (e.key === "3") setAnswer((a) => ({ ...a, article: "das" }));
+    }
+
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [answer, result]);
+
+  useEffect(() => {
+    inputRef.current?.focus();
+  }, []);
 
   return (
     <main style={{ maxWidth: 480, margin: "3rem auto" }}>
@@ -49,7 +77,10 @@ export default function NounPracticePage() {
         {ARTICLES.map((article) => (
           <button
             key={article}
-            onClick={() => setAnswer({ ...answer, article })}
+            onClick={() => {
+              setAnswer({ ...answer, article });
+              inputRef.current?.focus();
+            }}
             disabled={!!result}
             style={{
               marginRight: "0.5rem",
@@ -63,6 +94,7 @@ export default function NounPracticePage() {
 
       <section style={{ marginTop: "1rem" }}>
         <input
+          ref={inputRef}
           type="text"
           placeholder="German translation"
           value={answer.translation ?? ""}
