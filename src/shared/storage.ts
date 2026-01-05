@@ -1,10 +1,20 @@
+import { Progress } from "../features/nounPractice/types";
+
 const STORAGE_KEY = "german-practice:v1";
 
-export function loadProgress<T>(): T | null {
+export function loadProgress(): Progress | null {
   const raw = localStorage.getItem(STORAGE_KEY);
-  return raw ? (JSON.parse(raw) as T) : null;
+  if (!raw) return null;
+
+  const parsed = JSON.parse(raw);
+
+  return {
+    total: parsed.total ?? 0,
+    correct: parsed.correct ?? 0,
+    byNoun: parsed.byNoun ?? {},
+  };
 }
 
-export function saveProgress<T>(data: T): void {
+export function saveProgress(data: Progress): void {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
 }

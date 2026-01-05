@@ -16,30 +16,32 @@ export default function NounPracticePage() {
   const [answer, setAnswer] = useState<Partial<Answer>>({});
   const [result, setResult] = useState<PracticeResult | null>(null);
   const [progress, setProgress] = useState<Progress>(() => {
-    return loadProgress<Progress>() ?? initialProgress();
+    return loadProgress() ?? initialProgress();
   });
+  const [confirmReset, setConfirmReset] = useState(false);
+
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     saveProgress(progress);
   }, [progress]);
 
+  useEffect(() => {
+    inputRef.current?.focus();
+  }, []);
+
   function submit() {
     if (!answer.article || !answer.translation) return;
-
     const validated = validateAnswer(noun, answer as Answer);
     setResult(validated);
-    setProgress(updateProgress(progress, validated));
+    setProgress((p) => updateProgress(p, noun, validated));
   }
 
   function next() {
     setNoun(getRandomNoun(NOUNS));
     setAnswer({});
     setResult(null);
-
-    setTimeout(() => {
-      inputRef.current?.focus();
-    });
+    setTimeout(() => inputRef.current?.focus());
   }
 
   useEffect(() => {
@@ -49,14 +51,11 @@ export default function NounPracticePage() {
         result ? next() : submit();
         return;
       }
-
       if (result) return;
-
       if (e.key === "1") setAnswer((a) => ({ ...a, article: "der" }));
       if (e.key === "2") setAnswer((a) => ({ ...a, article: "die" }));
       if (e.key === "3") setAnswer((a) => ({ ...a, article: "das" }));
     }
-
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [answer, result]);
@@ -64,6 +63,20 @@ export default function NounPracticePage() {
   useEffect(() => {
     inputRef.current?.focus();
   }, []);
+
+  function resetProgress() {
+    if (!confirmReset) {
+      setConfirmReset(true);
+      return;
+    }
+    const fresh = initialProgress();
+    setProgress(fresh);
+    saveProgress(fresh);
+    setConfirmReset(false);
+  }
+
+  const nounKey = `${noun.english}|${noun.german}`;
+  const stats = progress.byNoun[nounKey];
 
   return (
     <main style={{ maxWidth: 480, margin: "3rem auto" }}>
@@ -74,7 +87,7 @@ export default function NounPracticePage() {
       </p>
 
       <section>
-        {ARTICLES.map((article) => (
+        {ARTICLES.map((article, i) => (
           <button
             key={article}
             onClick={() => {
@@ -87,7 +100,7 @@ export default function NounPracticePage() {
               fontWeight: answer.article === article ? "bold" : "normal",
             }}
           >
-            {article}
+            {article} <small>({i + 1})</small>
           </button>
         ))}
       </section>
@@ -107,9 +120,9 @@ export default function NounPracticePage() {
 
       <section style={{ marginTop: "1rem" }}>
         {!result ? (
-          <button onClick={submit}>Submit</button>
+          <button onClick={submit}>Submit (Enter)</button>
         ) : (
-          <button onClick={next}>Next</button>
+          <button onClick={next}>Next (Enter)</button>
         )}
       </section>
 
@@ -125,11 +138,21 @@ export default function NounPracticePage() {
         </section>
       )}
 
+      {stats && (
+        <p style={{ marginTop: "0.5rem", fontSize: "0.9rem" }}>
+          This noun accuracy: {stats.correct}/{stats.attempts}
+        </p>
+      )}
+
       <hr />
 
       <p>
         Progress: {progress.correct} / {progress.total}
       </p>
+
+      <button onClick={resetProgress} style={{ marginTop: "0.5rem" }}>
+        {confirmReset ? "Click again to confirm reset" : "Reset Progress"}
+      </button>
     </main>
   );
 }

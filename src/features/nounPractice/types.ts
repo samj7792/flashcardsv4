@@ -17,7 +17,13 @@ export interface PracticeResult {
   isCorrect: boolean;
 }
 
+export interface NounStats {
+  attempts: number;
+  correct: number;
+}
+
 export interface Progress {
   total: number;
   correct: number;
+  byNoun: Record<string, NounStats>;
 }
