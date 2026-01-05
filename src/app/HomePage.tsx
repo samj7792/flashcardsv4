@@ -13,6 +13,12 @@ export default function HomePage() {
       </button>
 
       <div style={{ marginTop: "1rem" }}>
+        <button onClick={() => navigate("/articles")}>
+          Article Speed Drill
+        </button>
+      </div>
+
+      <div style={{ marginTop: "1rem" }}>
         <button onClick={() => navigate("/progress")}>View Progress</button>
       </div>
     </main>
