@@ -3,32 +3,41 @@ import { NOUNS } from "../nounPractice/nounData";
 import { getRandomNoun, updateProgress } from "../nounPractice/logic";
 import { Article, Noun, Progress } from "../nounPractice/types";
 import { loadProgress, saveProgress } from "../../shared/storage";
+import { loadLevel } from "../../shared/level";
 
 const ARTICLES: Article[] = ["der", "die", "das"];
 
 export default function ArticleDrillPage() {
-  const [noun, setNoun] = useState<Noun>(() => getRandomNoun(NOUNS));
+  const [noun, setNoun] = useState<Noun>(() => {
+    const level = loadLevel();
+    return getRandomNoun(NOUNS.filter((n) => n.level === level));
+  });
   const [selected, setSelected] = useState<Article | null>(null);
   const [progress, setProgress] = useState<Progress>(() => {
     return loadProgress()!;
   });
 
+  const level = loadLevel();
   function submit(article: Article) {
     const correct = article === noun.article;
-
     setProgress((p) =>
-      updateProgress(p, noun, {
-        correctArticle: correct,
-        correctTranslation: false,
-        isCorrect: false,
-      })
+      updateProgress(
+        p,
+        noun,
+        {
+          correctArticle: correct,
+          correctTranslation: false,
+          isCorrect: false,
+        },
+        "ARTICLE_ONLY"
+      )
     );
 
     setSelected(article);
 
     setTimeout(() => {
       setSelected(null);
-      setNoun(getRandomNoun(NOUNS));
+      setNoun(getRandomNoun(NOUNS.filter((n) => n.level === level)));
     }, 400);
   }
 

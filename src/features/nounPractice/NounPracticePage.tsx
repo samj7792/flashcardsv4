@@ -8,11 +8,15 @@ import {
 } from "./logic";
 import { Answer, Article, Noun, PracticeResult, Progress } from "./types";
 import { loadProgress, saveProgress } from "../../shared/storage";
+import { loadLevel } from "../../shared/level";
 
 const ARTICLES: Article[] = ["der", "die", "das"];
 
 export default function NounPracticePage() {
-  const [noun, setNoun] = useState<Noun>(() => getRandomNoun(NOUNS));
+  const [noun, setNoun] = useState<Noun>(() => {
+    const level = loadLevel();
+    return getRandomNoun(NOUNS.filter((n) => n.level === level));
+  });
   const [answer, setAnswer] = useState<Partial<Answer>>({});
   const [result, setResult] = useState<PracticeResult | null>(null);
   const [progress, setProgress] = useState<Progress>(() => {
@@ -34,11 +38,14 @@ export default function NounPracticePage() {
     if (!answer.article || !answer.translation) return;
     const validated = validateAnswer(noun, answer as Answer);
     setResult(validated);
-    setProgress((p) => updateProgress(p, noun, validated));
+    setProgress((p) => updateProgress(p, noun, validated, "FULL"));
   }
 
   function next() {
-    setNoun(getRandomNoun(NOUNS));
+    const level = loadLevel();
+    const pool = NOUNS.filter((n) => n.level === level);
+
+    setNoun(getRandomNoun(pool));
     setAnswer({});
     setResult(null);
     setTimeout(() => inputRef.current?.focus());

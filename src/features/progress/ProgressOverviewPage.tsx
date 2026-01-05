@@ -3,9 +3,9 @@ import { Progress } from "../nounPractice/types";
 
 interface Row {
   noun: string;
-  correct: number;
+  fullAccuracy: number | null;
+  articleAccuracy: number;
   attempts: number;
-  accuracy: number;
 }
 
 export default function ProgressOverviewPage() {
@@ -14,18 +14,18 @@ export default function ProgressOverviewPage() {
   if (!progress || !progress.byNoun) {
     return (
       <main style={{ maxWidth: 640, margin: "3rem auto" }}>
-        <h1>Progress</h1>
+        <h1>Progress Overview</h1>
         <p>No progress recorded yet.</p>
       </main>
     );
   }
 
-  const rows = Object.entries(progress.byNoun).map(([key, stats]) => {
+  const rows: Row[] = Object.entries(progress.byNoun).map(([key, stats]) => {
     const [english, german] = key.split("|");
 
-    const accuracy =
+    const fullAccuracy =
       stats.attempts === 0
-        ? 0
+        ? null
         : Math.round((stats.correct / stats.attempts) * 100);
 
     const articleAccuracy =
@@ -35,37 +35,43 @@ export default function ProgressOverviewPage() {
 
     return {
       noun: `${english} → ${german}`,
-      correct: stats.correct,
-      attempts: stats.attempts,
-      accuracy,
+      fullAccuracy,
       articleAccuracy,
+      attempts: stats.attempts,
     };
   });
 
-  rows.sort((a, b) => a.accuracy - b.accuracy);
+  rows.sort((a, b) => a.articleAccuracy - b.articleAccuracy);
 
   return (
-    <main style={{ maxWidth: 640, margin: "3rem auto" }}>
+    <main style={{ maxWidth: 720, margin: "3rem auto" }}>
       <h1>Progress Overview</h1>
+
+      <p style={{ fontSize: "0.9rem", color: "#555" }}>
+        <strong>Full Accuracy</strong>: noun + article (translation practice
+        only)
+        <br />
+        <strong>Article Accuracy</strong>: gender only (all modes)
+      </p>
 
       <table width="100%" cellPadding={8}>
         <thead>
           <tr>
             <th align="left">Noun</th>
-            <th align="right">Correct</th>
-            <th align="right">Attempts</th>
-            <th align="right">Accuracy</th>
-            <th align="right">Article</th>
+            <th align="right">Full Accuracy</th>
+            <th align="right">Article Accuracy</th>
+            <th align="right">Full Attempts</th>
           </tr>
         </thead>
         <tbody>
           {rows.map((row) => (
             <tr key={row.noun}>
               <td>{row.noun}</td>
-              <td align="right">{row.correct}</td>
-              <td align="right">{row.attempts}</td>
-              <td align="right">{row.accuracy}%</td>
+              <td align="right">
+                {row.fullAccuracy === null ? "—" : `${row.fullAccuracy}%`}
+              </td>
               <td align="right">{row.articleAccuracy}%</td>
+              <td align="right">{row.attempts}</td>
             </tr>
           ))}
         </tbody>

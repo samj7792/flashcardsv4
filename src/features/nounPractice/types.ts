@@ -1,9 +1,11 @@
 export type Article = "der" | "die" | "das";
+export type Level = "A1" | "A2" | "B1" | "B2";
 
 export interface Noun {
   english: string;
   german: string;
   article: Article;
+  level: Level;
 }
 
 export interface Answer {
@@ -29,3 +31,5 @@ export interface Progress {
   correct: number;
   byNoun: Record<string, NounStats>;
 }
+
+export type PracticeMode = "FULL" | "ARTICLE_ONLY";

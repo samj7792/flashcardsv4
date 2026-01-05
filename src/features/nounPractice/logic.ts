@@ -1,4 +1,11 @@
-import { Answer, Noun, PracticeResult, Progress, NounStats } from "./types";
+import {
+  Answer,
+  Noun,
+  PracticeResult,
+  Progress,
+  PracticeMode,
+  NounStats,
+} from "./types";
 
 export function getRandomNoun(nouns: Noun[]): Noun {
   if (!nouns.length) throw new Error("No nouns available");
@@ -39,26 +46,36 @@ function emptyStats(): NounStats {
 export function updateProgress(
   progress: Progress,
   noun: Noun,
-  result: PracticeResult
+  result: PracticeResult,
+  mode: PracticeMode
 ): Progress {
   const key = `${noun.english}|${noun.german}`;
   const prev = progress.byNoun[key] ?? emptyStats();
 
+  const nextStats: NounStats = {
+    ...prev,
+    articleAttempts: prev.articleAttempts + 1,
+    articleCorrect:
+      prev.articleCorrect + (result.correctArticle ? 1 : 0),
+  };
+
+  if (mode === "FULL") {
+    nextStats.attempts = prev.attempts + 1;
+    nextStats.correct =
+      prev.correct + (result.isCorrect ? 1 : 0);
+  }
+
   return {
-    total: progress.total + 1,
-    correct: progress.correct + (result.isCorrect ? 1 : 0),
+    total: progress.total + (mode === "FULL" ? 1 : 0),
+    correct:
+      progress.correct + (mode === "FULL" && result.isCorrect ? 1 : 0),
     byNoun: {
       ...progress.byNoun,
-      [key]: {
-        attempts: prev.attempts + 1,
-        correct: prev.correct + (result.isCorrect ? 1 : 0),
-        articleAttempts: prev.articleAttempts + 1,
-        articleCorrect:
-          prev.articleCorrect + (result.correctArticle ? 1 : 0),
-      },
+      [key]: nextStats,
     },
   };
 }
+
 
 export function initialProgress(): Progress {
   return { total: 0, correct: 0, byNoun: {} };
