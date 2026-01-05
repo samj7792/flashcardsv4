@@ -9,8 +9,12 @@ export default function HomePage() {
       <p>Select a practice mode.</p>
 
       <button onClick={() => navigate("/nouns")}>
-        Noun Practice with Articles
+        Noun Practice (Articles)
       </button>
+
+      <div style={{ marginTop: "1rem" }}>
+        <button onClick={() => navigate("/progress")}>View Progress</button>
+      </div>
     </main>
   );
 }

@@ -1,4 +1,4 @@
-import { Answer, Noun, PracticeResult, Progress } from "./types";
+import { Answer, Noun, PracticeResult, Progress, NounStats } from "./types";
 
 export function getRandomNoun(nouns: Noun[]): Noun {
   if (!nouns.length) throw new Error("No nouns available");
@@ -27,8 +27,13 @@ export function validateAnswer(noun: Noun, answer: Answer): PracticeResult {
   };
 }
 
-function nounKey(noun: Noun): string {
-  return `${noun.english}|${noun.german}`;
+function emptyStats(): NounStats {
+  return {
+    attempts: 0,
+    correct: 0,
+    articleAttempts: 0,
+    articleCorrect: 0,
+  };
 }
 
 export function updateProgress(
@@ -36,8 +41,8 @@ export function updateProgress(
   noun: Noun,
   result: PracticeResult
 ): Progress {
-  const key = nounKey(noun);
-  const prev = progress.byNoun[key] ?? { attempts: 0, correct: 0 };
+  const key = `${noun.english}|${noun.german}`;
+  const prev = progress.byNoun[key] ?? emptyStats();
 
   return {
     total: progress.total + 1,
@@ -47,6 +52,9 @@ export function updateProgress(
       [key]: {
         attempts: prev.attempts + 1,
         correct: prev.correct + (result.isCorrect ? 1 : 0),
+        articleAttempts: prev.articleAttempts + 1,
+        articleCorrect:
+          prev.articleCorrect + (result.correctArticle ? 1 : 0),
       },
     },
   };

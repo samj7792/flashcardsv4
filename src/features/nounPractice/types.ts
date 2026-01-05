@@ -20,6 +20,8 @@ export interface PracticeResult {
 export interface NounStats {
   attempts: number;
   correct: number;
+  articleAttempts: number;
+  articleCorrect: number;
 }
 
 export interface Progress {
