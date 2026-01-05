@@ -5,3 +5,19 @@ export interface Noun {
   german: string;
   article: Article;
 }
+
+export interface Answer {
+  article: Article;
+  translation: string;
+}
+
+export interface PracticeResult {
+  correctArticle: boolean;
+  correctTranslation: boolean;
+  isCorrect: boolean;
+}
+
+export interface Progress {
+  total: number;
+  correct: number;
+}
