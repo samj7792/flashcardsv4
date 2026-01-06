@@ -1,3 +1,4 @@
+import ResetProgress from "../../shared/ResetProgress";
 import { loadProgress } from "../../shared/storage";
 import { Progress } from "../nounPractice/types";
 
@@ -21,7 +22,8 @@ export default function ProgressOverviewPage() {
   }
 
   const rows: Row[] = Object.entries(progress.byNoun).map(([key, stats]) => {
-    const [english, german] = key.split("|");
+    console.log(progress);
+    const [english, german, article] = key.split("|");
 
     const fullAccuracy =
       stats.attempts === 0
@@ -34,7 +36,7 @@ export default function ProgressOverviewPage() {
         : Math.round((stats.articleCorrect / stats.articleAttempts) * 100);
 
     return {
-      noun: `${english} → ${german}`,
+      noun: `${english} → ${article} ${german}`,
       fullAccuracy,
       articleAccuracy,
       attempts: stats.attempts,
@@ -53,6 +55,8 @@ export default function ProgressOverviewPage() {
         <br />
         <strong>Article Accuracy</strong>: gender only (all modes)
       </p>
+
+      <ResetProgress />
 
       <table width="100%" cellPadding={8}>
         <thead>

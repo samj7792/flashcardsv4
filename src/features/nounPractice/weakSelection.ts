@@ -40,7 +40,7 @@ export function selectWeakArticleNoun(
     const stats = progress.byNoun[key];
 
     if (!stats || stats.articleAttempts === 0) {
-      return 1.5; // unseen nouns are prioritized
+      return unseenWeight(); // unseen nouns are prioritized
     }
 
     const accuracy =

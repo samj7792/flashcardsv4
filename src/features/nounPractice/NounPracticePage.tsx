@@ -22,7 +22,6 @@ export default function NounPracticePage() {
   const [progress, setProgress] = useState<Progress>(() => {
     return loadProgress() ?? initialProgress();
   });
-  const [confirmReset, setConfirmReset] = useState(false);
 
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -96,17 +95,6 @@ export default function NounPracticePage() {
   useEffect(() => {
     inputRef.current?.focus();
   }, []);
-
-  function resetProgress() {
-    if (!confirmReset) {
-      setConfirmReset(true);
-      return;
-    }
-    const fresh = initialProgress();
-    setProgress(fresh);
-    saveProgress(fresh);
-    setConfirmReset(false);
-  }
 
   const nounKey = `${noun.english}|${noun.german}`;
   const stats = progress.byNoun[nounKey];
@@ -183,16 +171,6 @@ export default function NounPracticePage() {
           This noun accuracy: {stats.correct}/{stats.attempts}
         </p>
       )}
-
-      <hr />
-
-      <p>
-        Progress: {progress.correct} / {progress.total}
-      </p>
-
-      <button onClick={resetProgress} style={{ marginTop: "0.5rem" }}>
-        {confirmReset ? "Click again to confirm reset" : "Reset Progress"}
-      </button>
     </main>
   );
 }

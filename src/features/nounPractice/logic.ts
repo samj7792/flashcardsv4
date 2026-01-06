@@ -49,7 +49,7 @@ export function updateProgress(
   result: PracticeResult,
   mode: PracticeMode
 ): Progress {
-  const key = `${noun.english}|${noun.german}`;
+  const key = `${noun.english}|${noun.german}|${noun.article}`;
   const prev = progress.byNoun[key] ?? emptyStats();
 
   const nextStats: NounStats = {
