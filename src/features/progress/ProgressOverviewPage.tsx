@@ -22,7 +22,6 @@ export default function ProgressOverviewPage() {
   }
 
   const rows: Row[] = Object.entries(progress.byNoun).map(([key, stats]) => {
-    console.log(progress);
     const [english, german, article] = key.split("|");
 
     const fullAccuracy =

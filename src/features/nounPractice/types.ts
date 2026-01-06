@@ -6,6 +6,12 @@ export interface Noun {
   german: string;
   article: Article;
   level: Level;
+  examples: ExampleSentence[];
+}
+
+export interface ExampleSentence {
+  german: string;
+  english: string;
 }
 
 export interface Answer {

@@ -166,6 +166,23 @@ export default function NounPracticePage() {
         </section>
       )}
 
+      {result && noun.examples.length > 0 && (
+        <div
+          style={{
+            marginTop: "1rem",
+            padding: "0.75rem",
+            background: "#f7f7f7",
+            borderRadius: 6,
+          }}
+        >
+          <div style={{ fontWeight: 600 }}>Example</div>
+          <div>{noun.examples[0].german}</div>
+          <div style={{ fontSize: "0.85rem", color: "#555" }}>
+            {noun.examples[0].english}
+          </div>
+        </div>
+      )}
+
       {stats && (
         <p style={{ marginTop: "0.5rem", fontSize: "0.9rem" }}>
           This noun accuracy: {stats.correct}/{stats.attempts}
