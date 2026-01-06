@@ -39,3 +39,5 @@ export interface Progress {
 }
 
 export type PracticeMode = "FULL" | "ARTICLE_ONLY";
+
+export type ClozeMode = "both" | "none";

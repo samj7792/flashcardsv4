@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { NOUNS } from "./nounData";
 import {
   getRandomNoun,
@@ -6,11 +6,19 @@ import {
   updateProgress,
   validateAnswer,
 } from "./logic";
-import { Answer, Article, Noun, PracticeResult, Progress } from "./types";
+import {
+  Answer,
+  Article,
+  Noun,
+  PracticeResult,
+  Progress,
+  ClozeMode,
+} from "./types";
 import { selectWeakFullNoun } from "./weakSelection";
 import { loadProgress, saveProgress } from "../../shared/storage";
 import { loadLevels } from "../../shared/level";
 import ModeToggle from "../../shared/ModeToggle";
+import { makeClozeSentence } from "./cloze";
 
 const ARTICLES: Article[] = ["der", "die", "das"];
 
@@ -22,6 +30,9 @@ export default function NounPracticePage() {
   const [progress, setProgress] = useState<Progress>(() => {
     return loadProgress() ?? initialProgress();
   });
+  const [hasAnswered, setHasAnswered] = useState(false);
+
+  const clozeMode: ClozeMode = hasAnswered ? "none" : "both";
 
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -55,6 +66,7 @@ export default function NounPracticePage() {
     if (!answer.article || !answer.translation) return;
     const validated = validateAnswer(noun, answer as Answer);
     setResult(validated);
+    setHasAnswered(true);
     setProgress((p) => updateProgress(p, noun, validated, "FULL"));
   }
 
@@ -62,8 +74,15 @@ export default function NounPracticePage() {
     setNoun(nextNoun());
     setAnswer({});
     setResult(null);
+    setHasAnswered(false);
     setTimeout(() => inputRef.current?.focus());
   }
+
+  const example = useMemo(() => {
+    return noun.examples[Math.floor(Math.random() * noun.examples.length)];
+  }, [noun]);
+
+  const clozeSentence = makeClozeSentence(example.german, noun, clozeMode);
 
   useEffect(() => {
     function onKeyDown(e: KeyboardEvent) {
@@ -113,6 +132,29 @@ export default function NounPracticePage() {
       <p>
         <strong>Translate:</strong> {noun.english}
       </p>
+
+      {/* <label>
+        Cloze mode:
+        <select
+          value={clozeMode}
+          onChange={(e) => setClozeMode(e.target.value as any)}
+        >
+          <option value="none">Off</option>
+          <option value="article">Hide article</option>
+          <option value="noun">Hide noun</option>
+          <option value="both">Hide both</option>
+        </select>
+      </label> */}
+
+      <div style={{ margin: "1rem" }}>
+        <strong>Example</strong>
+        <div>{clozeSentence}</div>
+        {hasAnswered && (
+          <div style={{ fontSize: "0.85rem", color: "#666" }}>
+            {example.english}
+          </div>
+        )}
+      </div>
 
       <section>
         {ARTICLES.map((article, i) => (
@@ -166,7 +208,7 @@ export default function NounPracticePage() {
         </section>
       )}
 
-      {result && noun.examples.length > 0 && (
+      {/* {result && noun.examples.length > 0 && (
         <div
           style={{
             marginTop: "1rem",
@@ -181,7 +223,7 @@ export default function NounPracticePage() {
             {noun.examples[0].english}
           </div>
         </div>
-      )}
+      )} */}
 
       {stats && (
         <p style={{ marginTop: "0.5rem", fontSize: "0.9rem" }}>
