@@ -70,9 +70,20 @@ export default function NounPracticePage() {
         return;
       }
       if (result) return;
-      if (e.key === "1") setAnswer((a) => ({ ...a, article: "der" }));
-      if (e.key === "2") setAnswer((a) => ({ ...a, article: "die" }));
-      if (e.key === "3") setAnswer((a) => ({ ...a, article: "das" }));
+      if (e.key === "1") {
+        e.preventDefault();
+        setAnswer((a) => ({ ...a, article: "der" }));
+      }
+
+      if (e.key === "2") {
+        e.preventDefault();
+        setAnswer((a) => ({ ...a, article: "die" }));
+      }
+
+      if (e.key === "3") {
+        e.preventDefault();
+        setAnswer((a) => ({ ...a, article: "das" }));
+      }
     }
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
