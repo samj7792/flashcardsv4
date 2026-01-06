@@ -7,16 +7,16 @@ import {
   validateAnswer,
 } from "./logic";
 import { Answer, Article, Noun, PracticeResult, Progress } from "./types";
+import { selectWeakFullNoun } from "./weakSelection";
 import { loadProgress, saveProgress } from "../../shared/storage";
 import { loadLevel } from "../../shared/level";
+import ModeToggle from "../../shared/ModeToggle";
 
 const ARTICLES: Article[] = ["der", "die", "das"];
 
 export default function NounPracticePage() {
-  const [noun, setNoun] = useState<Noun>(() => {
-    const level = loadLevel();
-    return getRandomNoun(NOUNS.filter((n) => n.level === level));
-  });
+  const [weakMode, setWeakMode] = useState(true);
+  const [noun, setNoun] = useState<Noun>(() => nextNoun());
   const [answer, setAnswer] = useState<Partial<Answer>>({});
   const [result, setResult] = useState<PracticeResult | null>(null);
   const [progress, setProgress] = useState<Progress>(() => {
@@ -25,6 +25,20 @@ export default function NounPracticePage() {
   const [confirmReset, setConfirmReset] = useState(false);
 
   const inputRef = useRef<HTMLInputElement>(null);
+
+  function nextNoun(): Noun {
+    const level = loadLevel();
+    const pool = NOUNS.filter((n) => n.level === level);
+
+    if (weakMode) {
+      const progress = loadProgress();
+      if (progress) {
+        return selectWeakFullNoun(pool, progress);
+      }
+    }
+
+    return getRandomNoun(pool);
+  }
 
   useEffect(() => {
     saveProgress(progress);
@@ -42,10 +56,7 @@ export default function NounPracticePage() {
   }
 
   function next() {
-    const level = loadLevel();
-    const pool = NOUNS.filter((n) => n.level === level);
-
-    setNoun(getRandomNoun(pool));
+    setNoun(nextNoun());
     setAnswer({});
     setResult(null);
     setTimeout(() => inputRef.current?.focus());
@@ -88,6 +99,13 @@ export default function NounPracticePage() {
   return (
     <main style={{ maxWidth: 480, margin: "3rem auto" }}>
       <h1>German Noun Practice</h1>
+
+      <ModeToggle
+        label="Focus on weak nouns"
+        description="Practice nouns you struggle with more often"
+        checked={weakMode}
+        onChange={setWeakMode}
+      />
 
       <p>
         <strong>Translate:</strong> {noun.english}

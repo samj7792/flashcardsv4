@@ -2,22 +2,36 @@ import { useEffect, useState } from "react";
 import { NOUNS } from "../nounPractice/nounData";
 import { getRandomNoun, updateProgress } from "../nounPractice/logic";
 import { Article, Noun, Progress } from "../nounPractice/types";
+import { selectWeakArticleNoun } from "../nounPractice/weakSelection";
 import { loadProgress, saveProgress } from "../../shared/storage";
 import { loadLevel } from "../../shared/level";
+import ModeToggle from "../../shared/ModeToggle";
 
 const ARTICLES: Article[] = ["der", "die", "das"];
 
 export default function ArticleDrillPage() {
-  const [noun, setNoun] = useState<Noun>(() => {
-    const level = loadLevel();
-    return getRandomNoun(NOUNS.filter((n) => n.level === level));
-  });
+  const [weakMode, setWeakMode] = useState(true);
+
+  const [noun, setNoun] = useState<Noun>(() => nextNoun());
   const [selected, setSelected] = useState<Article | null>(null);
   const [progress, setProgress] = useState<Progress>(() => {
     return loadProgress()!;
   });
 
-  const level = loadLevel();
+  function nextNoun() {
+    const level = loadLevel();
+    const pool = NOUNS.filter((n) => n.level === level);
+
+    if (weakMode) {
+      const progress = loadProgress();
+      if (progress) {
+        return selectWeakArticleNoun(pool, progress);
+      }
+    }
+
+    return getRandomNoun(pool);
+  }
+
   function submit(article: Article) {
     const correct = article === noun.article;
     setProgress((p) =>
@@ -37,7 +51,7 @@ export default function ArticleDrillPage() {
 
     setTimeout(() => {
       setSelected(null);
-      setNoun(getRandomNoun(NOUNS.filter((n) => n.level === level)));
+      setNoun(nextNoun());
     }, 400);
   }
 
@@ -60,6 +74,13 @@ export default function ArticleDrillPage() {
     <main style={{ maxWidth: 480, margin: "3rem auto" }}>
       <h1>Article Speed Drill</h1>
       <p>Select the correct article.</p>
+
+      <ModeToggle
+        label="Focus on weak nouns"
+        description="Practice nouns you struggle with more often"
+        checked={weakMode}
+        onChange={setWeakMode}
+      />
 
       <p style={{ fontSize: "1.5rem", margin: "2rem 0" }}>
         <strong>{noun.german}</strong>
