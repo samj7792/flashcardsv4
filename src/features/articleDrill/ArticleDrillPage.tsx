@@ -4,7 +4,7 @@ import { getRandomNoun, updateProgress } from "../nounPractice/logic";
 import { Article, Noun, Progress } from "../nounPractice/types";
 import { selectWeakArticleNoun } from "../nounPractice/weakSelection";
 import { loadProgress, saveProgress } from "../../shared/storage";
-import { loadLevel } from "../../shared/level";
+import { loadLevels } from "../../shared/level";
 import ModeToggle from "../../shared/ModeToggle";
 
 const ARTICLES: Article[] = ["der", "die", "das"];
@@ -18,9 +18,13 @@ export default function ArticleDrillPage() {
     return loadProgress()!;
   });
 
-  function nextNoun() {
-    const level = loadLevel();
-    const pool = NOUNS.filter((n) => n.level === level);
+  function getNounPool(): Noun[] {
+    const levels = loadLevels();
+    return NOUNS.filter((n) => levels.has(n.level));
+  }
+
+  function nextNoun(): Noun {
+    const pool = getNounPool();
 
     if (weakMode) {
       const progress = loadProgress();

@@ -14,8 +14,8 @@ export default function ModeToggle({
   return (
     <label
       style={{
-        display: "flex",
-        alignItems: "flex-start",
+        display: "inline-flex",
+        alignItems: "center",
         gap: "0.75rem",
         padding: "0.6rem 0.75rem",
         marginBottom: "1rem",
@@ -25,13 +25,6 @@ export default function ModeToggle({
         cursor: "pointer",
       }}
     >
-      <input
-        type="checkbox"
-        checked={checked}
-        onChange={(e) => onChange(e.target.checked)}
-        style={{ marginTop: 2 }}
-      />
-
       <div>
         <div style={{ fontWeight: 600 }}>{label}</div>
         {description && (
@@ -40,6 +33,12 @@ export default function ModeToggle({
           </div>
         )}
       </div>
+      <input
+        type="checkbox"
+        checked={checked}
+        onChange={(e) => onChange(e.target.checked)}
+        style={{ marginTop: 2 }}
+      />
     </label>
   );
 }

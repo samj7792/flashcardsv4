@@ -9,7 +9,7 @@ import {
 import { Answer, Article, Noun, PracticeResult, Progress } from "./types";
 import { selectWeakFullNoun } from "./weakSelection";
 import { loadProgress, saveProgress } from "../../shared/storage";
-import { loadLevel } from "../../shared/level";
+import { loadLevels } from "../../shared/level";
 import ModeToggle from "../../shared/ModeToggle";
 
 const ARTICLES: Article[] = ["der", "die", "das"];
@@ -26,9 +26,13 @@ export default function NounPracticePage() {
 
   const inputRef = useRef<HTMLInputElement>(null);
 
+  function getNounPool(): Noun[] {
+    const levels = loadLevels();
+    return NOUNS.filter((n) => levels.has(n.level));
+  }
+
   function nextNoun(): Noun {
-    const level = loadLevel();
-    const pool = NOUNS.filter((n) => n.level === level);
+    const pool = getNounPool();
 
     if (weakMode) {
       const progress = loadProgress();
