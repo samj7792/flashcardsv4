@@ -1,4 +1,200 @@
 english,german,article,level,example_de,example_en
-teacher,Lehrer,der,A1,Der Lehrer erklärt die Aufgabe.,The teacher explains the task.
-house,Haus,das,A1,Das Haus ist sehr alt.,The house is very old.
-freedom,Freiheit,die,B2,Die Freiheit ist ein wichtiges Recht.,Freedom is an important right.
+apology,Entschuldigung,die,A1,Die Entschuldigung ist ehrlich.,The apology is sincere.
+course,Kurs,der,A1,Der Kurs beginnt heute.,The course begins today.
+sentence,Satz,der,A1,Der Satz ist kurz.,The sentence is short.
+word,Wort,das,A1,Das Wort ist neu.,The word is new.
+adress,Adresse,die,A1,Die Adresse ist hier.,The address is here.
+registration,Anmeldung,die,A1,Die Anmeldung ist fertig.,The registration is complete.
+image,Bild,das,A1,Das Bild ist schön.,The image is beautiful.
+pen,Stift,der,A1,Der Stift ist blau.,The pen is blue.
+man,Mann,der,A1,Der Mann ist alt.,The man is old.
+woman,Frau,die,A1,Die Frau ist nett.,The woman is nice.
+child,Kind,das,A1,Das Kind lacht.,The child laughs.
+friend,Freund,der,A1,Der Freund kommt.,The friend is coming.
+family,Familie,die,A1,Die Familie ist groß.,The family is big.
+house,Haus,das,A1,Das Haus ist neu.,The house is new.
+apartment,Wohnung,die,A1,Die Wohnung ist klein.,The apartment is small.
+room,Zimmer,das,A1,Das Zimmer ist sauber.,The room is clean.
+city,Stadt,die,A1,Die Stadt ist groß.,The city is big.
+country,Land,das,A1,Das Land ist schön.,The country is beautiful.
+day,Tag,der,A1,Der Tag ist gut.,The day is good.
+morning,Morgen,der,A1,Der Morgen ist ruhig.,The morning is calm.
+evening,Abend,der,A1,Der Abend ist schön.,The evening is nice.
+week,Woche,die,A1,Die Woche ist kurz.,The week is short.
+year,Jahr,das,A1,Das Jahr ist neu.,The year is new.
+food,Essen,das,A1,Das Essen ist gut.,The food is good.
+water,Wasser,das,A1,Das Wasser ist kalt.,The water is cold.
+bread,Brot,das,A1,Das Brot ist frisch.,The bread is fresh.
+coffee,Kaffee,der,A1,Der Kaffee ist heiß.,The coffee is hot.
+tea,Tee,der,A1,Der Tee ist warm.,The tea is warm.
+apple,Apfel,der,A1,Der Apfel ist rot.,The apple is red.
+book,Buch,das,A1,Das Buch ist alt.,The book is old.
+school,Schule,die,A1,Die Schule ist groß.,The school is big.
+teacher,Lehrer,der,A1,Der Lehrer spricht.,The teacher speaks.
+student,Student,der,A1,Der Student lernt.,The student studies.
+work,Arbeit,die,A1,Die Arbeit ist schwer.,The work is hard.
+job,Beruf,der,A1,Der Beruf ist wichtig.,The job is important.
+money,Geld,das,A1,Das Geld ist weg.,The money is gone.
+store,Geschäft,das,A1,Das Geschäft ist offen.,The store is open.
+street,Straße,die,A1,Die Straße ist lang.,The street is long.
+car,Auto,das,A1,Das Auto ist neu.,The car is new.
+bus,Bus,der,A1,Der Bus kommt.,The bus is coming.
+train,Zug,der,A1,Der Zug fährt.,The train is moving.
+station,Bahnhof,der,A1,Der Bahnhof ist groß.,The station is big.
+time,Zeit,die,A1,Die Zeit ist knapp.,The time is short.
+question,Frage,die,A1,Die Frage ist einfach.,The question is easy.
+answer,Antwort,die,A1,Die Antwort ist richtig.,The answer is correct.
+language,Sprache,die,A1,Die Sprache ist Deutsch.,The language is German.
+name,Name,der,A1,Der Name ist Anna.,The name is Anna.
+phone,Telefon,das,A1,Das Telefon klingelt.,The phone is ringing.
+number,Nummer,die,A1,Die Nummer ist hier.,The number is here.
+hand,Hand,die,A1,Die Hand ist kalt.,The hand is cold.
+head,Kopf,der,A1,Der Kopf tut weh.,The head hurts.
+heart,Herz,das,A1,Das Herz schlägt.,The heart beats.
+door,Tür,die,A1,Die Tür ist zu.,The door is closed.
+window,Fenster,das,A1,Das Fenster ist offen.,The window is open.
+window,Fenster,das,A1,Das Fenster ist schließen.,The window is closed.
+travel,Reise,die,A2,Die Reise war lang.,The trip was long.
+vacation,Urlaub,der,A2,Der Urlaub ist schön.,The vacation is nice.
+airport,Flughafen,der,A2,Der Flughafen ist weit.,The airport is far.
+ticket,Ticket,das,A2,Das Ticket ist teuer.,The ticket is expensive.
+hotel,Hotel,das,A2,Das Hotel ist sauber.,The hotel is clean.
+key,Schlüssel,der,A2,Der Schlüssel liegt hier.,The key is here.
+kitchen,Küche,die,A2,Die Küche ist groß.,The kitchen is big.
+bathroom,Badezimmer,das,A2,Das Badezimmer ist neu.,The bathroom is new.
+garden,Garten,der,A2,Der Garten ist grün.,The garden is green.
+neighbor,Nachbar,der,A2,Der Nachbar ist freundlich.,The neighbor is friendly.
+hobby,Hobby,das,A2,Das Hobby macht Spaß.,The hobby is fun.
+sport,Sport,der,A2,Der Sport ist gesund.,The sport is healthy.
+movie,Film,der,A2,Der Film war spannend.,The movie was exciting.
+music,Musik,die,A2,Die Musik ist laut.,The music is loud.
+concert,Konzert,das,A2,Das Konzert beginnt bald.,The concert starts soon.
+newspaper,Zeitung,die,A2,Die Zeitung ist alt.,The newspaper is old.
+magazine,Zeitschrift,die,A2,Die Zeitschrift ist interessant.,The magazine is interesting.
+letter,Brief,der,A2,Der Brief ist kurz.,The letter is short.
+email,E-Mail,die,A2,Die E-Mail kommt heute.,The email arrives today.
+meeting,Treffen,das,A2,Das Treffen ist wichtig.,The meeting is important.
+project,Projekt,das,A2,Das Projekt läuft gut.,The project is going well.
+company,Firma,die,A2,Die Firma wächst.,The company is growing.
+boss,Chef,der,A2,Der Chef ist im Büro.,The boss is in the office.
+colleague,Kollege,der,A2,Der Kollege hilft mir.,The colleague helps me.
+customer,Kunde,der,A2,Der Kunde wartet.,The customer is waiting.
+price,Preis,der,A2,Der Preis ist hoch.,The price is high.
+bill,Rechnung,die,A2,Die Rechnung ist bezahlt.,The bill is paid.
+receipt,Beleg,der,A2,Der Beleg ist wichtig.,The receipt is important.
+bank,Bank,die,A2,Die Bank ist geschlossen.,The bank is closed.
+account,Konto,das,A2,Das Konto ist leer.,The account is empty.
+card,Karte,die,A2,Die Karte ist gültig.,The card is valid.
+passport,Reisepass,der,A2,Der Reisepass liegt hier.,The passport is here.
+luggage,Gepäck,das,A2,Das Gepäck ist schwer.,The luggage is heavy.
+weather,Wetter,das,A2,Das Wetter ist schlecht.,The weather is bad.
+temperature,Temperatur,die,A2,Die Temperatur ist niedrig.,The temperature is low.
+season,Jahreszeit,die,A2,Die Jahreszeit ist der Sommer.,The season is summer.
+health,Gesundheit,die,A2,Die Gesundheit ist wichtig.,Health is important.
+doctor,Arzt,der,A2,Der Arzt hilft mir.,The doctor helps me.
+medicine,Medikament,das,A2,Das Medikament wirkt.,The medicine works.
+pharmacy,Apotheke,die,A2,Die Apotheke ist offen.,The pharmacy is open.
+accident,Unfall,der,A2,Der Unfall war gestern.,The accident was yesterday.
+police,Polizei,die,A2,Die Polizei kommt.,The police are coming.
+law,Gesetz,das,A2,Das Gesetz gilt hier.,The law applies here.
+court,Gericht,das,A2,Das Gericht entscheidet.,The court decides.
+culture,Kultur,die,A2,Die Kultur ist vielfältig.,The culture is diverse.
+tradition,Tradition,die,A2,Die Tradition ist alt.,The tradition is old.
+history,Geschichte,die,A2,Die Geschichte ist spannend.,The history is exciting.
+future,Zukunft,die,A2,Die Zukunft beginnt jetzt.,The future begins now.
+past,Vergangenheit,die,A2,Die Vergangenheit bleibt.,The past remains.
+choice,Wahl,die,A2,Die Wahl ist schwer.,The choice is hard.
+experience,Erfahrung,die,B1,Die Erfahrung hilft mir im Leben.,The experience helps me in life.
+education,Bildung,die,B1,Die Bildung ist wichtig für die Zukunft.,Education is important for the future.
+environment,Umwelt,die,B1,Die Umwelt braucht unseren Schutz.,The environment needs our protection.
+society,Gesellschaft,die,B1,Die Gesellschaft verändert sich schnell.,Society is changing quickly.
+government,Regierung,die,B1,Die Regierung trifft neue Entscheidungen.,The government makes new decisions.
+economy,Wirtschaft,die,B1,Die Wirtschaft wächst langsam.,The economy is growing slowly.
+industry,Industrie,die,B1,Die Industrie schafft viele Jobs.,The industry creates many jobs.
+technology,Technologie,die,B1,Die Technologie entwickelt sich ständig.,Technology is constantly developing.
+science,Wissenschaft,die,B1,Die Wissenschaft erklärt viele Dinge.,Science explains many things.
+research,Forschung,die,B1,Die Forschung bringt neue Erkenntnisse.,Research brings new insights.
+development,Entwicklung,die,B1,Die Entwicklung geht schnell voran.,Development is moving forward quickly.
+art,Kunst,die,B1,Die Kunst regt zum Nachdenken an.,Art stimulates reflection.
+literature,Literatur,die,B1,Die Literatur erzählt viele Geschichten.,Literature tells many stories.
+media,Medien,die,B1,Die Medien informieren die Menschen.,The media inform people.
+news,Nachrichten,die,B1,Die Nachrichten berichten über das Ereignis.,The news report on the event.
+advertisement,Werbung,die,B1,Die Werbung beeinflusst viele Käufer.,Advertising influences many buyers.
+discussion,Diskussion,die,B1,Die Diskussion war sehr lebendig.,The discussion was very lively.
+opinion,Meinung,die,B1,Die Meinung ist nicht immer gleich.,The opinion is not always the same.
+argument,Argument,das,B1,Das Argument überzeugt viele Leute.,The argument convinces many people.
+decision,Entscheidung,die,B1,Die Entscheidung war nicht leicht.,The decision was not easy.
+solution,Lösung,die,B1,Die Lösung hilft uns weiter.,The solution helps us move forward.
+problem,Problem,das,B1,Das Problem ist noch offen.,The problem is still open.
+goal,Ziel,das,B1,Das Ziel ist klar.,The goal is clear.
+success,Erfolg,der,B1,Der Erfolg macht stolz.,Success makes one proud.
+failure,Misserfolg,der,B1,Der Misserfolg war enttäuschend.,The failure was disappointing.
+chance,Chance,die,B1,Die Chance kommt selten.,The chance comes rarely.
+responsibility,Verantwortung,die,B1,Die Verantwortung liegt bei mir.,The responsibility lies with me.
+freedom,Freiheit,die,B1,Die Freiheit ist wichtig.,Freedom is important.
+knowledge,Wissen,das,B2,Das Wissen wächst durch Erfahrung.,Knowledge grows through experience.
+awareness,Bewusstsein,das,B2,Das Bewusstsein für Probleme ist wichtig.,Awareness of problems is important.
+identity,Identität,die,B2,Die Identität entwickelt sich im Laufe des Lebens.,Identity develops over the course of life.
+diversity,Diversität,die,B2,Die Diversität stärkt die Gesellschaft.,Diversity strengthens society.
+inequality,Ungleichheit,die,B2,Die Ungleichheit führt oft zu Konflikten.,Inequality often leads to conflicts.
+justice,Gerechtigkeit,die,B2,Die Gerechtigkeit ist ein zentrales Ziel.,Justice is a central goal.
+democracy,Demokratie,die,B2,Die Demokratie lebt von aktiver Teilnahme.,Democracy lives from active participation.
+policy,Politik,die,B2,Die Politik beeinflusst unseren Alltag.,Politics influences our daily life.
+administration,Verwaltung,die,B2,Die Verwaltung arbeitet effizient.,The administration works efficiently.
+authority,Autorität,die,B2,Die Autorität muss Verantwortung zeigen.,Authority must show responsibility.
+law,Recht,das,B1,Das Recht schützt die Menschen.,The law protects people.
+rule,Regel,die,B1,Die Regel ist klar.,The rule is clear.
+order,Ordnung,die,B1,Die Ordnung hilft im Alltag.,Order helps in daily life.
+system,System,das,B1,Das System funktioniert gut.,The system works well.
+process,Prozess,der,B1,Der Prozess dauert lange.,The process takes a long time.
+method,Methode,die,B1,Die Methode ist effektiv.,The method is effective.
+plan,Plan,der,B1,Der Plan ist gut vorbereitet.,The plan is well prepared.
+strategy,Strategie,die,B1,Die Strategie bringt Erfolg.,The strategy brings success.
+result,Ergebnis,das,B1,Das Ergebnis überrascht alle.,The result surprises everyone.
+effect,Wirkung,die,B1,Die Wirkung ist deutlich.,The effect is clear.
+cause,Ursache,die,B1,Die Ursache ist bekannt.,The cause is known.
+condition,Bedingung,die,B1,Die Bedingung ist wichtig.,The condition is important.
+difference,Unterschied,der,B1,Der Unterschied ist klein.,The difference is small.
+similarity,Ähnlichkeit,die,B1,Die Ähnlichkeit ist auffällig.,The similarity is noticeable.
+relationship,Beziehung,die,B1,Die Beziehung ist stabil.,The relationship is stable.
+network,Netzwerk,das,B1,Das Netzwerk wächst schnell.,The network grows quickly.
+community,Gemeinschaft,die,B1,Die Gemeinschaft unterstützt sich.,The community supports each other.
+population,Bevölkerung,die,B1,Die Bevölkerung wächst.,The population is growing.
+regulation,Regelung,die,B2,Die Regelung gilt für alle Unternehmen.,The regulation applies to all companies.
+institution,Institution,die,B2,Die Institution hat eine wichtige Aufgabe.,The institution has an important task.
+organization,Organisation,die,B2,Die Organisation arbeitet international.,The organization works internationally.
+management,Management,das,B2,Das Management plant die nächsten Schritte.,The management plans the next steps.
+leadership,Führung,die,B2,Die Führung übernimmt Verantwortung.,The leadership takes responsibility.
+innovation,Innovation,die,B2,Die Innovation verändert den Markt.,The innovation changes the market.
+invention,Erfindung,die,B2,Die Erfindung spart viel Zeit.,The invention saves a lot of time.
+efficiency,Effizienz,die,B2,Die Effizienz steigt durch neue Technik.,Efficiency increases through new technology.
+productivity,Produktivität,die,B2,Die Produktivität ist deutlich höher.,Productivity is clearly higher.
+sustainability,Nachhaltigkeit,die,B2,Die Nachhaltigkeit spielt eine große Rolle.,Sustainability plays a major role.
+resource,Ressource,die,B2,Die Ressource ist begrenzt.,The resource is limited.
+consumption,Konsum,der,B2,Der Konsum steigt in der Stadt.,Consumption is increasing in the city.
+production,Produktion,die,B2,Die Produktion läuft rund um die Uhr.,Production runs around the clock.
+distribution,Verteilung,die,B2,Die Verteilung erfolgt gerecht.,The distribution is fair.
+marketplace,Marktplatz,der,B2,Der Marktplatz zieht viele Besucher an.,The marketplace attracts many visitors.
+competition,Wettbewerb,der,B2,Der Wettbewerb ist sehr stark.,The competition is very strong.
+investment,Investition,die,B2,Die Investition lohnt sich langfristig.,The investment pays off in the long term.
+profit,Gewinn,der,B2,Der Gewinn steigt jedes Jahr.,The profit increases every year.
+loss,Verlust,der,B2,Der Verlust war unerwartet hoch.,The loss was unexpectedly high.
+budget,Budget,das,B2,Das Budget reicht nicht aus.,The budget is not sufficient.
+finance,Finanzen,die,B2,Die Finanzen der Firma sind stabil.,The company’s finances are stable.
+insurance,Versicherung,die,B2,Die Versicherung deckt den Schaden ab.,The insurance covers the damage.
+contract,Vertrag,der,B2,Der Vertrag gilt ab heute.,The contract is valid from today.
+negotiation,Verhandlung,die,B2,Die Verhandlung dauert mehrere Stunden.,The negotiation lasts several hours.
+agreement,Vereinbarung,die,B2,Die Vereinbarung bringt Vorteile für beide Seiten.,The agreement brings benefits for both sides.
+conflict,Konflikt,der,B2,Der Konflikt wurde offen besprochen.,The conflict was discussed openly.
+compromise,Kompromiss,der,B2,Der Kompromiss war für alle akzeptabel.,The compromise was acceptable to everyone.
+security,Sicherheit,die,B2,Die Sicherheit hat hohe Priorität.,Security has high priority.
+privacy,Privatsphäre,die,B2,Die Privatsphäre muss geschützt werden.,Privacy must be protected.
+risk,Risiko,das,B2,Das Risiko bleibt trotz Planung bestehen.,The risk remains despite planning.
+threat,Bedrohung,die,B2,Die Bedrohung wurde ernst genommen.,The threat was taken seriously.
+impact,Auswirkung,die,B2,Die Auswirkung zeigt sich erst später.,The impact appears only later.
+consequence,Folge,die,B2,Die Folge war eine klare Veränderung.,The consequence was a clear change.
+analysis,Analyse,die,B2,Die Analyse zeigt deutliche Probleme.,The analysis shows clear problems.
+evaluation,Bewertung,die,B2,Die Bewertung fällt insgesamt positiv aus.,The evaluation is overall positive.
+perspective,Perspektive,die,B2,Die Perspektive ändert sich mit Erfahrung.,The perspective changes with experience.
+context,Kontext,der,B2,Der Kontext erklärt die Entscheidung.,The context explains the decision.
+trend,Trend,der,B2,Der Trend setzt sich weiter fort.,The trend continues.

@@ -64,17 +64,17 @@ export default function NounPracticePage() {
 
   function submit() {
     if (!answer.article || !answer.translation) return;
+    setHasAnswered(true);
     const validated = validateAnswer(noun, answer as Answer);
     setResult(validated);
-    setHasAnswered(true);
     setProgress((p) => updateProgress(p, noun, validated, "FULL"));
   }
 
   function next() {
+    setHasAnswered(false);
     setNoun(nextNoun());
     setAnswer({});
     setResult(null);
-    setHasAnswered(false);
     setTimeout(() => inputRef.current?.focus());
   }
 
