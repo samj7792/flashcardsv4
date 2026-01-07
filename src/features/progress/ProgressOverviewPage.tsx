@@ -68,7 +68,7 @@ export default function ProgressOverviewPage() {
         <strong>Article Accuracy</strong>: gender only (all modes)
       </p>
 
-      <ResetProgress setProgress={setProgress} />
+      <ResetProgress progress={progress} setProgress={setProgress} />
 
       <table width="100%" cellPadding={8}>
         <thead>
