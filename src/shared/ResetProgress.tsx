@@ -23,8 +23,7 @@ export default function ResetProgress({
     setConfirmReset(false);
   }
 
-  const isEmpty = progress.total === 0;
-
+  const isEmpty = Object.keys(progress.byNoun).length == 0;
   useEffect(() => {
     if (isEmpty) setConfirmReset(false);
   }, [isEmpty]);

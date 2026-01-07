@@ -3,7 +3,11 @@ import { NOUNS } from "../nounPractice/nounData";
 import { getRandomNoun, updateProgress } from "../nounPractice/logic";
 import { Article, Noun, Progress } from "../nounPractice/types";
 import { selectWeakArticleNoun } from "../nounPractice/weakSelection";
-import { loadProgress, saveProgress } from "../../shared/storage";
+import {
+  loadOrInitProgress,
+  loadProgress,
+  saveProgress,
+} from "../../shared/storage";
 import { loadLevels } from "../../shared/level";
 import ModeToggle from "../../shared/ModeToggle";
 
@@ -14,9 +18,9 @@ export default function ArticleDrillPage() {
 
   const [noun, setNoun] = useState<Noun>(() => nextNoun());
   const [selected, setSelected] = useState<Article | null>(null);
-  const [progress, setProgress] = useState<Progress>(() => {
-    return loadProgress()!;
-  });
+  const [progress, setProgress] = useState<Progress>(() =>
+    loadOrInitProgress()
+  );
 
   function getNounPool(): Noun[] {
     const levels = loadLevels();

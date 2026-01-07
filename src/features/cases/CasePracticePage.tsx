@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { CASE_EXERCISES } from "./caseExercises";
 import { loadLevels } from "../../shared/level";
 import ModeToggle from "../../shared/ModeToggle";
 import { CASE_EXPLANATIONS } from "./caseExplanations";
-import { loadProgress, saveProgress } from "../../shared/storage";
+import { loadOrInitProgress, saveProgress } from "../../shared/storage";
 import { updateCaseProgress } from "./caseProgress";
+import { Progress } from "../nounPractice/types";
 
 type Exercise = (typeof CASE_EXERCISES)[number];
 type GrammaticalCase = "Nominativ" | "Akkusativ" | "Dativ" | "Genitiv";
@@ -19,22 +20,33 @@ const CASE_COLORS = {
 };
 
 export default function CasePracticePage() {
-  function getExercisePool(): Exercise[] {
-    const levels = loadLevels();
-
-    return CASE_EXERCISES.filter(
-      (e) => levels.has(e.level) && enabledCases.has(e.grammaticalCase)
-    );
-  }
-
   const [selected, setSelected] = useState<string | null>(null);
   const [hasAnswered, setHasAnswered] = useState(false);
   const [weakMode, setWeakMode] = useState(true);
   const [enabledCases, setEnabledCases] = useState<Set<GrammaticalCase>>(
     () => new Set(DEFAULT_CASES)
   );
-  const [exercise, setExercise] = useState<Exercise>(() => nextExercise());
-  const [progress, setProgress] = useState(() => loadProgress());
+  const [exercise, setExercise] = useState<Exercise>(() => {
+    const pool = CASE_EXERCISES;
+    return pool[Math.floor(Math.random() * pool.length)];
+  });
+  const [progress, setProgress] = useState<Progress>(() =>
+    loadOrInitProgress()
+  );
+
+  function getExercisePool(): Exercise[] {
+    const levels = loadLevels();
+
+    /*
+    if (weakMode) {
+      // weight by lowest accuracy in progress.byCase
+    }
+    */
+
+    return CASE_EXERCISES.filter(
+      (e) => levels.has(e.level) && enabledCases.has(e.grammaticalCase)
+    );
+  }
 
   function selectAnswer(form: string) {
     if (hasAnswered) return;
@@ -52,6 +64,9 @@ export default function CasePracticePage() {
 
   function nextExercise(): Exercise {
     const pool = getExercisePool();
+    if (!pool.length) {
+      throw new Error("No case exercises available");
+    }
     return pool[Math.floor(Math.random() * pool.length)];
   }
 
@@ -60,6 +75,15 @@ export default function CasePracticePage() {
     setExercise(nextExercise());
     setSelected(null);
   }
+
+  useEffect(() => {
+    const pool = getExercisePool();
+    if (pool.length > 0) {
+      setExercise(pool[Math.floor(Math.random() * pool.length)]);
+      setHasAnswered(false);
+      setSelected(null);
+    }
+  }, [enabledCases]);
 
   const filledSentence = exercise.baseSentence.replace(
     "___",

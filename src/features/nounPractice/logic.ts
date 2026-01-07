@@ -22,7 +22,10 @@ function normalize(input: string): string {
     .replace(/ß/g, "ss");
 }
 
-export function validateAnswer(noun: Noun, answer: Answer): PracticeResult {
+export function validateAnswer(
+  noun: Noun,
+  answer: Answer
+): PracticeResult {
   const correctArticle = noun.article === answer.article;
   const correctTranslation =
     normalize(noun.german) === normalize(answer.translation);
@@ -66,9 +69,11 @@ export function updateProgress(
   }
 
   return {
+    ...progress, // ✅ preserve byCase and future fields
     total: progress.total + (mode === "FULL" ? 1 : 0),
     correct:
-      progress.correct + (mode === "FULL" && result.isCorrect ? 1 : 0),
+      progress.correct +
+      (mode === "FULL" && result.isCorrect ? 1 : 0),
     byNoun: {
       ...progress.byNoun,
       [key]: nextStats,
@@ -76,7 +81,11 @@ export function updateProgress(
   };
 }
 
-
 export function initialProgress(): Progress {
-  return { total: 0, correct: 0, byNoun: {} };
+  return {
+    total: 0,
+    correct: 0,
+    byNoun: {},
+    byCase: {},
+  };
 }

@@ -1,11 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { NOUNS } from "./nounData";
-import {
-  getRandomNoun,
-  initialProgress,
-  updateProgress,
-  validateAnswer,
-} from "./logic";
+import { getRandomNoun, updateProgress, validateAnswer } from "./logic";
 import {
   Answer,
   Article,
@@ -15,7 +10,11 @@ import {
   ClozeMode,
 } from "./types";
 import { selectWeakFullNoun } from "./weakSelection";
-import { loadProgress, saveProgress } from "../../shared/storage";
+import {
+  loadOrInitProgress,
+  loadProgress,
+  saveProgress,
+} from "../../shared/storage";
 import { loadLevels } from "../../shared/level";
 import ModeToggle from "../../shared/ModeToggle";
 import { makeClozeSentence } from "./cloze";
@@ -27,9 +26,9 @@ export default function NounPracticePage() {
   const [noun, setNoun] = useState<Noun>(() => nextNoun());
   const [answer, setAnswer] = useState<Partial<Answer>>({});
   const [result, setResult] = useState<PracticeResult | null>(null);
-  const [progress, setProgress] = useState<Progress>(() => {
-    return loadProgress() ?? initialProgress();
-  });
+  const [progress, setProgress] = useState<Progress>(() =>
+    loadOrInitProgress()
+  );
   const [hasAnswered, setHasAnswered] = useState(false);
 
   const clozeMode: ClozeMode = hasAnswered ? "none" : "both";
@@ -124,7 +123,6 @@ export default function NounPracticePage() {
 
       <ModeToggle
         label="Focus on weak nouns"
-        description="Practice nouns you struggle with more often"
         checked={weakMode}
         onChange={setWeakMode}
       />
