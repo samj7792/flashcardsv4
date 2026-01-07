@@ -33,3 +33,9 @@ export function loadOrInitProgress(): Progress {
 export function saveProgress(data: Progress): void {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
 }
+
+export function resetProgress(): Progress {
+  const fresh = initialProgress();
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(fresh));
+  return fresh;
+}

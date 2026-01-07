@@ -1,7 +1,6 @@
 import { Progress } from "../features/nounPractice/types";
 import { useState, Dispatch, SetStateAction, useEffect } from "react";
-import { initialProgress } from "../features/nounPractice/logic";
-import { saveProgress } from "./storage";
+import { resetProgress } from "./storage";
 
 export default function ResetProgress({
   setProgress,
@@ -12,15 +11,9 @@ export default function ResetProgress({
 }) {
   const [confirmReset, setConfirmReset] = useState(false);
 
-  function resetProgress() {
-    if (!confirmReset) {
-      setConfirmReset(true);
-      return;
-    }
-    const fresh = initialProgress();
+  function handleReset() {
+    const fresh = resetProgress();
     setProgress(fresh);
-    saveProgress(fresh);
-    setConfirmReset(false);
   }
 
   const isEmpty = Object.keys(progress.byNoun).length == 0;
@@ -35,7 +28,7 @@ export default function ResetProgress({
       </p> */}
 
       <button
-        onClick={resetProgress}
+        onClick={handleReset}
         disabled={isEmpty}
         style={{
           marginTop: "1rem",
