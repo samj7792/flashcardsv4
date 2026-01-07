@@ -1,5 +1,7 @@
+import { useState, useEffect } from "react";
 import ResetProgress from "../../shared/ResetProgress";
 import { loadProgress } from "../../shared/storage";
+import { initialProgress } from "../nounPractice/logic";
 import { Progress } from "../nounPractice/types";
 
 interface Row {
@@ -10,7 +12,9 @@ interface Row {
 }
 
 export default function ProgressOverviewPage() {
-  const progress = loadProgress() as Progress | null;
+  const [progress, setProgress] = useState<Progress>(() => {
+    return loadProgress() ?? initialProgress();
+  });
 
   if (!progress || !progress.byNoun) {
     return (
@@ -44,6 +48,15 @@ export default function ProgressOverviewPage() {
 
   rows.sort((a, b) => a.articleAccuracy - b.articleAccuracy);
 
+  useEffect(() => {
+    function sync() {
+      setProgress(loadProgress() ?? initialProgress());
+    }
+
+    window.addEventListener("focus", sync);
+    return () => window.removeEventListener("focus", sync);
+  }, []);
+
   return (
     <main style={{ maxWidth: 720, margin: "3rem auto" }}>
       <h1>Progress Overview</h1>
@@ -55,7 +68,7 @@ export default function ProgressOverviewPage() {
         <strong>Article Accuracy</strong>: gender only (all modes)
       </p>
 
-      <ResetProgress />
+      <ResetProgress setProgress={setProgress} />
 
       <table width="100%" cellPadding={8}>
         <thead>

@@ -1,12 +1,13 @@
 import { Progress } from "../features/nounPractice/types";
-import { useState } from "react";
+import { useState, Dispatch, SetStateAction } from "react";
 import { initialProgress } from "../features/nounPractice/logic";
-import { loadProgress, saveProgress } from "./storage";
+import { saveProgress } from "./storage";
 
-export default function ResetProgress() {
-  const [progress, setProgress] = useState<Progress>(() => {
-    return loadProgress() ?? initialProgress();
-  });
+export default function ResetProgress({
+  setProgress,
+}: {
+  setProgress: Dispatch<SetStateAction<Progress>>;
+}) {
   const [confirmReset, setConfirmReset] = useState(false);
 
   function resetProgress() {
