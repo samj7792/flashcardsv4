@@ -1,0 +1,5 @@
+level,base_sentence,slot,case,correct_form,english
+A1,___ Mann sieht den Hund.,article,Nominativ,der,The man sees the dog.
+A1,Der Mann sieht ___ Hund.,article,Akkusativ,den,The man sees the dog.
+A2,Ich helfe ___ Kind.,article,Dativ,dem,I help the child.
+B2,Das ist das Auto ___ Mannes.,article,Genitiv,des,That is the man’s car.
