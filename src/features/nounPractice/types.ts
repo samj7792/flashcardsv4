@@ -1,5 +1,12 @@
 export type Article = "der" | "die" | "das";
 export type Level = "A1" | "A2" | "B1" | "B2";
+export type PracticeMode = "FULL" | "ARTICLE_ONLY";
+export type ClozeMode = "both" | "none";
+export type GrammaticalCase =
+  | "Nominativ"
+  | "Akkusativ"
+  | "Dativ"
+  | "Genitiv";
 
 export interface Noun {
   english: string;
@@ -32,12 +39,14 @@ export interface NounStats {
   articleCorrect: number;
 }
 
+export interface CaseStats {
+  attempts: number;
+  correct: number;
+}
+
 export interface Progress {
   total: number;
   correct: number;
   byNoun: Record<string, NounStats>;
+  byCase?: Partial<Record<GrammaticalCase, CaseStats>>;
 }
-
-export type PracticeMode = "FULL" | "ARTICLE_ONLY";
-
-export type ClozeMode = "both" | "none";

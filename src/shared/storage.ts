@@ -10,6 +10,8 @@ export function loadProgress(): Progress | null {
 
   const byNoun = parsed.byNoun ?? {};
 
+  parsed.byCase ??= {};
+
   Object.values(byNoun).forEach((stats: any) => {
     stats.articleAttempts ??= stats.attempts ?? 0;
     stats.articleCorrect ??= stats.correct ?? 0;
