@@ -70,8 +70,6 @@ export default function ProgressOverviewPage() {
       : a.articleAccuracy - b.articleAccuracy
   );
 
-  console.log("progress: ", progress);
-
   const caseRows: CaseRow[] = Object.entries(progress.byCase ?? {}).map(
     ([grammaticalCase, stats]) => {
       const accuracy =
@@ -88,9 +86,7 @@ export default function ProgressOverviewPage() {
     }
   );
 
-  caseRows.sort(
-    (a, b) => CASE_ORDER.indexOf(a.case) - CASE_ORDER.indexOf(b.case)
-  );
+  caseRows.sort((a, b) => a.accuracy - b.accuracy);
 
   return (
     <main style={{ maxWidth: 720, margin: "3rem auto" }}>
@@ -105,30 +101,35 @@ export default function ProgressOverviewPage() {
 
       <ResetProgress progress={progress} setProgress={setProgress} />
 
-      <table width="100%" cellPadding={8}>
-        <thead>
-          <tr>
-            <th align="left">Noun</th>
-            <th align="right">Full Accuracy</th>
-            <th align="right">Article Accuracy</th>
-            <th align="right">Full Attempts</th>
-          </tr>
-        </thead>
-        <tbody>
-          {nounRows.map((row) => (
-            <tr key={row.noun}>
-              <td>{row.noun}</td>
-              <td align="right">
-                {row.fullAccuracy === null ? "—" : `${row.fullAccuracy}%`}
-              </td>
-              <td align="right">{row.articleAccuracy}%</td>
-              <td align="right">{row.attempts}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      {nounRows.length > 0 && (
+        <section>
+          <h2>Noun Accuracy</h2>
+          <table width="100%" cellPadding={8}>
+            <thead>
+              <tr>
+                <th align="left">Noun</th>
+                <th align="right">Full Accuracy</th>
+                <th align="right">Article Accuracy</th>
+                <th align="right">Full Attempts</th>
+              </tr>
+            </thead>
+            <tbody>
+              {nounRows.map((row) => (
+                <tr key={row.noun}>
+                  <td>{row.noun}</td>
+                  <td align="right">
+                    {row.fullAccuracy === null ? "—" : `${row.fullAccuracy}%`}
+                  </td>
+                  <td align="right">{row.articleAccuracy}%</td>
+                  <td align="right">{row.attempts}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </section>
+      )}
       {caseRows.length > 0 && (
-        <section style={{ marginTop: "3rem" }}>
+        <section>
           <h2>Case Accuracy</h2>
 
           <table width="100%" cellPadding={8}>

@@ -12,11 +12,17 @@ export default function ResetProgress({
   const [confirmReset, setConfirmReset] = useState(false);
 
   function handleReset() {
+    if (!confirmReset) {
+      setConfirmReset(true);
+      return;
+    }
     const fresh = resetProgress();
     setProgress(fresh);
   }
 
-  const isEmpty = Object.keys(progress.byNoun).length == 0;
+  const isEmpty =
+    Object.keys(progress.byNoun || {}).length === 0 &&
+    Object.keys(progress.byCase || {}).length === 0;
   useEffect(() => {
     if (isEmpty) setConfirmReset(false);
   }, [isEmpty]);

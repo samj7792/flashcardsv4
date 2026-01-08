@@ -195,6 +195,7 @@ export default function CasePracticePage() {
             ["Nominativ", "Akkusativ", "Dativ", "Genitiv"] as GrammaticalCase[]
           ).map((c) => (
             <ModeToggle
+              key={c}
               style={{ marginLeft: "1rem" }}
               label={c}
               checked={enabledCases.has(c)}
@@ -202,7 +203,6 @@ export default function CasePracticePage() {
                 const next = new Set(enabledCases);
                 next.has(c) ? next.delete(c) : next.add(c);
                 if (next.size > 0) setEnabledCases(next);
-                console.log(enabledCases);
               }}
             />
           ))}
@@ -215,6 +215,7 @@ export default function CasePracticePage() {
           {(["Definite Article", "Indefinite Article"] as ArticleType[]).map(
             (c) => (
               <ModeToggle
+                key={c}
                 style={{ marginLeft: "1rem" }}
                 label={c}
                 checked={enabledArticleType.has(c)}
@@ -222,7 +223,6 @@ export default function CasePracticePage() {
                   const next = new Set(enabledArticleType);
                   next.has(c) ? next.delete(c) : next.add(c);
                   if (next.size > 0) setEnabledArticleType(next);
-                  console.log(enabledArticleType);
                 }}
               />
             )
