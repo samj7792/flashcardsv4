@@ -3,6 +3,7 @@ interface ModeToggleProps {
   checked: boolean;
   onChange: (checked: boolean) => void;
   description?: string;
+  style?: React.CSSProperties;
 }
 
 export default function ModeToggle({
@@ -10,6 +11,7 @@ export default function ModeToggle({
   checked,
   onChange,
   description,
+  style,
 }: ModeToggleProps) {
   function toggle() {
     onChange(!checked);
@@ -38,9 +40,10 @@ export default function ModeToggle({
         marginBottom: "1rem",
         border: "1px solid #ddd",
         borderRadius: 6,
-        background: checked ? "#f0f8ff" : "#fafafa",
+        background: checked ? "#cef2e4ff" : "#fafafa",
         cursor: "pointer",
         userSelect: "none",
+        ...style,
       }}
     >
       <div>

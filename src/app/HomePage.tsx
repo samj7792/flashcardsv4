@@ -28,9 +28,7 @@ export default function HomePage() {
       </div>
 
       <div style={{ marginTop: "1rem" }}>
-        <button onClick={() => navigate("/cases")}>
-          Akkusativ / Dativ Practice
-        </button>
+        <button onClick={() => navigate("/cases")}>Grammar Cases</button>
       </div>
 
       <div style={{ marginTop: "1rem" }}>

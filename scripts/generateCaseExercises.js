@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { parse } from "csv-parse/sync";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -15,7 +16,7 @@ const output = path.resolve(
 
 const VALID_LEVELS = ["A1", "A2", "B1", "B2"];
 const VALID_CASES = ["Nominativ", "Akkusativ", "Dativ", "Genitiv"];
-const VALID_SLOTS = ["article"];
+const VALID_SLOTS = ["Definite Article", "Indefinite Article"];
 const VALID_ARTICLE_FORMS = [
   // definite
   "der",
@@ -28,6 +29,7 @@ const VALID_ARTICLE_FORMS = [
   // indefinite
   "ein",
   "eine",
+  "einer",
   "einen",
   "einem",
   "eines",
@@ -45,29 +47,18 @@ function reportIssue(message) {
 }
 
 function parseCSV(text) {
-  return text
-    .trim()
-    .split("\n")
-    .slice(1)
-    .map((line) => {
-      const [
-        level,
-        base_sentence,
-        slot,
-        grammaticalCase,
-        correct_form,
-        english,
-      ] = line.split(",");
-
-      return {
-        level: level?.trim(),
-        baseSentence: base_sentence?.trim(),
-        slot: slot?.trim(),
-        grammaticalCase: grammaticalCase?.trim(),
-        correctForm: correct_form?.trim(),
-        english: english?.trim(),
-      };
-    });
+  return parse(text, {
+    columns: true,
+    skip_empty_lines: true,
+    trim: true,
+  }).map((row) => ({
+    level: row.level,
+    baseSentence: row.base_sentence,
+    slot: row.slot,
+    grammaticalCase: row.case,
+    correctForm: row.correct_form,
+    english: row.english,
+  }));
 }
 
 function validateRow(row, index) {
