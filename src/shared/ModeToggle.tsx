@@ -11,11 +11,28 @@ export default function ModeToggle({
   onChange,
   description,
 }: ModeToggleProps) {
+  function toggle() {
+    onChange(!checked);
+  }
+
+  function onKeyDown(e: React.KeyboardEvent<HTMLDivElement>) {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      toggle();
+    }
+  }
+
   return (
-    <label
+    <div
+      role="button"
+      aria-pressed={checked}
+      tabIndex={0}
+      onClick={toggle}
+      onKeyDown={onKeyDown}
       style={{
-        display: "inline-flex",
+        display: "flex",
         alignItems: "center",
+        justifyContent: "space-between",
         gap: "0.75rem",
         padding: "0.6rem 0.75rem",
         marginBottom: "1rem",
@@ -23,6 +40,7 @@ export default function ModeToggle({
         borderRadius: 6,
         background: checked ? "#f0f8ff" : "#fafafa",
         cursor: "pointer",
+        userSelect: "none",
       }}
     >
       <div>
@@ -33,12 +51,32 @@ export default function ModeToggle({
           </div>
         )}
       </div>
-      <input
-        type="checkbox"
-        checked={checked}
-        onChange={(e) => onChange(e.target.checked)}
-        style={{ marginTop: 2 }}
-      />
-    </label>
+
+      {/* Visual indicator */}
+      {/* <div
+        aria-hidden
+        style={{
+          width: 36,
+          height: 20,
+          borderRadius: 999,
+          background: checked ? "#2563eb" : "#ccc",
+          position: "relative",
+          transition: "background 0.2s",
+        }}
+      >
+        <div
+          style={{
+            width: 16,
+            height: 16,
+            borderRadius: "50%",
+            background: "#fff",
+            position: "absolute",
+            top: 2,
+            left: checked ? 18 : 2,
+            transition: "left 0.2s",
+          }}
+        />
+      </div> */}
+    </div>
   );
 }
