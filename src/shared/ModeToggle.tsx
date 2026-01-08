@@ -41,10 +41,10 @@ export default function ModeToggle({
       onBlur={() => setShowTooltip(false)}
       style={{
         position: "relative",
-        // display: "flex",
-        // alignItems: "center",
-        // justifyContent: "space-between",
-        // gap: "0.75rem",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-between",
+        gap: "0.75rem",
         padding: "0.6rem 0.75rem",
         marginBottom: "1rem",
         border: "1px solid #ddd",
@@ -60,6 +60,7 @@ export default function ModeToggle({
         boxShadow: showTooltip ? "0 4px 12px rgba(0,0,0,0.15)" : "",
         cursor: "pointer",
         userSelect: "none",
+        transition: "background 0.5s ease, box-shadow 0.5s ease",
         ...style,
       }}
     >
@@ -69,6 +70,7 @@ export default function ModeToggle({
         <div
           role="tooltip"
           style={{
+            pointerEvents: "none",
             position: "absolute",
             top: "100%",
             left: 0,
