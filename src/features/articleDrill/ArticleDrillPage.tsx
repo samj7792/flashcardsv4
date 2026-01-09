@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { NOUNS } from "../nounPractice/nounData";
-import { getRandomNoun, updateProgress } from "../nounPractice/logic";
+import { getRandomNoun, updateNounProgress } from "../nounPractice/logic";
 import { Article, Noun, Progress } from "../nounPractice/types";
 import { selectWeakArticleNoun } from "../nounPractice/weakSelection";
 import {
@@ -43,7 +43,7 @@ export default function ArticleDrillPage() {
   function submit(article: Article) {
     const correct = article === noun.article;
     setProgress((p) =>
-      updateProgress(
+      updateNounProgress(
         p,
         noun,
         {

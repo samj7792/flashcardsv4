@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { NOUNS } from "./nounData";
-import { getRandomNoun, updateProgress, validateAnswer } from "./logic";
+import { getRandomNoun, updateNounProgress, validateAnswer } from "./logic";
 import {
   Answer,
   Article,
@@ -66,7 +66,7 @@ export default function NounPracticePage() {
     setHasAnswered(true);
     const validated = validateAnswer(noun, answer as Answer);
     setResult(validated);
-    setProgress((p) => updateProgress(p, noun, validated, "FULL"));
+    setProgress((p) => updateNounProgress(p, noun, validated, "FULL"));
   }
 
   function next() {

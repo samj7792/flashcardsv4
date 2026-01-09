@@ -48,5 +48,5 @@ export interface Progress {
   total: number;
   correct: number;
   byNoun: Record<string, NounStats>;
-  byCase?: Partial<Record<GrammaticalCase, CaseStats>>;
+  byCase: Partial<Record<GrammaticalCase, CaseStats>>;
 }

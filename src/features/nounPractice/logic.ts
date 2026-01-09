@@ -46,7 +46,7 @@ function emptyStats(): NounStats {
   };
 }
 
-export function updateProgress(
+export function updateNounProgress(
   progress: Progress,
   noun: Noun,
   result: PracticeResult,
