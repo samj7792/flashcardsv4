@@ -9,10 +9,11 @@ export type GrammaticalCase =
   | "Genitiv";
 
 export interface Noun {
+  id: string;
   english: string;
   german: string;
-  article: Article;
-  level: Level;
+  article: string;
+  level: string;
   examples: ExampleSentence[];
 }
 

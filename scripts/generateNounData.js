@@ -44,6 +44,18 @@ function parseCSV(text) {
   });
 }
 
+function slugify(text) {
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/ä/g, "ae")
+    .replace(/ö/g, "oe")
+    .replace(/ü/g, "ue")
+    .replace(/ß/g, "ss")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 function validate(row, index) {
   if (!VALID_ARTICLES.includes(row.article)) {
     throw new Error(`Invalid article "${row.article}" on row ${index + 2}`);
@@ -101,7 +113,10 @@ for (const row of rows) {
   const key = `${row.english}|${row.german}`;
 
   if (!grouped.has(key)) {
+    const id = `noun-${slugify(row.german)}-${row.article}`;
+
     grouped.set(key, {
+      id,
       english: row.english,
       german: row.german,
       article: row.article,
@@ -149,7 +164,20 @@ function detectDuplicateExamples(grouped) {
   }
 }
 
+function detectDuplicateIds(nouns) {
+  const seen = new Set();
+
+  nouns.forEach((noun) => {
+    if (seen.has(noun.id)) {
+      throw new Error(`❌ Duplicate noun id detected: ${noun.id}`);
+    }
+    seen.add(noun.id);
+  });
+}
+
 const nouns = Array.from(grouped.values());
+
+detectDuplicateIds(nouns);
 
 detectDuplicateExamples(grouped);
 

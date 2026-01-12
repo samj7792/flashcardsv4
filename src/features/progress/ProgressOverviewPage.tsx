@@ -18,6 +18,7 @@ interface CaseRow {
   accuracy: number;
 }
 const CASE_ORDER = ["Nominativ", "Akkusativ", "Dativ", "Genitiv"];
+const nounById = new Map(NOUNS.map((n) => [n.id, n]));
 
 export default function ProgressOverviewPage() {
   const [progress, setProgress] = useState<Progress>(() =>
@@ -45,9 +46,10 @@ export default function ProgressOverviewPage() {
     );
   }
 
-  const nounRows: Row[] = Object.entries(progress.byNoun).map(
-    ([key, stats]) => {
-      const [english, german, article] = key.split("|");
+  const nounRows: Row[] = Object.entries(progress.byNoun)
+    .map(([id, stats]) => {
+      const noun = nounById.get(id);
+      if (!noun) return null;
 
       const fullAccuracy =
         stats.attempts === 0
@@ -60,18 +62,17 @@ export default function ProgressOverviewPage() {
           : Math.round((stats.articleCorrect / stats.articleAttempts) * 100);
 
       return {
-        noun: `${english} → ${article} ${german}`,
+        noun: `${noun.english} → ${noun.article} ${noun.german}`,
         fullAccuracy,
         articleAccuracy,
         attempts: stats.attempts,
       };
-    }
-  );
+    })
+    .filter(Boolean) as Row[];
 
   const nounLevelMap = new Map<string, string>();
   NOUNS.forEach((n) => {
-    const key = `${n.english}|${n.german}|${n.article}`;
-    nounLevelMap.set(key, n.level);
+    nounLevelMap.set(n.id, n.level);
   });
 
   nounRows.sort((a, b) =>
@@ -87,9 +88,10 @@ export default function ProgressOverviewPage() {
     B2: [],
   };
 
-  Object.entries(progress.byNoun).forEach(([key, stats]) => {
-    const [english, german, article] = key.split("|");
-    const level = nounLevelMap.get(key);
+  Object.entries(progress.byNoun).forEach(([id, stats]) => {
+    const noun = nounById.get(id);
+    if (!noun) return null;
+    const level = nounLevelMap.get(id);
 
     if (!level) return;
 
@@ -104,7 +106,7 @@ export default function ProgressOverviewPage() {
         : Math.round((stats.articleCorrect / stats.articleAttempts) * 100);
 
     nounRowsByLevel[level].push({
-      noun: `${english} → ${article} ${german}`,
+      noun: `${noun.english} → ${noun.article} ${noun.german}`,
       fullAccuracy,
       articleAccuracy,
       attempts: stats.attempts,

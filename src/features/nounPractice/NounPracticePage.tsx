@@ -114,8 +114,7 @@ export default function NounPracticePage() {
     inputRef.current?.focus();
   }, []);
 
-  const nounKey = `${noun.english}|${noun.german}`;
-  const stats = progress.byNoun[nounKey];
+  const stats = progress.byNoun[noun.id];
 
   return (
     <main style={{ maxWidth: 480, margin: "3rem auto" }}>

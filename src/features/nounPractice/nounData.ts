@@ -2,6 +2,7 @@ import { Noun } from "./types";
 
 export const NOUNS: Noun[] = [
   {
+    "id": "noun-entschuldigung-die",
     "english": "apology",
     "german": "Entschuldigung",
     "article": "die",
@@ -14,6 +15,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-kurs-der",
     "english": "course",
     "german": "Kurs",
     "article": "der",
@@ -26,6 +28,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-satz-der",
     "english": "sentence",
     "german": "Satz",
     "article": "der",
@@ -38,6 +41,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-wort-das",
     "english": "word",
     "german": "Wort",
     "article": "das",
@@ -50,6 +54,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-adresse-die",
     "english": "adress",
     "german": "Adresse",
     "article": "die",
@@ -62,6 +67,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-anmeldung-die",
     "english": "registration",
     "german": "Anmeldung",
     "article": "die",
@@ -74,6 +80,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-bild-das",
     "english": "image",
     "german": "Bild",
     "article": "das",
@@ -86,6 +93,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-stift-der",
     "english": "pen",
     "german": "Stift",
     "article": "der",
@@ -98,6 +106,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-mann-der",
     "english": "man",
     "german": "Mann",
     "article": "der",
@@ -110,6 +119,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-frau-die",
     "english": "woman",
     "german": "Frau",
     "article": "die",
@@ -122,6 +132,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-kind-das",
     "english": "child",
     "german": "Kind",
     "article": "das",
@@ -134,6 +145,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-freund-der",
     "english": "friend",
     "german": "Freund",
     "article": "der",
@@ -146,6 +158,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-familie-die",
     "english": "family",
     "german": "Familie",
     "article": "die",
@@ -158,6 +171,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-haus-das",
     "english": "house",
     "german": "Haus",
     "article": "das",
@@ -170,6 +184,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-wohnung-die",
     "english": "apartment",
     "german": "Wohnung",
     "article": "die",
@@ -182,6 +197,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-zimmer-das",
     "english": "room",
     "german": "Zimmer",
     "article": "das",
@@ -194,6 +210,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-stadt-die",
     "english": "city",
     "german": "Stadt",
     "article": "die",
@@ -206,6 +223,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-land-das",
     "english": "country",
     "german": "Land",
     "article": "das",
@@ -218,6 +236,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-tag-der",
     "english": "day",
     "german": "Tag",
     "article": "der",
@@ -230,6 +249,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-morgen-der",
     "english": "morning",
     "german": "Morgen",
     "article": "der",
@@ -242,6 +262,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-abend-der",
     "english": "evening",
     "german": "Abend",
     "article": "der",
@@ -254,6 +275,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-woche-die",
     "english": "week",
     "german": "Woche",
     "article": "die",
@@ -266,6 +288,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-jahr-das",
     "english": "year",
     "german": "Jahr",
     "article": "das",
@@ -278,6 +301,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-essen-das",
     "english": "food",
     "german": "Essen",
     "article": "das",
@@ -290,6 +314,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-wasser-das",
     "english": "water",
     "german": "Wasser",
     "article": "das",
@@ -302,6 +327,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-brot-das",
     "english": "bread",
     "german": "Brot",
     "article": "das",
@@ -314,6 +340,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-kaffee-der",
     "english": "coffee",
     "german": "Kaffee",
     "article": "der",
@@ -326,6 +353,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-tee-der",
     "english": "tea",
     "german": "Tee",
     "article": "der",
@@ -338,6 +366,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-apfel-der",
     "english": "apple",
     "german": "Apfel",
     "article": "der",
@@ -350,6 +379,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-buch-das",
     "english": "book",
     "german": "Buch",
     "article": "das",
@@ -362,6 +392,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-schule-die",
     "english": "school",
     "german": "Schule",
     "article": "die",
@@ -374,6 +405,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-lehrer-der",
     "english": "teacher",
     "german": "Lehrer",
     "article": "der",
@@ -386,6 +418,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-student-der",
     "english": "student",
     "german": "Student",
     "article": "der",
@@ -398,6 +431,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-arbeit-die",
     "english": "work",
     "german": "Arbeit",
     "article": "die",
@@ -410,6 +444,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-beruf-der",
     "english": "job",
     "german": "Beruf",
     "article": "der",
@@ -422,6 +457,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-geld-das",
     "english": "money",
     "german": "Geld",
     "article": "das",
@@ -434,6 +470,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-geschaeft-das",
     "english": "store",
     "german": "Geschäft",
     "article": "das",
@@ -446,6 +483,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-strasse-die",
     "english": "street",
     "german": "Straße",
     "article": "die",
@@ -458,6 +496,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-auto-das",
     "english": "car",
     "german": "Auto",
     "article": "das",
@@ -470,6 +509,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-bus-der",
     "english": "bus",
     "german": "Bus",
     "article": "der",
@@ -482,6 +522,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-zug-der",
     "english": "train",
     "german": "Zug",
     "article": "der",
@@ -494,6 +535,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-bahnhof-der",
     "english": "station",
     "german": "Bahnhof",
     "article": "der",
@@ -506,6 +548,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-zeit-die",
     "english": "time",
     "german": "Zeit",
     "article": "die",
@@ -518,6 +561,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-frage-die",
     "english": "question",
     "german": "Frage",
     "article": "die",
@@ -530,6 +574,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-antwort-die",
     "english": "answer",
     "german": "Antwort",
     "article": "die",
@@ -542,6 +587,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-sprache-die",
     "english": "language",
     "german": "Sprache",
     "article": "die",
@@ -554,6 +600,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-name-der",
     "english": "name",
     "german": "Name",
     "article": "der",
@@ -566,6 +613,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-telefon-das",
     "english": "phone",
     "german": "Telefon",
     "article": "das",
@@ -578,6 +626,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-nummer-die",
     "english": "number",
     "german": "Nummer",
     "article": "die",
@@ -590,6 +639,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-hand-die",
     "english": "hand",
     "german": "Hand",
     "article": "die",
@@ -602,6 +652,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-kopf-der",
     "english": "head",
     "german": "Kopf",
     "article": "der",
@@ -614,6 +665,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-herz-das",
     "english": "heart",
     "german": "Herz",
     "article": "das",
@@ -626,6 +678,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-tuer-die",
     "english": "door",
     "german": "Tür",
     "article": "die",
@@ -638,6 +691,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-fenster-das",
     "english": "window",
     "german": "Fenster",
     "article": "das",
@@ -654,6 +708,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-reise-die",
     "english": "travel",
     "german": "Reise",
     "article": "die",
@@ -666,6 +721,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-urlaub-der",
     "english": "vacation",
     "german": "Urlaub",
     "article": "der",
@@ -678,6 +734,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-flughafen-der",
     "english": "airport",
     "german": "Flughafen",
     "article": "der",
@@ -690,6 +747,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-ticket-das",
     "english": "ticket",
     "german": "Ticket",
     "article": "das",
@@ -702,6 +760,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-hotel-das",
     "english": "hotel",
     "german": "Hotel",
     "article": "das",
@@ -714,6 +773,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-schluessel-der",
     "english": "key",
     "german": "Schlüssel",
     "article": "der",
@@ -726,6 +786,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-kueche-die",
     "english": "kitchen",
     "german": "Küche",
     "article": "die",
@@ -738,6 +799,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-badezimmer-das",
     "english": "bathroom",
     "german": "Badezimmer",
     "article": "das",
@@ -750,6 +812,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-garten-der",
     "english": "garden",
     "german": "Garten",
     "article": "der",
@@ -762,6 +825,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-nachbar-der",
     "english": "neighbor",
     "german": "Nachbar",
     "article": "der",
@@ -774,6 +838,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-hobby-das",
     "english": "hobby",
     "german": "Hobby",
     "article": "das",
@@ -786,6 +851,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-sport-der",
     "english": "sport",
     "german": "Sport",
     "article": "der",
@@ -798,6 +864,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-film-der",
     "english": "movie",
     "german": "Film",
     "article": "der",
@@ -810,6 +877,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-musik-die",
     "english": "music",
     "german": "Musik",
     "article": "die",
@@ -822,6 +890,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-konzert-das",
     "english": "concert",
     "german": "Konzert",
     "article": "das",
@@ -834,6 +903,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-zeitung-die",
     "english": "newspaper",
     "german": "Zeitung",
     "article": "die",
@@ -846,6 +916,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-zeitschrift-die",
     "english": "magazine",
     "german": "Zeitschrift",
     "article": "die",
@@ -858,6 +929,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-brief-der",
     "english": "letter",
     "german": "Brief",
     "article": "der",
@@ -870,6 +942,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-e-mail-die",
     "english": "email",
     "german": "E-Mail",
     "article": "die",
@@ -882,6 +955,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-treffen-das",
     "english": "meeting",
     "german": "Treffen",
     "article": "das",
@@ -894,6 +968,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-projekt-das",
     "english": "project",
     "german": "Projekt",
     "article": "das",
@@ -906,6 +981,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-firma-die",
     "english": "company",
     "german": "Firma",
     "article": "die",
@@ -918,6 +994,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-chef-der",
     "english": "boss",
     "german": "Chef",
     "article": "der",
@@ -930,6 +1007,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-kollege-der",
     "english": "colleague",
     "german": "Kollege",
     "article": "der",
@@ -942,6 +1020,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-kunde-der",
     "english": "customer",
     "german": "Kunde",
     "article": "der",
@@ -954,6 +1033,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-preis-der",
     "english": "price",
     "german": "Preis",
     "article": "der",
@@ -966,6 +1046,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-rechnung-die",
     "english": "bill",
     "german": "Rechnung",
     "article": "die",
@@ -978,6 +1059,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-beleg-der",
     "english": "receipt",
     "german": "Beleg",
     "article": "der",
@@ -990,6 +1072,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-bank-die",
     "english": "bank",
     "german": "Bank",
     "article": "die",
@@ -1002,6 +1085,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-konto-das",
     "english": "account",
     "german": "Konto",
     "article": "das",
@@ -1014,6 +1098,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-karte-die",
     "english": "card",
     "german": "Karte",
     "article": "die",
@@ -1026,6 +1111,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-reisepass-der",
     "english": "passport",
     "german": "Reisepass",
     "article": "der",
@@ -1038,6 +1124,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-gepaeck-das",
     "english": "luggage",
     "german": "Gepäck",
     "article": "das",
@@ -1050,6 +1137,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-wetter-das",
     "english": "weather",
     "german": "Wetter",
     "article": "das",
@@ -1062,6 +1150,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-temperatur-die",
     "english": "temperature",
     "german": "Temperatur",
     "article": "die",
@@ -1074,6 +1163,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-jahreszeit-die",
     "english": "season",
     "german": "Jahreszeit",
     "article": "die",
@@ -1086,6 +1176,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-gesundheit-die",
     "english": "health",
     "german": "Gesundheit",
     "article": "die",
@@ -1098,6 +1189,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-arzt-der",
     "english": "doctor",
     "german": "Arzt",
     "article": "der",
@@ -1110,6 +1202,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-medikament-das",
     "english": "medicine",
     "german": "Medikament",
     "article": "das",
@@ -1122,6 +1215,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-apotheke-die",
     "english": "pharmacy",
     "german": "Apotheke",
     "article": "die",
@@ -1134,6 +1228,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-unfall-der",
     "english": "accident",
     "german": "Unfall",
     "article": "der",
@@ -1146,6 +1241,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-polizei-die",
     "english": "police",
     "german": "Polizei",
     "article": "die",
@@ -1158,6 +1254,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-gesetz-das",
     "english": "law",
     "german": "Gesetz",
     "article": "das",
@@ -1170,6 +1267,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-gericht-das",
     "english": "court",
     "german": "Gericht",
     "article": "das",
@@ -1182,6 +1280,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-kultur-die",
     "english": "culture",
     "german": "Kultur",
     "article": "die",
@@ -1194,6 +1293,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-tradition-die",
     "english": "tradition",
     "german": "Tradition",
     "article": "die",
@@ -1206,6 +1306,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-geschichte-die",
     "english": "history",
     "german": "Geschichte",
     "article": "die",
@@ -1218,6 +1319,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-zukunft-die",
     "english": "future",
     "german": "Zukunft",
     "article": "die",
@@ -1230,6 +1332,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-vergangenheit-die",
     "english": "past",
     "german": "Vergangenheit",
     "article": "die",
@@ -1242,6 +1345,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-wahl-die",
     "english": "choice",
     "german": "Wahl",
     "article": "die",
@@ -1254,6 +1358,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-erfahrung-die",
     "english": "experience",
     "german": "Erfahrung",
     "article": "die",
@@ -1266,6 +1371,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-bildung-die",
     "english": "education",
     "german": "Bildung",
     "article": "die",
@@ -1278,6 +1384,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-umwelt-die",
     "english": "environment",
     "german": "Umwelt",
     "article": "die",
@@ -1290,6 +1397,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-gesellschaft-die",
     "english": "society",
     "german": "Gesellschaft",
     "article": "die",
@@ -1302,6 +1410,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-regierung-die",
     "english": "government",
     "german": "Regierung",
     "article": "die",
@@ -1314,6 +1423,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-wirtschaft-die",
     "english": "economy",
     "german": "Wirtschaft",
     "article": "die",
@@ -1326,6 +1436,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-industrie-die",
     "english": "industry",
     "german": "Industrie",
     "article": "die",
@@ -1338,6 +1449,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-technologie-die",
     "english": "technology",
     "german": "Technologie",
     "article": "die",
@@ -1350,6 +1462,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-wissenschaft-die",
     "english": "science",
     "german": "Wissenschaft",
     "article": "die",
@@ -1362,6 +1475,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-forschung-die",
     "english": "research",
     "german": "Forschung",
     "article": "die",
@@ -1374,6 +1488,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-entwicklung-die",
     "english": "development",
     "german": "Entwicklung",
     "article": "die",
@@ -1386,6 +1501,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-kunst-die",
     "english": "art",
     "german": "Kunst",
     "article": "die",
@@ -1398,6 +1514,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-literatur-die",
     "english": "literature",
     "german": "Literatur",
     "article": "die",
@@ -1410,6 +1527,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-medien-die",
     "english": "media",
     "german": "Medien",
     "article": "die",
@@ -1422,6 +1540,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-nachrichten-die",
     "english": "news",
     "german": "Nachrichten",
     "article": "die",
@@ -1434,6 +1553,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-werbung-die",
     "english": "advertisement",
     "german": "Werbung",
     "article": "die",
@@ -1446,6 +1566,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-diskussion-die",
     "english": "discussion",
     "german": "Diskussion",
     "article": "die",
@@ -1458,6 +1579,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-meinung-die",
     "english": "opinion",
     "german": "Meinung",
     "article": "die",
@@ -1470,6 +1592,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-argument-das",
     "english": "argument",
     "german": "Argument",
     "article": "das",
@@ -1482,6 +1605,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-entscheidung-die",
     "english": "decision",
     "german": "Entscheidung",
     "article": "die",
@@ -1494,6 +1618,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-loesung-die",
     "english": "solution",
     "german": "Lösung",
     "article": "die",
@@ -1506,6 +1631,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-problem-das",
     "english": "problem",
     "german": "Problem",
     "article": "das",
@@ -1518,6 +1644,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-ziel-das",
     "english": "goal",
     "german": "Ziel",
     "article": "das",
@@ -1530,6 +1657,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-erfolg-der",
     "english": "success",
     "german": "Erfolg",
     "article": "der",
@@ -1542,6 +1670,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-misserfolg-der",
     "english": "failure",
     "german": "Misserfolg",
     "article": "der",
@@ -1554,6 +1683,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-chance-die",
     "english": "chance",
     "german": "Chance",
     "article": "die",
@@ -1566,6 +1696,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-verantwortung-die",
     "english": "responsibility",
     "german": "Verantwortung",
     "article": "die",
@@ -1578,6 +1709,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-freiheit-die",
     "english": "freedom",
     "german": "Freiheit",
     "article": "die",
@@ -1590,6 +1722,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-wissen-das",
     "english": "knowledge",
     "german": "Wissen",
     "article": "das",
@@ -1602,6 +1735,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-bewusstsein-das",
     "english": "awareness",
     "german": "Bewusstsein",
     "article": "das",
@@ -1614,6 +1748,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-identitaet-die",
     "english": "identity",
     "german": "Identität",
     "article": "die",
@@ -1626,6 +1761,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-diversitaet-die",
     "english": "diversity",
     "german": "Diversität",
     "article": "die",
@@ -1638,6 +1774,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-ungleichheit-die",
     "english": "inequality",
     "german": "Ungleichheit",
     "article": "die",
@@ -1650,6 +1787,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-gerechtigkeit-die",
     "english": "justice",
     "german": "Gerechtigkeit",
     "article": "die",
@@ -1662,6 +1800,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-demokratie-die",
     "english": "democracy",
     "german": "Demokratie",
     "article": "die",
@@ -1674,6 +1813,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-politik-die",
     "english": "policy",
     "german": "Politik",
     "article": "die",
@@ -1686,6 +1826,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-verwaltung-die",
     "english": "administration",
     "german": "Verwaltung",
     "article": "die",
@@ -1698,6 +1839,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-autoritaet-die",
     "english": "authority",
     "german": "Autorität",
     "article": "die",
@@ -1710,6 +1852,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-recht-das",
     "english": "law",
     "german": "Recht",
     "article": "das",
@@ -1722,6 +1865,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-regel-die",
     "english": "rule",
     "german": "Regel",
     "article": "die",
@@ -1734,6 +1878,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-ordnung-die",
     "english": "order",
     "german": "Ordnung",
     "article": "die",
@@ -1746,6 +1891,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-system-das",
     "english": "system",
     "german": "System",
     "article": "das",
@@ -1758,6 +1904,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-prozess-der",
     "english": "process",
     "german": "Prozess",
     "article": "der",
@@ -1770,6 +1917,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-methode-die",
     "english": "method",
     "german": "Methode",
     "article": "die",
@@ -1782,6 +1930,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-plan-der",
     "english": "plan",
     "german": "Plan",
     "article": "der",
@@ -1794,6 +1943,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-strategie-die",
     "english": "strategy",
     "german": "Strategie",
     "article": "die",
@@ -1806,6 +1956,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-ergebnis-das",
     "english": "result",
     "german": "Ergebnis",
     "article": "das",
@@ -1818,6 +1969,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-wirkung-die",
     "english": "effect",
     "german": "Wirkung",
     "article": "die",
@@ -1830,6 +1982,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-ursache-die",
     "english": "cause",
     "german": "Ursache",
     "article": "die",
@@ -1842,6 +1995,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-bedingung-die",
     "english": "condition",
     "german": "Bedingung",
     "article": "die",
@@ -1854,6 +2008,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-unterschied-der",
     "english": "difference",
     "german": "Unterschied",
     "article": "der",
@@ -1866,6 +2021,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-aehnlichkeit-die",
     "english": "similarity",
     "german": "Ähnlichkeit",
     "article": "die",
@@ -1878,6 +2034,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-beziehung-die",
     "english": "relationship",
     "german": "Beziehung",
     "article": "die",
@@ -1890,6 +2047,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-netzwerk-das",
     "english": "network",
     "german": "Netzwerk",
     "article": "das",
@@ -1902,6 +2060,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-gemeinschaft-die",
     "english": "community",
     "german": "Gemeinschaft",
     "article": "die",
@@ -1914,6 +2073,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-bevoelkerung-die",
     "english": "population",
     "german": "Bevölkerung",
     "article": "die",
@@ -1926,6 +2086,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-regelung-die",
     "english": "regulation",
     "german": "Regelung",
     "article": "die",
@@ -1938,6 +2099,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-institution-die",
     "english": "institution",
     "german": "Institution",
     "article": "die",
@@ -1950,6 +2112,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-organisation-die",
     "english": "organization",
     "german": "Organisation",
     "article": "die",
@@ -1962,6 +2125,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-management-das",
     "english": "management",
     "german": "Management",
     "article": "das",
@@ -1974,6 +2138,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-fuehrung-die",
     "english": "leadership",
     "german": "Führung",
     "article": "die",
@@ -1986,6 +2151,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-innovation-die",
     "english": "innovation",
     "german": "Innovation",
     "article": "die",
@@ -1998,6 +2164,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-erfindung-die",
     "english": "invention",
     "german": "Erfindung",
     "article": "die",
@@ -2010,6 +2177,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-effizienz-die",
     "english": "efficiency",
     "german": "Effizienz",
     "article": "die",
@@ -2022,6 +2190,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-produktivitaet-die",
     "english": "productivity",
     "german": "Produktivität",
     "article": "die",
@@ -2034,6 +2203,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-nachhaltigkeit-die",
     "english": "sustainability",
     "german": "Nachhaltigkeit",
     "article": "die",
@@ -2046,6 +2216,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-ressource-die",
     "english": "resource",
     "german": "Ressource",
     "article": "die",
@@ -2058,6 +2229,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-konsum-der",
     "english": "consumption",
     "german": "Konsum",
     "article": "der",
@@ -2070,6 +2242,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-produktion-die",
     "english": "production",
     "german": "Produktion",
     "article": "die",
@@ -2082,6 +2255,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-verteilung-die",
     "english": "distribution",
     "german": "Verteilung",
     "article": "die",
@@ -2094,6 +2268,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-marktplatz-der",
     "english": "marketplace",
     "german": "Marktplatz",
     "article": "der",
@@ -2106,6 +2281,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-wettbewerb-der",
     "english": "competition",
     "german": "Wettbewerb",
     "article": "der",
@@ -2118,6 +2294,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-investition-die",
     "english": "investment",
     "german": "Investition",
     "article": "die",
@@ -2130,6 +2307,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-gewinn-der",
     "english": "profit",
     "german": "Gewinn",
     "article": "der",
@@ -2142,6 +2320,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-verlust-der",
     "english": "loss",
     "german": "Verlust",
     "article": "der",
@@ -2154,6 +2333,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-budget-das",
     "english": "budget",
     "german": "Budget",
     "article": "das",
@@ -2166,6 +2346,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-finanzen-die",
     "english": "finance",
     "german": "Finanzen",
     "article": "die",
@@ -2178,6 +2359,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-versicherung-die",
     "english": "insurance",
     "german": "Versicherung",
     "article": "die",
@@ -2190,6 +2372,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-vertrag-der",
     "english": "contract",
     "german": "Vertrag",
     "article": "der",
@@ -2202,6 +2385,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-verhandlung-die",
     "english": "negotiation",
     "german": "Verhandlung",
     "article": "die",
@@ -2214,6 +2398,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-vereinbarung-die",
     "english": "agreement",
     "german": "Vereinbarung",
     "article": "die",
@@ -2226,6 +2411,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-konflikt-der",
     "english": "conflict",
     "german": "Konflikt",
     "article": "der",
@@ -2238,6 +2424,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-kompromiss-der",
     "english": "compromise",
     "german": "Kompromiss",
     "article": "der",
@@ -2250,6 +2437,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-sicherheit-die",
     "english": "security",
     "german": "Sicherheit",
     "article": "die",
@@ -2262,6 +2450,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-privatsphaere-die",
     "english": "privacy",
     "german": "Privatsphäre",
     "article": "die",
@@ -2274,6 +2463,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-risiko-das",
     "english": "risk",
     "german": "Risiko",
     "article": "das",
@@ -2286,6 +2476,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-bedrohung-die",
     "english": "threat",
     "german": "Bedrohung",
     "article": "die",
@@ -2298,6 +2489,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-auswirkung-die",
     "english": "impact",
     "german": "Auswirkung",
     "article": "die",
@@ -2310,6 +2502,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-folge-die",
     "english": "consequence",
     "german": "Folge",
     "article": "die",
@@ -2322,6 +2515,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-analyse-die",
     "english": "analysis",
     "german": "Analyse",
     "article": "die",
@@ -2334,6 +2528,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-bewertung-die",
     "english": "evaluation",
     "german": "Bewertung",
     "article": "die",
@@ -2346,6 +2541,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-perspektive-die",
     "english": "perspective",
     "german": "Perspektive",
     "article": "die",
@@ -2358,6 +2554,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-kontext-der",
     "english": "context",
     "german": "Kontext",
     "article": "der",
@@ -2370,6 +2567,7 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
+    "id": "noun-trend-der",
     "english": "trend",
     "german": "Trend",
     "article": "der",
