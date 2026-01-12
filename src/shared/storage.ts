@@ -45,11 +45,13 @@ export function loadProgress(): Progress | null {
   const rawByNoun = parsed.byNoun ?? {};
   const { next: byNoun, migrated } = migrateNounProgress(rawByNoun);
   const byCase = parsed.byCase ?? {};
+  const byCaseExercise = parsed.byCaseExercise ?? {};
 
   // Backward compatibility for older saves
   Object.values(byNoun).forEach((stats: any) => {
     stats.articleAttempts ??= stats.attempts ?? 0;
     stats.articleCorrect ??= stats.correct ?? 0;
+    stats.lastSeen ??= 0;
   });
 
   const progress = {
@@ -57,6 +59,7 @@ export function loadProgress(): Progress | null {
     correct: parsed.correct ?? 0,
     byNoun,
     byCase: byCase,
+    byCaseExercise: byCaseExercise,
   };
 
   if (migrated) {

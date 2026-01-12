@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { NOUNS } from "./nounData";
-import { getRandomNoun, updateNounProgress, validateAnswer } from "./logic";
+import { updateNounProgress, validateAnswer } from "./logic";
 import {
   Answer,
   Article,
@@ -8,13 +8,9 @@ import {
   PracticeResult,
   Progress,
   ClozeMode,
+  NounStats,
 } from "./types";
-import { selectWeakFullNoun } from "./weakSelection";
-import {
-  loadOrInitProgress,
-  loadProgress,
-  saveProgress,
-} from "../../shared/storage";
+import { loadOrInitProgress, saveProgress } from "../../shared/storage";
 import { loadLevels } from "../../shared/level";
 import ModeToggle from "../../shared/ModeToggle";
 import { makeClozeSentence } from "./cloze";
@@ -35,6 +31,20 @@ export default function NounPracticePage() {
 
   const inputRef = useRef<HTMLInputElement>(null);
 
+  function nounWeight(stats: NounStats | undefined): number {
+    if (!stats || stats.attempts === 0) return 3;
+
+    const accuracy = stats.correct / stats.attempts;
+
+    const hoursSinceSeen = (Date.now() - stats.lastSeen) / (1000 * 60 * 60);
+
+    const recencyBoost = Math.exp(-hoursSinceSeen / 24);
+
+    const baseWeakness = 1 - accuracy;
+
+    return Math.max(0.2, baseWeakness + recencyBoost);
+  }
+
   function getNounPool(): Noun[] {
     const levels = loadLevels();
     return NOUNS.filter((n) => levels.has(n.level));
@@ -42,24 +52,27 @@ export default function NounPracticePage() {
 
   function nextNoun(): Noun {
     const pool = getNounPool();
+    if (!pool.length) throw new Error("No nouns available");
 
-    if (weakMode) {
-      const progress = loadProgress();
-      if (progress) {
-        return selectWeakFullNoun(pool, progress);
-      }
+    if (!weakMode) {
+      return pool[Math.floor(Math.random() * pool.length)];
     }
 
-    return getRandomNoun(pool);
+    const weighted = pool.map((noun) => ({
+      noun,
+      weight: nounWeight(progress.byNoun[noun.id]),
+    }));
+
+    const total = weighted.reduce((s, w) => s + w.weight, 0);
+    let r = Math.random() * total;
+
+    for (const { noun, weight } of weighted) {
+      r -= weight;
+      if (r <= 0) return noun;
+    }
+
+    return weighted[weighted.length - 1].noun;
   }
-
-  useEffect(() => {
-    saveProgress(progress);
-  }, [progress]);
-
-  useEffect(() => {
-    inputRef.current?.focus();
-  }, []);
 
   function submit() {
     if (!answer.article || !answer.translation) return;
@@ -109,6 +122,10 @@ export default function NounPracticePage() {
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [answer, result]);
+
+  useEffect(() => {
+    saveProgress(progress);
+  }, [progress]);
 
   useEffect(() => {
     inputRef.current?.focus();

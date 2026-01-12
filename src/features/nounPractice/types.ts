@@ -34,6 +34,7 @@ export interface NounStats {
   correct: number;
   articleAttempts: number;
   articleCorrect: number;
+  lastSeen: number;
 }
 
 export interface CaseStats {
@@ -51,9 +52,15 @@ export interface CaseExercise {
   english: string;
 }
 
+export interface ExerciseStats {
+  attempts: number;
+  correct: number;
+}
+
 export interface Progress {
   total: number;
   correct: number;
   byNoun: Record<string, NounStats>;
   byCase: Partial<Record<GrammaticalCase, CaseStats>>;
+  byCaseExercise: Record<string, ExerciseStats>;
 }

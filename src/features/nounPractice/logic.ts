@@ -40,6 +40,7 @@ function emptyStats(): NounStats {
     correct: 0,
     articleAttempts: 0,
     articleCorrect: 0,
+    lastSeen: 0,
   };
 }
 
@@ -56,6 +57,7 @@ export function updateNounProgress(
     ...prev,
     articleAttempts: prev.articleAttempts + 1,
     articleCorrect: prev.articleCorrect + (result.correctArticle ? 1 : 0),
+    lastSeen: Date.now(),
   };
 
   if (mode === "FULL") {
@@ -80,5 +82,6 @@ export function initialProgress(): Progress {
     correct: 0,
     byNoun: {},
     byCase: {},
+    byCaseExercise: {},
   };
 }

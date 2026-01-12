@@ -5,7 +5,7 @@ import ModeToggle from "../../shared/ModeToggle";
 import { CASE_EXPLANATIONS } from "./caseExplanations";
 import { loadOrInitProgress, saveProgress } from "../../shared/storage";
 import { updateCaseProgress } from "./caseProgress";
-import { Progress } from "../nounPractice/types";
+import { ExerciseStats, Progress } from "../nounPractice/types";
 
 type Exercise = (typeof CASE_EXERCISES)[number];
 type GrammaticalCase = "Nominativ" | "Akkusativ" | "Dativ" | "Genitiv";
@@ -66,36 +66,6 @@ export default function CasePracticePage() {
     loadOrInitProgress()
   );
 
-  function caseWeight(
-    grammaticalCase: GrammaticalCase,
-    progress: Progress
-  ): number {
-    const stats = progress.byCase?.[grammaticalCase];
-
-    // Unseen cases get max priority
-    if (!stats || stats.attempts === 0) {
-      return 3;
-    }
-
-    const accuracy = stats.correct / stats.attempts;
-
-    // Lower accuracy → higher weight
-    return Math.max(0.5, 1.5 - accuracy);
-  }
-
-  function weightedRandom<T>(items: T[], weightOf: (item: T) => number): T {
-    const total = items.reduce((sum, item) => sum + weightOf(item), 0);
-
-    let r = Math.random() * total;
-
-    for (const item of items) {
-      r -= weightOf(item);
-      if (r <= 0) return item;
-    }
-
-    return items[items.length - 1];
-  }
-
   function getExercisePool(): Exercise[] {
     const levels = loadLevels();
 
@@ -119,10 +89,22 @@ export default function CasePracticePage() {
     setHasAnswered(true);
 
     setProgress((p) => {
-      const next = updateCaseProgress(p, exercise.grammaticalCase, correct);
+      const next = updateCaseProgress(
+        p,
+        exercise.id,
+        exercise.grammaticalCase,
+        correct
+      );
       saveProgress(next);
       return next;
     });
+  }
+
+  function exerciseWeight(stats: ExerciseStats | undefined): number {
+    if (!stats || stats.attempts === 0) return 3; // unseen = high priority
+
+    const accuracy = stats.correct / stats.attempts;
+    return Math.max(0.25, 1 - accuracy) * 3;
   }
 
   function nextExercise(): Exercise {
@@ -136,9 +118,21 @@ export default function CasePracticePage() {
       return pool[Math.floor(Math.random() * pool.length)];
     }
 
-    return weightedRandom(pool, (exercise) =>
-      caseWeight(exercise.grammaticalCase, progress)
-    );
+    const weighted = pool.map((ex) => ({
+      exercise: ex,
+      weight: exerciseWeight(progress.byCaseExercise[ex.id]),
+    }));
+
+    const totalWeight = weighted.reduce((sum, w) => sum + w.weight, 0);
+
+    let r = Math.random() * totalWeight;
+
+    for (const { exercise, weight } of weighted) {
+      r -= weight;
+      if (r <= 0) return exercise;
+    }
+
+    return weighted[weighted.length - 1].exercise;
   }
 
   function next() {
@@ -146,20 +140,6 @@ export default function CasePracticePage() {
     setExercise(nextExercise());
     setSelected(null);
   }
-
-  const availableArticleForms = (() => {
-    const forms: string[] = [];
-
-    if (enabledArticleType.has("Definite Article")) {
-      forms.push(...DEFINITE_ARTICLES);
-    }
-
-    if (enabledArticleType.has("Indefinite Article")) {
-      forms.push(...INDEFINITE_ARTICLES);
-    }
-
-    return forms;
-  })();
 
   const answerForms = getExerciseArticleForms(exercise.correctForm);
 
