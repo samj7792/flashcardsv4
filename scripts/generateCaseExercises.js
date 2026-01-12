@@ -35,6 +35,26 @@ const VALID_ARTICLE_FORMS = [
   "eines",
 ];
 
+function hash(str) {
+  let h = 0;
+  for (let i = 0; i < str.length; i++) {
+    h = Math.imul(31, h) + str.charCodeAt(i);
+  }
+  return Math.abs(h).toString(16);
+}
+
+function slugify(text) {
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/ä/g, "ae")
+    .replace(/ö/g, "oe")
+    .replace(/ü/g, "ue")
+    .replace(/ß/g, "ss")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 let warningCount = 0;
 
 function reportIssue(message) {
@@ -113,14 +133,33 @@ function detectDuplicates(rows) {
 
 detectDuplicates(rows);
 
-const exercises = rows.map((r) => ({
-  level: r.level,
-  baseSentence: r.baseSentence,
-  slot: r.slot,
-  grammaticalCase: r.grammaticalCase,
-  correctForm: r.correctForm,
-  english: r.english,
-}));
+const exercises = rows.map((row) => {
+  const idSource = `${row.level}|${row.grammaticalCase}|${row.baseSentence}|${row.correctForm}`;
+  const id = `case-${hash(idSource).slice(0, 8)}`;
+
+  return {
+    id,
+    level: row.level,
+    baseSentence: row.baseSentence,
+    slot: row.slot,
+    grammaticalCase: row.grammaticalCase,
+    correctForm: row.correctForm,
+    english: row.english,
+  };
+});
+
+function detectDuplicateCaseIds(exercises) {
+  const seen = new Set();
+
+  exercises.forEach((ex) => {
+    if (seen.has(ex.id)) {
+      throw new Error(`❌ Duplicate case exercise id: ${ex.id}`);
+    }
+    seen.add(ex.id);
+  });
+}
+
+detectDuplicateCaseIds(exercises);
 
 const content = `export const CASE_EXERCISES = ${JSON.stringify(
   exercises,

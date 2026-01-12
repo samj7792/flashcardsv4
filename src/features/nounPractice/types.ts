@@ -2,18 +2,14 @@ export type Article = "der" | "die" | "das";
 export type Level = "A1" | "A2" | "B1" | "B2";
 export type PracticeMode = "FULL" | "ARTICLE_ONLY";
 export type ClozeMode = "both" | "none";
-export type GrammaticalCase =
-  | "Nominativ"
-  | "Akkusativ"
-  | "Dativ"
-  | "Genitiv";
+export type GrammaticalCase = "Nominativ" | "Akkusativ" | "Dativ" | "Genitiv";
 
 export interface Noun {
   id: string;
   english: string;
   german: string;
-  article: string;
-  level: string;
+  article: Article;
+  level: Level;
   examples: ExampleSentence[];
 }
 
@@ -43,6 +39,16 @@ export interface NounStats {
 export interface CaseStats {
   attempts: number;
   correct: number;
+}
+
+export interface CaseExercise {
+  id: string;
+  level: Level;
+  baseSentence: string;
+  slot: string;
+  grammaticalCase: GrammaticalCase;
+  correctForm: string;
+  english: string;
 }
 
 export interface Progress {

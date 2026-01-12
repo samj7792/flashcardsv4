@@ -56,7 +56,7 @@ export function loadProgress(): Progress | null {
     total: parsed.total ?? 0,
     correct: parsed.correct ?? 0,
     byNoun,
-    byCase: parsed.byCase ?? {},
+    byCase: byCase,
   };
 
   if (migrated) {
