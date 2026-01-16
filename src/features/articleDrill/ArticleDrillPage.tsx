@@ -14,13 +14,12 @@ import ModeToggle from "../../shared/ModeToggle";
 const ARTICLES: Article[] = ["der", "die", "das"];
 
 export default function ArticleDrillPage() {
-  const [weakMode, setWeakMode] = useState(true);
-
-  const [noun, setNoun] = useState<Noun>(() => nextNoun());
-  const [selected, setSelected] = useState<Article | null>(null);
   const [progress, setProgress] = useState<Progress>(() =>
     loadOrInitProgress()
   );
+  const [weakMode, setWeakMode] = useState(true);
+  const [noun, setNoun] = useState<Noun>(() => nextNoun());
+  const [selected, setSelected] = useState<Article | null>(null);
 
   function getNounPool(): Noun[] {
     const levels = loadLevels();

@@ -156,14 +156,15 @@ export default function ProgressOverviewPage() {
         rows.length > 0 ? (
           <CollapsibleSection
             key={level}
-            title={`Noun Accuracy — ${level} (Overall accuracy: ${
+            title={`Nouns — ${level}`}
+            detail={`(Overall accuracy: ${(
               rows
                 .map((row) => {
                   if (row.fullAccuracy != null) return row.fullAccuracy;
                   else return 0;
                 })
                 .reduce((a, c) => a + c, 0) / rows.length
-            }%)`}
+            ).toFixed(1)}%)`}
           >
             <table width="100%" cellPadding={8}>
               <thead>
@@ -193,14 +194,15 @@ export default function ProgressOverviewPage() {
 
       {caseRows.length > 0 && (
         <CollapsibleSection
-          title={`Case Accuracy (Overall: ${
+          title={`Cases`}
+          detail={`(Overall Accuracy: ${(
             caseRows
               .map((row) => {
                 if (row.accuracy != null) return row.accuracy;
                 else return 0;
               })
               .reduce((a, c) => a + c, 0) / caseRows.length
-          }%)`}
+          ).toFixed(1)}%)`}
         >
           <table width="100%" cellPadding={8}>
             <thead>

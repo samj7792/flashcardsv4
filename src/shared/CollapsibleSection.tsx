@@ -4,12 +4,14 @@ interface CollapsibleSectionProps {
   title: string;
   defaultOpen?: boolean;
   children: React.ReactNode;
+  detail?: string;
 }
 
 export default function CollapsibleSection({
   title,
   defaultOpen = false,
   children,
+  detail,
 }: CollapsibleSectionProps) {
   const [open, setOpen] = useState(defaultOpen);
 
@@ -30,13 +32,22 @@ export default function CollapsibleSection({
           userSelect: "none",
           display: "flex",
           alignItems: "center",
-          justifyContent: "space-between",
+          // justifyContent: "space-between",
           padding: "0.5rem 0",
           borderBottom: "1px solid #ddd",
         }}
       >
-        <h2 style={{ margin: 0 }}>{title}</h2>
-        <span style={{ fontSize: "0.9rem", color: "#555" }}>
+        <h2 style={{ margin: 0, marginRight: "1rem" }}>{title}</h2>
+        {detail}
+        <span
+          style={{
+            display: "flex",
+            flex: "auto",
+            justifyContent: "flex-end",
+            fontSize: "0.9rem",
+            color: "#555",
+          }}
+        >
           {open ? "▾" : "▸"}
         </span>
       </div>

@@ -49,6 +49,9 @@ const CASE_COLORS = {
 };
 
 export default function CasePracticePage() {
+  const [progress, setProgress] = useState<Progress>(() =>
+    loadOrInitProgress()
+  );
   const [selected, setSelected] = useState<string | null>(null);
   const [hasAnswered, setHasAnswered] = useState(false);
   const [weakMode, setWeakMode] = useState(true);
@@ -62,9 +65,6 @@ export default function CasePracticePage() {
     const pool = CASE_EXERCISES;
     return pool[Math.floor(Math.random() * pool.length)];
   });
-  const [progress, setProgress] = useState<Progress>(() =>
-    loadOrInitProgress()
-  );
 
   function getExercisePool(): Exercise[] {
     const levels = loadLevels();

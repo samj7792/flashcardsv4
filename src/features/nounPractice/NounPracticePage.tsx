@@ -18,13 +18,13 @@ import { makeClozeSentence } from "./cloze";
 const ARTICLES: Article[] = ["der", "die", "das"];
 
 export default function NounPracticePage() {
+  const [progress, setProgress] = useState<Progress>(() =>
+    loadOrInitProgress()
+  );
   const [weakMode, setWeakMode] = useState(true);
   const [noun, setNoun] = useState<Noun>(() => nextNoun());
   const [answer, setAnswer] = useState<Partial<Answer>>({});
   const [result, setResult] = useState<PracticeResult | null>(null);
-  const [progress, setProgress] = useState<Progress>(() =>
-    loadOrInitProgress()
-  );
   const [hasAnswered, setHasAnswered] = useState(false);
 
   const clozeMode: ClozeMode = hasAnswered ? "none" : "both";
