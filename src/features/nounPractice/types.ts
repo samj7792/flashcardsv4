@@ -1,15 +1,16 @@
 export type Article = "der" | "die" | "das";
-export type Level = "A1" | "A2" | "B1" | "B2";
+export type Level = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
 export type PracticeMode = "FULL" | "ARTICLE_ONLY";
 export type ClozeMode = "both" | "none";
 export type GrammaticalCase = "Nominativ" | "Akkusativ" | "Dativ" | "Genitiv";
 
 export interface Noun {
   id: string;
-  english: string;
   german: string;
   article: Article;
+  plural: string;
   level: Level;
+  glosses: string[];
   examples: ExampleSentence[];
 }
 

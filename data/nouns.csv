@@ -1,200 +1,1999 @@
-english,german,article,level,example_de,example_en
-apology,Entschuldigung,die,A1,Die Entschuldigung ist ehrlich.,The apology is sincere.
-course,Kurs,der,A1,Der Kurs beginnt heute.,The course begins today.
-sentence,Satz,der,A1,Der Satz ist kurz.,The sentence is short.
-word,Wort,das,A1,Das Wort ist neu.,The word is new.
-adress,Adresse,die,A1,Die Adresse ist hier.,The address is here.
-registration,Anmeldung,die,A1,Die Anmeldung ist fertig.,The registration is complete.
-image,Bild,das,A1,Das Bild ist schön.,The image is beautiful.
-pen,Stift,der,A1,Der Stift ist blau.,The pen is blue.
-man,Mann,der,A1,Der Mann ist alt.,The man is old.
-woman,Frau,die,A1,Die Frau ist nett.,The woman is nice.
-child,Kind,das,A1,Das Kind lacht.,The child laughs.
-friend,Freund,der,A1,Der Freund kommt.,The friend is coming.
-family,Familie,die,A1,Die Familie ist groß.,The family is big.
-house,Haus,das,A1,Das Haus ist neu.,The house is new.
-apartment,Wohnung,die,A1,Die Wohnung ist klein.,The apartment is small.
-room,Zimmer,das,A1,Das Zimmer ist sauber.,The room is clean.
-city,Stadt,die,A1,Die Stadt ist groß.,The city is big.
-country,Land,das,A1,Das Land ist schön.,The country is beautiful.
-day,Tag,der,A1,Der Tag ist gut.,The day is good.
-morning,Morgen,der,A1,Der Morgen ist ruhig.,The morning is calm.
-evening,Abend,der,A1,Der Abend ist schön.,The evening is nice.
-week,Woche,die,A1,Die Woche ist kurz.,The week is short.
-year,Jahr,das,A1,Das Jahr ist neu.,The year is new.
-food,Essen,das,A1,Das Essen ist gut.,The food is good.
-water,Wasser,das,A1,Das Wasser ist kalt.,The water is cold.
-bread,Brot,das,A1,Das Brot ist frisch.,The bread is fresh.
-coffee,Kaffee,der,A1,Der Kaffee ist heiß.,The coffee is hot.
-tea,Tee,der,A1,Der Tee ist warm.,The tea is warm.
-apple,Apfel,der,A1,Der Apfel ist rot.,The apple is red.
-book,Buch,das,A1,Das Buch ist alt.,The book is old.
-school,Schule,die,A1,Die Schule ist groß.,The school is big.
-teacher,Lehrer,der,A1,Der Lehrer spricht.,The teacher speaks.
-student,Student,der,A1,Der Student lernt.,The student studies.
-work,Arbeit,die,A1,Die Arbeit ist schwer.,The work is hard.
-job,Beruf,der,A1,Der Beruf ist wichtig.,The job is important.
-money,Geld,das,A1,Das Geld ist weg.,The money is gone.
-store,Geschäft,das,A1,Das Geschäft ist offen.,The store is open.
-street,Straße,die,A1,Die Straße ist lang.,The street is long.
-car,Auto,das,A1,Das Auto ist neu.,The car is new.
-bus,Bus,der,A1,Der Bus kommt.,The bus is coming.
-train,Zug,der,A1,Der Zug fährt.,The train is moving.
-station,Bahnhof,der,A1,Der Bahnhof ist groß.,The station is big.
-time,Zeit,die,A1,Die Zeit ist knapp.,The time is short.
-question,Frage,die,A1,Die Frage ist einfach.,The question is easy.
-answer,Antwort,die,A1,Die Antwort ist richtig.,The answer is correct.
-language,Sprache,die,A1,Die Sprache ist Deutsch.,The language is German.
-name,Name,der,A1,Der Name ist Anna.,The name is Anna.
-phone,Telefon,das,A1,Das Telefon klingelt.,The phone is ringing.
-number,Nummer,die,A1,Die Nummer ist hier.,The number is here.
-hand,Hand,die,A1,Die Hand ist kalt.,The hand is cold.
-head,Kopf,der,A1,Der Kopf tut weh.,The head hurts.
-heart,Herz,das,A1,Das Herz schlägt.,The heart beats.
-door,Tür,die,A1,Die Tür ist zu.,The door is closed.
-window,Fenster,das,A1,Das Fenster ist offen.,The window is open.
-window,Fenster,das,A1,Das Fenster ist schließen.,The window is closed.
-travel,Reise,die,A2,Die Reise war lang.,The trip was long.
-vacation,Urlaub,der,A2,Der Urlaub ist schön.,The vacation is nice.
-airport,Flughafen,der,A2,Der Flughafen ist weit.,The airport is far.
-ticket,Ticket,das,A2,Das Ticket ist teuer.,The ticket is expensive.
-hotel,Hotel,das,A2,Das Hotel ist sauber.,The hotel is clean.
-key,Schlüssel,der,A2,Der Schlüssel liegt hier.,The key is here.
-kitchen,Küche,die,A2,Die Küche ist groß.,The kitchen is big.
-bathroom,Badezimmer,das,A2,Das Badezimmer ist neu.,The bathroom is new.
-garden,Garten,der,A2,Der Garten ist grün.,The garden is green.
-neighbor,Nachbar,der,A2,Der Nachbar ist freundlich.,The neighbor is friendly.
-hobby,Hobby,das,A2,Das Hobby macht Spaß.,The hobby is fun.
-sport,Sport,der,A2,Der Sport ist gesund.,The sport is healthy.
-movie,Film,der,A2,Der Film war spannend.,The movie was exciting.
-music,Musik,die,A2,Die Musik ist laut.,The music is loud.
-concert,Konzert,das,A2,Das Konzert beginnt bald.,The concert starts soon.
-newspaper,Zeitung,die,A2,Die Zeitung ist alt.,The newspaper is old.
-magazine,Zeitschrift,die,A2,Die Zeitschrift ist interessant.,The magazine is interesting.
-letter,Brief,der,A2,Der Brief ist kurz.,The letter is short.
-email,E-Mail,die,A2,Die E-Mail kommt heute.,The email arrives today.
-meeting,Treffen,das,A2,Das Treffen ist wichtig.,The meeting is important.
-project,Projekt,das,A2,Das Projekt läuft gut.,The project is going well.
-company,Firma,die,A2,Die Firma wächst.,The company is growing.
-boss,Chef,der,A2,Der Chef ist im Büro.,The boss is in the office.
-colleague,Kollege,der,A2,Der Kollege hilft mir.,The colleague helps me.
-customer,Kunde,der,A2,Der Kunde wartet.,The customer is waiting.
-price,Preis,der,A2,Der Preis ist hoch.,The price is high.
-bill,Rechnung,die,A2,Die Rechnung ist bezahlt.,The bill is paid.
-receipt,Beleg,der,A2,Der Beleg ist wichtig.,The receipt is important.
-bank,Bank,die,A2,Die Bank ist geschlossen.,The bank is closed.
-account,Konto,das,A2,Das Konto ist leer.,The account is empty.
-card,Karte,die,A2,Die Karte ist gültig.,The card is valid.
-passport,Reisepass,der,A2,Der Reisepass liegt hier.,The passport is here.
-luggage,Gepäck,das,A2,Das Gepäck ist schwer.,The luggage is heavy.
-weather,Wetter,das,A2,Das Wetter ist schlecht.,The weather is bad.
-temperature,Temperatur,die,A2,Die Temperatur ist niedrig.,The temperature is low.
-season,Jahreszeit,die,A2,Die Jahreszeit ist der Sommer.,The season is summer.
-health,Gesundheit,die,A2,Die Gesundheit ist wichtig.,Health is important.
-doctor,Arzt,der,A2,Der Arzt hilft mir.,The doctor helps me.
-medicine,Medikament,das,A2,Das Medikament wirkt.,The medicine works.
-pharmacy,Apotheke,die,A2,Die Apotheke ist offen.,The pharmacy is open.
-accident,Unfall,der,A2,Der Unfall war gestern.,The accident was yesterday.
-police,Polizei,die,A2,Die Polizei kommt.,The police are coming.
-law,Gesetz,das,A2,Das Gesetz gilt hier.,The law applies here.
-court,Gericht,das,A2,Das Gericht entscheidet.,The court decides.
-culture,Kultur,die,A2,Die Kultur ist vielfältig.,The culture is diverse.
-tradition,Tradition,die,A2,Die Tradition ist alt.,The tradition is old.
-history,Geschichte,die,A2,Die Geschichte ist spannend.,The history is exciting.
-future,Zukunft,die,A2,Die Zukunft beginnt jetzt.,The future begins now.
-past,Vergangenheit,die,A2,Die Vergangenheit bleibt.,The past remains.
-choice,Wahl,die,A2,Die Wahl ist schwer.,The choice is hard.
-experience,Erfahrung,die,B1,Die Erfahrung hilft mir im Leben.,The experience helps me in life.
-education,Bildung,die,B1,Die Bildung ist wichtig für die Zukunft.,Education is important for the future.
-environment,Umwelt,die,B1,Die Umwelt braucht unseren Schutz.,The environment needs our protection.
-society,Gesellschaft,die,B1,Die Gesellschaft verändert sich schnell.,Society is changing quickly.
-government,Regierung,die,B1,Die Regierung trifft neue Entscheidungen.,The government makes new decisions.
-economy,Wirtschaft,die,B1,Die Wirtschaft wächst langsam.,The economy is growing slowly.
-industry,Industrie,die,B1,Die Industrie schafft viele Jobs.,The industry creates many jobs.
-technology,Technologie,die,B1,Die Technologie entwickelt sich ständig.,Technology is constantly developing.
-science,Wissenschaft,die,B1,Die Wissenschaft erklärt viele Dinge.,Science explains many things.
-research,Forschung,die,B1,Die Forschung bringt neue Erkenntnisse.,Research brings new insights.
-development,Entwicklung,die,B1,Die Entwicklung geht schnell voran.,Development is moving forward quickly.
-art,Kunst,die,B1,Die Kunst regt zum Nachdenken an.,Art stimulates reflection.
-literature,Literatur,die,B1,Die Literatur erzählt viele Geschichten.,Literature tells many stories.
-media,Medien,die,B1,Die Medien informieren die Menschen.,The media inform people.
-news,Nachrichten,die,B1,Die Nachrichten berichten über das Ereignis.,The news report on the event.
-advertisement,Werbung,die,B1,Die Werbung beeinflusst viele Käufer.,Advertising influences many buyers.
-discussion,Diskussion,die,B1,Die Diskussion war sehr lebendig.,The discussion was very lively.
-opinion,Meinung,die,B1,Die Meinung ist nicht immer gleich.,The opinion is not always the same.
-argument,Argument,das,B1,Das Argument überzeugt viele Leute.,The argument convinces many people.
-decision,Entscheidung,die,B1,Die Entscheidung war nicht leicht.,The decision was not easy.
-solution,Lösung,die,B1,Die Lösung hilft uns weiter.,The solution helps us move forward.
-problem,Problem,das,B1,Das Problem ist noch offen.,The problem is still open.
-goal,Ziel,das,B1,Das Ziel ist klar.,The goal is clear.
-success,Erfolg,der,B1,Der Erfolg macht stolz.,Success makes one proud.
-failure,Misserfolg,der,B1,Der Misserfolg war enttäuschend.,The failure was disappointing.
-chance,Chance,die,B1,Die Chance kommt selten.,The chance comes rarely.
-responsibility,Verantwortung,die,B1,Die Verantwortung liegt bei mir.,The responsibility lies with me.
-freedom,Freiheit,die,B1,Die Freiheit ist wichtig.,Freedom is important.
-knowledge,Wissen,das,B2,Das Wissen wächst durch Erfahrung.,Knowledge grows through experience.
-awareness,Bewusstsein,das,B2,Das Bewusstsein für Probleme ist wichtig.,Awareness of problems is important.
-identity,Identität,die,B2,Die Identität entwickelt sich im Laufe des Lebens.,Identity develops over the course of life.
-diversity,Diversität,die,B2,Die Diversität stärkt die Gesellschaft.,Diversity strengthens society.
-inequality,Ungleichheit,die,B2,Die Ungleichheit führt oft zu Konflikten.,Inequality often leads to conflicts.
-justice,Gerechtigkeit,die,B2,Die Gerechtigkeit ist ein zentrales Ziel.,Justice is a central goal.
-democracy,Demokratie,die,B2,Die Demokratie lebt von aktiver Teilnahme.,Democracy lives from active participation.
-policy,Politik,die,B2,Die Politik beeinflusst unseren Alltag.,Politics influences our daily life.
-administration,Verwaltung,die,B2,Die Verwaltung arbeitet effizient.,The administration works efficiently.
-authority,Autorität,die,B2,Die Autorität muss Verantwortung zeigen.,Authority must show responsibility.
-law,Recht,das,B1,Das Recht schützt die Menschen.,The law protects people.
-rule,Regel,die,B1,Die Regel ist klar.,The rule is clear.
-order,Ordnung,die,B1,Die Ordnung hilft im Alltag.,Order helps in daily life.
-system,System,das,B1,Das System funktioniert gut.,The system works well.
-process,Prozess,der,B1,Der Prozess dauert lange.,The process takes a long time.
-method,Methode,die,B1,Die Methode ist effektiv.,The method is effective.
-plan,Plan,der,B1,Der Plan ist gut vorbereitet.,The plan is well prepared.
-strategy,Strategie,die,B1,Die Strategie bringt Erfolg.,The strategy brings success.
-result,Ergebnis,das,B1,Das Ergebnis überrascht alle.,The result surprises everyone.
-effect,Wirkung,die,B1,Die Wirkung ist deutlich.,The effect is clear.
-cause,Ursache,die,B1,Die Ursache ist bekannt.,The cause is known.
-condition,Bedingung,die,B1,Die Bedingung ist wichtig.,The condition is important.
-difference,Unterschied,der,B1,Der Unterschied ist klein.,The difference is small.
-similarity,Ähnlichkeit,die,B1,Die Ähnlichkeit ist auffällig.,The similarity is noticeable.
-relationship,Beziehung,die,B1,Die Beziehung ist stabil.,The relationship is stable.
-network,Netzwerk,das,B1,Das Netzwerk wächst schnell.,The network grows quickly.
-community,Gemeinschaft,die,B1,Die Gemeinschaft unterstützt sich.,The community supports each other.
-population,Bevölkerung,die,B1,Die Bevölkerung wächst.,The population is growing.
-regulation,Regelung,die,B2,Die Regelung gilt für alle Unternehmen.,The regulation applies to all companies.
-institution,Institution,die,B2,Die Institution hat eine wichtige Aufgabe.,The institution has an important task.
-organization,Organisation,die,B2,Die Organisation arbeitet international.,The organization works internationally.
-management,Management,das,B2,Das Management plant die nächsten Schritte.,The management plans the next steps.
-leadership,Führung,die,B2,Die Führung übernimmt Verantwortung.,The leadership takes responsibility.
-innovation,Innovation,die,B2,Die Innovation verändert den Markt.,The innovation changes the market.
-invention,Erfindung,die,B2,Die Erfindung spart viel Zeit.,The invention saves a lot of time.
-efficiency,Effizienz,die,B2,Die Effizienz steigt durch neue Technik.,Efficiency increases through new technology.
-productivity,Produktivität,die,B2,Die Produktivität ist deutlich höher.,Productivity is clearly higher.
-sustainability,Nachhaltigkeit,die,B2,Die Nachhaltigkeit spielt eine große Rolle.,Sustainability plays a major role.
-resource,Ressource,die,B2,Die Ressource ist begrenzt.,The resource is limited.
-consumption,Konsum,der,B2,Der Konsum steigt in der Stadt.,Consumption is increasing in the city.
-production,Produktion,die,B2,Die Produktion läuft rund um die Uhr.,Production runs around the clock.
-distribution,Verteilung,die,B2,Die Verteilung erfolgt gerecht.,The distribution is fair.
-marketplace,Marktplatz,der,B2,Der Marktplatz zieht viele Besucher an.,The marketplace attracts many visitors.
-competition,Wettbewerb,der,B2,Der Wettbewerb ist sehr stark.,The competition is very strong.
-investment,Investition,die,B2,Die Investition lohnt sich langfristig.,The investment pays off in the long term.
-profit,Gewinn,der,B2,Der Gewinn steigt jedes Jahr.,The profit increases every year.
-loss,Verlust,der,B2,Der Verlust war unerwartet hoch.,The loss was unexpectedly high.
-budget,Budget,das,B2,Das Budget reicht nicht aus.,The budget is not sufficient.
-finance,Finanzen,die,B2,Die Finanzen der Firma sind stabil.,The company’s finances are stable.
-insurance,Versicherung,die,B2,Die Versicherung deckt den Schaden ab.,The insurance covers the damage.
-contract,Vertrag,der,B2,Der Vertrag gilt ab heute.,The contract is valid from today.
-negotiation,Verhandlung,die,B2,Die Verhandlung dauert mehrere Stunden.,The negotiation lasts several hours.
-agreement,Vereinbarung,die,B2,Die Vereinbarung bringt Vorteile für beide Seiten.,The agreement brings benefits for both sides.
-conflict,Konflikt,der,B2,Der Konflikt wurde offen besprochen.,The conflict was discussed openly.
-compromise,Kompromiss,der,B2,Der Kompromiss war für alle akzeptabel.,The compromise was acceptable to everyone.
-security,Sicherheit,die,B2,Die Sicherheit hat hohe Priorität.,Security has high priority.
-privacy,Privatsphäre,die,B2,Die Privatsphäre muss geschützt werden.,Privacy must be protected.
-risk,Risiko,das,B2,Das Risiko bleibt trotz Planung bestehen.,The risk remains despite planning.
-threat,Bedrohung,die,B2,Die Bedrohung wurde ernst genommen.,The threat was taken seriously.
-impact,Auswirkung,die,B2,Die Auswirkung zeigt sich erst später.,The impact appears only later.
-consequence,Folge,die,B2,Die Folge war eine klare Veränderung.,The consequence was a clear change.
-analysis,Analyse,die,B2,Die Analyse zeigt deutliche Probleme.,The analysis shows clear problems.
-evaluation,Bewertung,die,B2,Die Bewertung fällt insgesamt positiv aus.,The evaluation is overall positive.
-perspective,Perspektive,die,B2,Die Perspektive ändert sich mit Erfahrung.,The perspective changes with experience.
-context,Kontext,der,B2,Der Kontext erklärt die Entscheidung.,The context explains the decision.
-trend,Trend,der,B2,Der Trend setzt sich weiter fort.,The trend continues.
+german,article,plural,level,glosses,example_de,example_en
+Zeit,die,Zeiten,A1,Time,TBD,TBD
+Mann,der,Männer,A1,Man,TBD,TBD
+Hand,die,Hände,A1,Hand,TBD,TBD
+Tag,der,Tage,A1,Day,TBD,TBD
+Weg,der,Wege,A2,Way,TBD,TBD
+Auge,das,Augen,A1,Eye,TBD,TBD
+Sache,die,Sachen,A2,Thing,TBD,TBD
+Kopf,der,Köpfe,A1,Head,TBD,TBD
+Jahr,das,Jahre,A1,Year,TBD,TBD
+Zimmer,das,Zimmer,A1,Room,TBD,TBD
+Tür,die,Türen,A1,Door,TBD,TBD
+Frau,die,Frauen,A1,Woman,TBD,TBD
+Gesicht,das,Gesichter,A2,Face,TBD,TBD
+Mutter,die,Mütter,A1,Mother,TBD,TBD
+Leute,die,-,A2,People,TBD,TBD
+Nacht,die,Nächte,A1,Night,TBD,TBD
+Haus,das,Häuser,A1,House,TBD,TBD
+Vater,der,Väter,A1,Father,TBD,TBD
+Leben,das,Leben,A1,Life,TBD,TBD
+Rücken,der,Rücken,A1,Back,TBD,TBD
+Stimme,die,Stimmen,A2,Voice,TBD,TBD
+Mädchen,das,Mädchen,A1,Girl,TBD,TBD
+Ort,der,Orte,A1,Place,TBD,TBD
+Junge,der,Jungen,A1,Boy,TBD,TBD
+Auto,das,Autos,A1,Car,TBD,TBD
+Seite,die,Seiten,A2,Side,TBD,TBD
+Arm,der,Arme,A1,Arm,TBD,TBD
+Kind,das,Kinder,A1,Child,TBD,TBD
+Wort,das,Wörter,A2,Word,TBD,TBD
+Moment,der,Momente,A2,Moment,TBD,TBD
+Haar,das,Haare,A1,Hair,TBD,TBD
+Fuß,der,Füße,A1,Foot,TBD,TBD
+Wasser,das,-,A1,Water,TBD,TBD
+Licht,das,Lichter,A2,Light,TBD,TBD
+Welt,die,Welten,A2,World,TBD,TBD
+Name,der,Namen,A2,Name,TBD,TBD
+Freund,der,Freunde,A2,Friend,TBD,TBD
+Fenster,das,Fenster,A1,Window,TBD,TBD
+Körper,der,Körper,A2,Body,TBD,TBD
+Tisch,der,Tische,A2,Table,TBD,TBD
+Morgen,der,Morgen,A1,Morning,TBD,TBD
+Bett,das,Betten,A2,Bed,TBD,TBD
+Wand,die,Wände,A2,Wall,TBD,TBD
+Straße,die,Straßen,A1,Street,TBD,TBD
+Schule,die,Schulen,A2,School,TBD,TBD
+Luft,die,-,A2,Air,TBD,TBD
+Boden,der,Böden,A2,Floor,TBD,TBD
+Stunde,die,Stunden,A1,Hour,TBD,TBD
+Ende,das,Enden,A2,End,TBD,TBD
+Familie,die,Familien,A1,Family,TBD,TBD
+Kerl,der,Kerle,A2,Guy,TBD,TBD
+Kind,das,Kinder,A1,Kind,TBD,TBD
+Minute,die,Minuten,A1,Minute,TBD,TBD
+Geschichte,die,Geschichten,B1,Story,TBD,TBD
+Gott,der,Götter,A2,God,TBD,TBD
+Woche,die,Wochen,A1,Week,TBD,TBD
+Arbeit,die,-,A2,Work,TBD,TBD
+Schulter,die,Schultern,A1,Shoulder,TBD,TBD
+Teil,der,Teile,A2,Part,TBD,TBD
+Verstand,der,-,B1,Mind,TBD,TBD
+Buch,das,Bücher,A1,Book,TBD,TBD
+Finger,der,Finger,A1,Finger,TBD,TBD
+Mund,der,Münder,A1,Mouth,TBD,TBD
+Kind,das,Kinder,A1,Kid,TBD,TBD
+Glas,das,Gläser,A2,Glass,TBD,TBD
+Baum,der,Bäume,A1,Tree,TBD,TBD
+Klang,der,Klänge,A2,Sound,TBD,TBD
+Linie,die,Linien,A2,Line,TBD,TBD
+Ehefrau,die,Ehefrauen,A2,Wife,TBD,TBD
+Herz,das,Herzen,A1,Heart,TBD,TBD
+Geld,das,-,A2,Money,TBD,TBD
+Telefon,das,Telefone,A2,Phone,TBD,TBD
+Blick,der,Blicke,A2,Look,TBD,TBD
+Bein,das,Beine,A1,Leg,TBD,TBD
+Stuhl,der,Stühle,A1,Chair,TBD,TBD
+Büro,das,Büros,A2,Office,TBD,TBD
+Bruder,der,Brüder,A1,Brother,TBD,TBD
+Frage,die,Fragen,A2,Question,TBD,TBD
+Stadt,die,Städte,A2,City,TBD,TBD
+Monat,der,Monate,A1,Month,TBD,TBD
+Baby,das,Babys,A1,Baby,TBD,TBD
+Zuhause,das,Zuhause,A2,Home,TBD,TBD
+Hund,der,Hunde,A1,Dog,TBD,TBD
+Straße,die,Straßen,A1,Road,TBD,TBD
+Idee,die,Ideen,B1,Idea,TBD,TBD
+Küche,die,Küchen,A1,Kitchen,TBD,TBD
+Grundstück,das,Grundstücke,B2,Lot,TBD,TBD
+Sohn,der,Söhne,A1,Son,TBD,TBD
+Job,der,Jobs,A2,Job,TBD,TBD
+Papier,das,Papiere,A2,Paper,TBD,TBD
+Schwester,die,Schwestern,A1,Sister,TBD,TBD
+Lächeln,das,Lächeln,A2,Smile,TBD,TBD
+Punkt,der,Punkte,A2,Point,TBD,TBD
+Gedanke,der,Gedanken,B1,Thought,TBD,TBD
+Liebe,die,-,B1,Love,TBD,TBD
+Stadt,die,Städte,A2,Town,TBD,TBD
+Tod,der,Tode,B1,Death,TBD,TBD
+Boden,der,Böden,A2,Ground,TBD,TBD
+Anderen,die,-,B1,Others,TBD,TBD
+Feuer,das,Feuer,A1,Fire,TBD,TBD
+Schritt,der,Schritte,A2,Step,TBD,TBD
+Blut,das,-,A1,Blood,TBD,TBD
+Tatsache,die,Tatsachen,B1,Fact,TBD,TBD
+Atem,der,Atemzüge,A1,Breath,TBD,TBD
+Lippe,die,Lippen,A1,Lip,TBD,TBD
+Sonne,die,Sonnen,A1,Sun,TBD,TBD
+Gebäude,das,Gebäude,A2,Building,TBD,TBD
+Nummer,die,Nummern,A2,Number,TBD,TBD
+Ehemann,der,Ehemänner,A2,Husband,TBD,TBD
+Elternteil,der,Elternteile,B1,Parent,TBD,TBD
+Ecke,die,Ecken,A1,Corner,TBD,TBD
+Problem,das,Probleme,B1,Problem,TBD,TBD
+Paar,das,Paare,A2,Couple,TBD,TBD
+Tochter,die,Töchter,A1,Daughter,TBD,TBD
+Tasche,die,Taschen,A2,Bag,TBD,TBD
+Hölle,die,-,A2,Hell,TBD,TBD
+Ruhe,die,-,A2,Rest,TBD,TBD
+Geschäft,das,Geschäfte,A2,Business,TBD,TBD
+Himmel,der,Himmel,A1,Sky,TBD,TBD
+Schachtel,die,Schachteln,A2,Box,TBD,TBD
+Person,die,Personen,A2,Person,TBD,TBD
+Grund,der,Gründe,B1,Reason,TBD,TBD
+Recht,das,-,B1,Right,TBD,TBD
+Haut,die,Häute,A1,Skin,TBD,TBD
+Vater,der,Väter,A1,Dad,TBD,TBD
+Fall,der,Fälle,B1,Case,TBD,TBD
+Stück,das,Stücke,A2,Piece,TBD,TBD
+Arzt,der,Ärzte,A2,Doctor,TBD,TBD
+Rand,der,Ränder,A2,Edge,TBD,TBD
+Mutter,die,Mütter,A1,Mom,TBD,TBD
+Bild,das,Bilder,A2,Picture,TBD,TBD
+Sinn,der,Sinne,B1,Sense,TBD,TBD
+Ohr,das,Ohren,A1,Ear,TBD,TBD
+Sekunde,die,Sekunden,A1,Second,TBD,TBD
+Dame,die,Damen,A2,Lady,TBD,TBD
+Hals,der,Hälse,A1,Neck,TBD,TBD
+Wind,der,Winde,A1,Wind,TBD,TBD
+Schreibtisch,der,Schreibtische,A2,Desk,TBD,TBD
+Waffe,die,Waffen,A2,Gun,TBD,TBD
+Stein,der,Steine,A1,Stone,TBD,TBD
+Kaffee,der,Kaffees,A1,Coffee,TBD,TBD
+Schiff,das,Schiffe,A2,Ship,TBD,TBD
+Erde,die,-,A2,Earth,TBD,TBD
+Essen,das,-,A1,Food,TBD,TBD
+Pferd,das,Pferde,A1,Horse,TBD,TBD
+Feld,das,Felder,A2,Field,TBD,TBD
+Krieg,der,Kriege,A2,War,TBD,TBD
+Nachmittag,der,Nachmittage,A1,Afternoon,TBD,TBD
+Herr,der,Herren,A1,Sir,TBD,TBD
+Raum,der,Räume,A2,Space,TBD,TBD
+Abend,der,Abende,A1,Evening,TBD,TBD
+Brief,der,Briefe,A2,Letter,TBD,TBD
+Bar,die,Bars,A2,Bar,TBD,TBD
+Traum,der,Träume,A2,Dream,TBD,TBD
+Wohnung,die,Wohnungen,A2,Apartment,TBD,TBD
+Brust,die,Brüste,A2,Chest,TBD,TBD
+Spiel,das,Spiele,A2,Game,TBD,TBD
+Sommer,der,Sommer,A1,Summer,TBD,TBD
+Angelegenheit,die,Angelegenheiten,B2,Matter,TBD,TBD
+Stille,die,-,B1,Silence,TBD,TBD
+Spitze,die,Spitzen,A2,Top,TBD,TBD
+Felsen,der,Felsen,A2,Rock,TBD,TBD
+Macht,die,-,B1,Power,TBD,TBD
+Kleidung,die,-,A2,Clothes,TBD,TBD
+Schild,das,Schilder,A2,Sign,TBD,TBD
+Aufmerksamkeit,die,-,B2,Attention,TBD,TBD
+Musik,die,-,A1,Music,TBD,TBD
+Zustand,der,Zustände,B1,State,TBD,TBD
+Tasche,die,Taschen,A2,Pocket,TBD,TBD
+Abendessen,das,Abendessen,A2,Dinner,TBD,TBD
+Saal,der,Säle,A2,Hall,TBD,TBD
+Schmerz,der,Schmerzen,B1,Pain,TBD,TBD
+Alter,das,-,A2,Age,TBD,TBD
+Fluss,der,Flüsse,A1,River,TBD,TBD
+Chance,die,Chancen,B1,Chance,TBD,TBD
+Nase,die,Nasen,A1,Nose,TBD,TBD
+Schatten,der,Schatten,A2,Shadow,TBD,TBD
+Polizei,die,-,A2,Police,TBD,TBD
+Erinnerung,die,Erinnerungen,B1,Memory,TBD,TBD
+Farbe,die,Farben,A1,Color,TBD,TBD
+Knie,das,Knie,A1,Knee,TBD,TBD
+Holz,das,-,A2,Wood,TBD,TBD
+Hemd,das,Hemden,A2,Shirt,TBD,TBD
+Party,die,Partys,A2,Party,TBD,TBD
+Land,das,Länder,A2,Country,TBD,TBD
+Lastwagen,der,Lastwagen,A2,Truck,TBD,TBD
+Zahn,der,Zähne,A1,Tooth,TBD,TBD
+Rechnung,die,Rechnungen,B1,Bill,TBD,TBD
+Szene,die,Szenen,A2,Scene,TBD,TBD
+Land,das,Länder,A2,Land,TBD,TBD
+Stern,der,Sterne,A1,Star,TBD,TBD
+Vogel,der,Vögel,A1,Bird,TBD,TBD
+Schlafzimmer,das,Schlafzimmer,A2,Bedroom,TBD,TBD
+Onkel,der,Onkel,A1,Uncle,TBD,TBD
+Art,die,-,A2,Sort,TBD,TBD
+Gruppe,die,Gruppen,B1,Group,TBD,TBD
+Wahrheit,die,Wahrheiten,B1,Truth,TBD,TBD
+Schwierigkeit,die,-,B1,Trouble,TBD,TBD
+Menschenmenge,die,Menschenmengen,B1,Crowd,TBD,TBD
+Bahnhof,der,Bahnhöfe,A1,Station,TBD,TBD
+Träne,die,Tränen,A1,Tear,TBD,TBD
+Klasse,die,Klassen,A2,Class,TBD,TBD
+Meer,das,Meere,A1,Sea,TBD,TBD
+Tier,das,Tiere,A1,Animal,TBD,TBD
+Zentrum,das,Zentren,B1,Center,TBD,TBD
+Gefühl,das,Gefühle,B1,Feeling,TBD,TBD
+Geschäft,das,Geschäfte,A2,Store,TBD,TBD
+Berg,der,Berge,A1,Mountain,TBD,TBD
+Nachrichten,die,-,B1,News,TBD,TBD
+Schuh,der,Schuhe,A1,Shoe,TBD,TBD
+Katze,die,Katzen,A1,Cat,TBD,TBD
+Bildschirm,der,Bildschirme,A2,Screen,TBD,TBD
+Flasche,die,Flaschen,A2,Bottle,TBD,TBD
+Anruf,der,Anrufe,A2,Call,TBD,TBD
+Wohnzimmer,das,Wohnzimmer,A1,Living,TBD,TBD
+Wange,die,Wangen,A1,Cheek,TBD,TBD
+Student,der,Studenten,A2,Student,TBD,TBD
+Ball,der,Bälle,A1,Ball,TBD,TBD
+Anblick,der,Anblicke,B1,Sight,TBD,TBD
+Hügel,der,Hügel,A1,Hill,TBD,TBD
+Unternehmen,das,Unternehmen,B2,Company,TBD,TBD
+Kirche,die,Kirchen,A2,Church,TBD,TBD
+Regen,der,Regen,A1,Rain,TBD,TBD
+Anzug,der,Anzüge,A2,Suit,TBD,TBD
+Eins,die,-,A1,One,TBD,TBD
+Richtung,die,Richtungen,A2,Direction,TBD,TBD
+Wille,der,-,B1,Will,TBD,TBD
+Hals,der,Hälse,A1,Throat,TBD,TBD
+Mitte,die,-,A2,Middle,TBD,TBD
+Antwort,die,Antworten,A2,Answer,TBD,TBD
+Zeug,das,-,A2,Stuff,TBD,TBD
+Krankenhaus,das,Krankenhäuser,A2,Hospital,TBD,TBD
+Kamera,die,Kameras,A2,Camera,TBD,TBD
+Kleid,das,Kleider,A2,Dress,TBD,TBD
+Karte,die,Karten,A2,Card,TBD,TBD
+Hof,der,Höfe,A2,Yard,TBD,TBD
+Dunkelheit,die,-,B1,Dark,TBD,TBD
+Scheiße,die,-,B1,Shit,TBD,TBD
+Bild,das,Bilder,A2,Image,TBD,TBD
+Maschine,die,Maschinen,A2,Machine,TBD,TBD
+Entfernung,die,Entfernungen,B1,Distance,TBD,TBD
+Gebiet,das,Gebiete,B1,Area,TBD,TBD
+Erzähler,der,Erzähler,B1,Narrator,TBD,TBD
+Eis,das,Eis,A1,Ice,TBD,TBD
+Schnee,der,-,A1,Snow,TBD,TBD
+Notiz,die,Notizen,A2,Note,TBD,TBD
+Spiegel,der,Spiegel,A1,Mirror,TBD,TBD
+König,der,Könige,A2,King,TBD,TBD
+Angst,die,-,B1,Fear,TBD,TBD
+Beamte,der,Beamten,B1,Officer,TBD,TBD
+Loch,das,Löcher,A1,Hole,TBD,TBD
+Schuss,der,Schüsse,B1,Shot,TBD,TBD
+Wächter,der,Wächter,B1,Guard,TBD,TBD
+Gespräch,das,Gespräche,A2,Conversation,TBD,TBD
+Boot,das,Boote,A1,Boat,TBD,TBD
+System,das,Systeme,B2,System,TBD,TBD
+Sorge,die,Sorgen,A2,Care,TBD,TBD
+Bit,das,Bits,A2,Bit,TBD,TBD
+Film,der,Filme,A2,Movie,TBD,TBD
+Knochen,der,Knochen,A1,Bone,TBD,TBD
+Seite,die,Seiten,A2,Page,TBD,TBD
+Kapitän,der,Kapitäne,B1,Captain,TBD,TBD
+Tante,die,Tanten,A1,Aunt,TBD,TBD
+Dunkelheit,die,-,B1,Darkness,TBD,TBD
+Kontrolle,die,Kontrollen,B2,Control,TBD,TBD
+Getränk,das,Getränke,A2,Drink,TBD,TBD
+Hotel,das,Hotels,A2,Hotel,TBD,TBD
+Mantel,der,Mäntel,A2,Coat,TBD,TBD
+Treppe,die,Treppen,A1,Stair,TBD,TBD
+Bestellung,die,Bestellungen,A2,Order,TBD,TBD
+Rose,die,Rosen,A1,Rose,TBD,TBD
+Miss,die,-,A2,Miss,TBD,TBD
+Hut,der,Hüte,A1,Hat,TBD,TBD
+Gold,das,-,A2,Gold,TBD,TBD
+Zigarette,die,Zigaretten,A2,Cigarette,TBD,TBD
+Wolke,die,Wolken,A1,Cloud,TBD,TBD
+Aussicht,die,Aussichten,B1,View,TBD,TBD
+Fahrer,der,Fahrer,A2,Driver,TBD,TBD
+Tasse,die,Tassen,A1,Cup,TBD,TBD
+Figur,die,Figuren,A2,Figure,TBD,TBD
+Ausdruck,der,Ausdrücke,B1,Expression,TBD,TBD
+Weg,der,Wege,A2,Path,TBD,TBD
+Schlüssel,der,Schlüssel,A2,Key,TBD,TBD
+Computer,der,Computer,A2,Computer,TBD,TBD
+Blume,die,Blumen,A1,Flower,TBD,TBD
+Ring,der,Ringe,A2,Ring,TBD,TBD
+Badezimmer,das,Badezimmer,A2,Bathroom,TBD,TBD
+Metall,das,Metalle,A2,Metal,TBD,TBD
+Mond,der,Monde,A1,Moon,TBD,TBD
+Lied,das,Lieder,A1,Song,TBD,TBD
+Soldat,der,Soldaten,B1,Soldier,TBD,TBD
+Radio,das,Radios,A2,Radio,TBD,TBD
+Geschichte,die,Geschichten,B1,History,TBD,TBD
+Welle,die,Wellen,A2,Wave,TBD,TBD
+Plan,der,Pläne,A2,Plan,TBD,TBD
+College,das,Colleges,B1,College,TBD,TBD
+Fisch,der,Fische,A1,Fish,TBD,TBD
+Garten,der,Gärten,A1,Garden,TBD,TBD
+Zug,der,Züge,A1,Train,TBD,TBD
+Geschäft,das,Geschäfte,A2,Shop,TBD,TBD
+Polizist,der,Polizisten,A2,Cop,TBD,TBD
+Kunst,die,-,B1,Art,TBD,TBD
+Bier,das,Biere,A1,Beer,TBD,TBD
+Norden,der,-,A2,North,TBD,TBD
+Insel,die,Inseln,A1,Island,TBD,TBD
+Bus,der,Busse,A1,Bus,TBD,TBD
+Geruch,der,Gerüche,A2,Smell,TBD,TBD
+Geräusch,das,Geräusche,A2,Noise,TBD,TBD
+Mama,die,-,A1,Mama,TBD,TBD
+Park,der,Parks,A1,Park,TBD,TBD
+Süden,der,-,A2,South,TBD,TBD
+Paar,das,Paare,A2,Pair,TBD,TBD
+Herr,der,Herren,A1,Lord,TBD,TBD
+Teller,der,Teller,A1,Plate,TBD,TBD
+Jacke,die,Jacken,A2,Jacket,TBD,TBD
+Hilfe,die,Hilfen,A2,Help,TBD,TBD
+Papa,der,Papas,A1,Daddy,TBD,TBD
+Gras,das,Gräser,A1,Grass,TBD,TBD
+Dank,der,Danksagungen,A2,Thanks,TBD,TBD
+Hitze,die,-,A2,Heat,TBD,TBD
+Schlaf,der,-,B1,Sleep,TBD,TBD
+Gehirn,das,Gehirne,A2,Brain,TBD,TBD
+Service,der,Services,B1,Service,TBD,TBD
+Reise,die,Reisen,A2,Trip,TBD,TBD
+Schlag,der,Schläge,A2,Beat,TBD,TBD
+Messer,das,Messer,A1,Knife,TBD,TBD
+Fleck,der,Flecken,A2,Spot,TBD,TBD
+Nachricht,die,Nachrichten,B1,Message,TBD,TBD
+Zeichen,das,Zeichen,A2,Mark,TBD,TBD
+Lehrer,der,Lehrer,A2,Teacher,TBD,TBD
+Blick,der,Blicke,A2,Gaze,TBD,TBD
+Dorf,das,Dörfer,A1,Village,TBD,TBD
+Winter,der,Winter,A1,Winter,TBD,TBD
+Front,die,Fronten,A2,Front,TBD,TBD
+Gesetz,das,Gesetze,B1,Law,TBD,TBD
+Oberfläche,die,Oberflächen,B2,Surface,TBD,TBD
+Bank,die,Banken,A2,Bank,TBD,TBD
+Team,das,Teams,A2,Team,TBD,TBD
+Maximum,das,Maxima,B1,Maximum,TBD,TBD
+Position,die,Positionen,B1,Position,TBD,TBD
+Magen,der,Mägen,A1,Stomach,TBD,TBD
+Wende,die,-,A2,Turn,TBD,TBD
+Westen,der,-,A2,West,TBD,TBD
+Mittagessen,das,Mittagessen,A2,Lunch,TBD,TBD
+Veränderung,die,Veränderungen,B2,Change,TBD,TBD
+Lebewesen,das,Lebewesen,B1,Creature,TBD,TBD
+Seele,die,Seelen,B1,Soul,TBD,TBD
+Blatt,das,Blätter,A1,Leaf,TBD,TBD
+Show,die,Shows,A2,Show,TBD,TBD
+Tor,das,Tore,A1,Gate,TBD,TBD
+Palme,die,Palmen,A1,Palm,TBD,TBD
+Plastik,das,-,A2,Plastic,TBD,TBD
+Kraft,die,Kräfte,B1,Force,TBD,TBD
+Strand,der,Strände,A1,Beach,TBD,TBD
+Präsident,der,Präsidenten,B2,President,TBD,TBD
+Form,die,Formen,A2,Shape,TBD,TBD
+Rauch,der,Rauch,A1,Smoke,TBD,TBD
+Rad,das,Räder,A1,Wheel,TBD,TBD
+Silber,das,-,A2,Silver,TBD,TBD
+Dach,das,Dächer,A1,Roof,TBD,TBD
+Gewicht,das,Gewichte,B1,Weight,TBD,TBD
+Zunge,die,Zungen,A1,Tongue,TBD,TBD
+Tee,der,Tees,A1,Tea,TBD,TBD
+Strecke,die,Strecken,A2,Track,TBD,TBD
+Winkel,der,Winkel,B1,Angle,TBD,TBD
+Form,die,Formen,A2,Form,TBD,TBD
+Ton,der,Töne,A2,Tone,TBD,TBD
+Kreis,der,Kreise,A2,Circle,TBD,TBD
+Frühling,der,Frühlinge,A1,Spring,TBD,TBD
+Veranda,die,Veranden,A2,Porch,TBD,TBD
+Blatt,das,Blätter,A1,Sheet,TBD,TBD
+Mitglied,das,Mitglieder,B1,Member,TBD,TBD
+Pool,der,Pools,A2,Pool,TBD,TBD
+Bedürfnis,das,Bedürfnisse,B2,Need,TBD,TBD
+Hoffnung,die,Hoffnungen,B1,Hope,TBD,TBD
+See,der,Seen,A1,Lake,TBD,TBD
+Brust,die,Brüste,A2,Breast,TBD,TBD
+Überraschung,die,Überraschungen,B1,Surprise,TBD,TBD
+Interesse,das,-,B1,Interest,TBD,TBD
+Boden,der,Böden,A2,Bottom,TBD,TBD
+Geist,der,Geister,B1,Spirit,TBD,TBD
+Block,der,Blöcke,A2,Block,TBD,TBD
+Sprache,die,Sprachen,B1,Language,TBD,TBD
+Brücke,die,Brücken,A1,Bridge,TBD,TBD
+Staub,der,-,A2,Dust,TBD,TBD
+Zelle,die,Zellen,A2,Cell,TBD,TBD
+Wein,der,Weine,A1,Wine,TBD,TBD
+Stiefel,der,Stiefel,A1,Boot,TBD,TBD
+Wahl,die,Wahlen,B1,Choice,TBD,TBD
+Reihe,die,Reihen,A2,Row,TBD,TBD
+Gespräch,das,Gespräche,A2,Talk,TBD,TBD
+Flugzeug,das,Flugzeuge,A1,Plane,TBD,TBD
+Uhr,die,Uhren,A1,Watch,TBD,TBD
+Information,die,Informationen,B1,Information,TBD,TBD
+Großmutter,die,-,A1,Grandmother,TBD,TBD
+Flügel,der,Flügel,A2,Wing,TBD,TBD
+Bob,der,Bobs,A2,Bob,TBD,TBD
+Club,der,Clubs,A2,Club,TBD,TBD
+Meister,der,Meister,B1,Master,TBD,TBD
+Gnade,die,Gnaden,B1,Grace,TBD,TBD
+Wald,der,Wälder,A1,Forest,TBD,TBD
+Größe,die,Größen,A2,Size,TBD,TBD
+Satz,der,Sätze,B1,Set,TBD,TBD
+Ehe,die,Ehen,A2,Marriage,TBD,TBD
+Stirn,die,Stirnen,A1,Forehead,TBD,TBD
+Sturm,der,Stürme,A1,Storm,TBD,TBD
+Durchgang,der,Durchgänge,A2,Doorway,TBD,TBD
+Situation,die,Situationen,B1,Situation,TBD,TBD
+Theke,die,Theken,A2,Counter,TBD,TBD
+Nachbar,der,Nachbarn,A2,Neighbor,TBD,TBD
+Foto,das,Fotos,A1,Photo,TBD,TBD
+Bühne,die,Bühnen,A2,Stage,TBD,TBD
+Treffen,das,Treffen,A2,Meeting,TBD,TBD
+Krankenschwester,die,Krankenschwestern,A2,Nurse,TBD,TBD
+Sicherheit,die,Sicherheiten,B2,Security,TBD,TBD
+Waffe,die,Waffen,A2,Weapon,TBD,TBD
+Ereignis,das,Ereignisse,B1,Event,TBD,TBD
+Decke,die,Decken,A1,Ceiling,TBD,TBD
+Motor,der,Motoren,A2,Engine,TBD,TBD
+Geschenk,das,Geschenke,A1,Gift,TBD,TBD
+Restaurant,das,Restaurants,A2,Restaurant,TBD,TBD
+Brett,das,Bretter,A1,Board,TBD,TBD
+Flur,der,Flure,A1,Hallway,TBD,TBD
+Armee,die,-,A2,Army,TBD,TBD
+Aufwand,der,Aufwände,B1,Effort,TBD,TBD
+Osten,der,-,A2,East,TBD,TBD
+Agent,der,Agenten,A2,Agent,TBD,TBD
+Zukunft,die,Zukunft,B1,Future,TBD,TBD
+Hose,die,Hosen,A2,Pant,TBD,TBD
+Leder,das,-,A2,Leather,TBD,TBD
+Flug,der,Flüge,A2,Flight,TBD,TBD
+Sex,der,-,A2,Sex,TBD,TBD
+Gericht,das,Gerichte,B1,Court,TBD,TBD
+Kurs,der,Kurse,A2,Course,TBD,TBD
+Schmutz,der,-,A2,Dirt,TBD,TBD
+Ei,das,Eier,A1,Egg,TBD,TBD
+Kinn,das,Kinne,A1,Chin,TBD,TBD
+Fremde,der,Fremden,A2,Stranger,TBD,TBD
+Vergnügen,das,Vergnügen,B1,Pleasure,TBD,TBD
+Detail,das,Details,B1,Detail,TBD,TBD
+Besatzung,die,Besatzungen,B1,Crew,TBD,TBD
+Herbst,der,Fälle,A1,Fall,TBD,TBD
+Gast,der,Gäste,A2,Guest,TBD,TBD
+Erfahrung,die,Erfahrungen,B1,Experience,TBD,TBD
+Witz,der,Witze,A2,Joke,TBD,TBD
+Sand,der,-,A2,Sand,TBD,TBD
+Faust,die,Fäuste,A1,Fist,TBD,TBD
+Aktion,die,Aktionen,B1,Action,TBD,TBD
+Spaziergang,der,Spaziergänge,A2,Walk,TBD,TBD
+Hochzeit,die,Hochzeiten,A2,Wedding,TBD,TBD
+Geschäft,das,Geschäfte,A2,Deal,TBD,TBD
+Natur,die,-,A2,Nature,TBD,TBD
+Planet,der,Planeten,B1,Planet,TBD,TBD
+Cousin,der,Cousins,A2,Cousin,TBD,TBD
+Bewegung,die,Bewegungen,B1,Movement,TBD,TBD
+Fleisch,das,-,A2,Flesh,TBD,TBD
+Rekord,der,Rekorde,B1,Record,TBD,TBD
+Lager,das,Lager,A2,Camp,TBD,TBD
+Zeitung,die,Zeitungen,A2,Newspaper,TBD,TBD
+Strahl,der,Strahlen,A2,Ray,TBD,TBD
+Mensch,der,Menschen,A1,Human,TBD,TBD
+Couch,die,Couches,A1,Couch,TBD,TBD
+Bewegung,die,Bewegungen,B1,Motion,TBD,TBD
+Großvater,der,Großväter,A1,Grandfather,TBD,TBD
+Foto,das,Fotos,A1,Photograph,TBD,TBD
+Geheimnis,das,Geheimnisse,B1,Secret,TBD,TBD
+Schönheit,die,Schönheiten,B1,Beauty,TBD,TBD
+Anwesenheit,die,-,B1,Presence,TBD,TBD
+Glocke,die,Glocken,A1,Bell,TBD,TBD
+Volk,das,-,B1,Folk,TBD,TBD
+Knopf,der,Knöpfe,A1,Button,TBD,TBD
+Liste,die,Listen,A2,List,TBD,TBD
+Level,das,Level,A2,Level,TBD,TBD
+Datum,das,Daten,A2,Date,TBD,TBD
+Fach,das,Fächer,A2,Subject,TBD,TBD
+Unterschied,der,Unterschiede,B2,Difference,TBD,TBD
+Pause,die,Pausen,A2,Pause,TBD,TBD
+Lieferwagen,der,Lieferwagen,A2,Van,TBD,TBD
+Klinge,die,Klingen,A2,Blade,TBD,TBD
+Fernsehen,das,Fernseher,A2,Television,TBD,TBD
+Abdeckung,die,Abdeckungen,B2,Cover,TBD,TBD
+Vergangenheit,die,-,C1,Past,TBD,TBD
+Farm,die,Farmen,A2,Farm,TBD,TBD
+Schoß,der,Schoß,A2,Lap,TBD,TBD
+Band,die,Bands,A2,Band,TBD,TBD
+Anwalt,der,Anwälte,B1,Lawyer,TBD,TBD
+Magazin,das,Magazine,A2,Magazine,TBD,TBD
+Ast,der,Äste,A1,Branch,TBD,TBD
+Rahmen,der,Rahmen,A2,Frame,TBD,TBD
+Deck,das,Decks,A2,Deck,TBD,TBD
+Wirkung,die,Wirkungen,B1,Effect,TBD,TBD
+Tanz,der,Tänze,A2,Dance,TBD,TBD
+Vision,die,Visionen,B1,Vision,TBD,TBD
+Geist,das,Geister,A2,Ghost,TBD,TBD
+Hintern,der,Hintern,A2,Ass,TBD,TBD
+Charakter,der,Charaktere,B2,Character,TBD,TBD
+Blick,der,Blicke,A2,Glance,TBD,TBD
+Abschied,der,-,A2,Goodbye,TBD,TBD
+Parken,das,-,A2,Parking,TBD,TBD
+Frühstück,das,Frühstücke,A1,Breakfast,TBD,TBD
+Geste,die,Gesten,A2,Gesture,TBD,TBD
+Glück,das,-,A2,Luck,TBD,TBD
+Decke,die,Decken,A2,Blanket,TBD,TBD
+Gas,das,-,A2,Gas,TBD,TBD
+Korridor,der,Korridore,A2,Corridor,TBD,TBD
+Professor,der,Professoren,B2,Professor,TBD,TBD
+Stück,das,Stücke,A2,Play,TBD,TBD
+Fehler,der,Fehler,B1,Mistake,TBD,TBD
+Universität,die,Universitäten,B2,University,TBD,TBD
+Ozean,der,Ozeane,A1,Ocean,TBD,TBD
+Jahrhundert,das,Jahrhunderte,B2,Century,TBD,TBD
+Honig,der,-,A1,Honey,TBD,TBD
+Stapel,der,Stapel,A2,Pile,TBD,TBD
+Schüssel,die,Schüsseln,A2,Bowl,TBD,TBD
+Basis,die,Basen,A2,Base,TBD,TBD
+Zaun,der,Zäune,A1,Fence,TBD,TBD
+Regel,die,Regeln,A2,Rule,TBD,TBD
+Lachen,das,-,A2,Laughter,TBD,TBD
+Ärger,der,-,B1,Anger,TBD,TBD
+Schweiß,der,-,A2,Sweat,TBD,TBD
+Unfall,der,Unfälle,B1,Accident,TBD,TBD
+Wetter,das,-,A1,Weather,TBD,TBD
+Entscheidung,die,Entscheidungen,B1,Decision,TBD,TBD
+Engel,der,Engel,A2,Angel,TBD,TBD
+Stärke,die,Stärken,B1,Strength,TBD,TBD
+Huhn,das,Hühner,A1,Chicken,TBD,TBD
+Studium,das,Studien,B1,Study,TBD,TBD
+Band,das,Bänder,A2,Tape,TBD,TBD
+Handgelenk,das,Handgelenke,A2,Wrist,TBD,TBD
+Halt,der,Halte,A2,Stop,TBD,TBD
+Hüfte,die,Hüften,A1,Hip,TBD,TBD
+Regierung,die,Regierungen,B2,Government,TBD,TBD
+Bauch,der,Bäuche,A1,Belly,TBD,TBD
+Königin,die,Königinnen,B1,Queen,TBD,TBD
+Bericht,der,Berichte,B1,Report,TBD,TBD
+Schwanz,der,Schwänze,A2,Tail,TBD,TBD
+Pflanze,die,Pflanzen,A1,Plant,TBD,TBD
+Flamme,die,Flammen,A1,Flame,TBD,TBD
+Himmel,der,Himmel,B1,Heaven,TBD,TBD
+Gürtel,der,Gürtel,A1,Belt,TBD,TBD
+Nachbarschaft,die,Nachbarschaften,B1,Neighborhood,TBD,TBD
+Energie,die,-,B1,Energy,TBD,TBD
+Grün,das,-,A2,Green,TBD,TBD
+Viertel,das,Viertel,B1,Quarter,TBD,TBD
+Feind,der,Feinde,A2,Enemy,TBD,TBD
+Zug,der,Züge,A2,Move,TBD,TBD
+Eingang,der,Eingänge,A1,Entrance,TBD,TBD
+Bibliothek,die,Bibliotheken,A2,Library,TBD,TBD
+Schriftsteller,der,Schriftsteller,B1,Writer,TBD,TBD
+Frieden,der,-,B1,Peace,TBD,TBD
+Berührung,die,Berührungen,B1,Touch,TBD,TBD
+Topf,der,Töpfe,A2,Pot,TBD,TBD
+Art,die,-,A2,Type,TBD,TBD
+Ursache,die,Ursachen,B1,Cause,TBD,TBD
+Seil,das,Seile,A2,Rope,TBD,TBD
+Muskel,der,Muskeln,A2,Muscle,TBD,TBD
+Gemälde,das,Gemälde,A2,Painting,TBD,TBD
+Vorhang,der,Vorhänge,A2,Curtain,TBD,TBD
+Mahlzeit,die,Mahlzeiten,A2,Meal,TBD,TBD
+Akt,der,Akte,A2,Act,TBD,TBD
+Wolf,der,Wölfe,A1,Wolf,TBD,TBD
+Kabine,die,Kabinen,A2,Cabin,TBD,TBD
+Gebühr,die,Gebühren,B1,Charge,TBD,TBD
+Uhr,die,Uhren,A1,Clock,TBD,TBD
+Passagier,der,Passagiere,B2,Passenger,TBD,TBD
+Kumpel,der,Kumpel,A2,Buddy,TBD,TBD
+Medikament,das,Medikamente,A2,Drug,TBD,TBD
+Verwendung,die,Verwendungen,B1,Use,TBD,TBD
+Bank,die,Bänke,A2,Bench,TBD,TBD
+Verkehr,der,-,B1,Traffic,TBD,TBD
+Erleichterung,die,-,B1,Relief,TBD,TBD
+Mütze,die,Mützen,A1,Cap,TBD,TBD
+Pack,das,Packs,A2,Pack,TBD,TBD
+Wochenende,das,Wochenenden,A1,Weekend,TBD,TBD
+Stand,der,Stände,A2,Stand,TBD,TBD
+Aufzug,der,Aufzüge,A2,Elevator,TBD,TBD
+Geburtstag,der,Geburtstage,A1,Birthday,TBD,TBD
+Lilie,die,Lilien,A1,Lily,TBD,TBD
+Eisen,das,Eisen,A2,Iron,TBD,TBD
+Fleisch,das,-,A2,Meat,TBD,TBD
+Augenbraue,die,Augenbrauen,A1,Eyebrow,TBD,TBD
+Antwort,die,Antworten,A2,Response,TBD,TBD
+Geschwindigkeit,die,Geschwindigkeiten,B1,Speed,TBD,TBD
+Zweck,der,Zwecke,B1,Purpose,TBD,TBD
+Rock,der,Röcke,A2,Skirt,TBD,TBD
+Quadrat,das,Quadrate,B1,Square,TBD,TBD
+Fahrt,die,Fahrten,A2,Drive,TBD,TBD
+Artikel,der,Artikel,A2,Article,TBD,TBD
+Englisch,das,-,A2,English,TBD,TBD
+Turm,der,Türme,A1,Tower,TBD,TBD
+Schlacht,die,Schlachten,B1,Battle,TBD,TBD
+Film,der,Filme,A2,Film,TBD,TBD
+Rennen,das,Rennen,B1,Race,TBD,TBD
+Schock,der,Schocks,B1,Shock,TBD,TBD
+Sektion,die,Sektionen,B1,Section,TBD,TBD
+Art,die,-,A2,Manner,TBD,TBD
+Schwert,das,Schwerter,A2,Sword,TBD,TBD
+Stock,der,Stöcke,A2,Stick,TBD,TBD
+Datei,die,Dateien,A2,File,TBD,TBD
+Brot,das,-,A1,Bread,TBD,TBD
+Öl,das,-,A2,Oil,TBD,TBD
+Kette,die,Ketten,A2,Chain,TBD,TBD
+Abteilung,die,Abteilungen,B2,Department,TBD,TBD
+Projekt,das,Projekte,B1,Project,TBD,TBD
+Mord,der,Morde,B1,Murder,TBD,TBD
+Bär,der,Bären,A1,Bear,TBD,TBD
+Test,der,Tests,A2,Test,TBD,TBD
+Besuch,der,Besuche,A2,Visit,TBD,TBD
+Milch,die,-,A1,Milk,TBD,TBD
+Chef,der,Chefs,A2,Boss,TBD,TBD
+Ellenbogen,der,Ellenbogen,A1,Elbow,TBD,TBD
+Verlangen,das,-,B1,Desire,TBD,TBD
+Patient,der,Patienten,B1,Patient,TBD,TBD
+Grinsen,das,-,A2,Grin,TBD,TBD
+Liebhaber,der,Liebhaber,B1,Lover,TBD,TBD
+Preis,der,Preise,A2,Price,TBD,TBD
+Karte,die,Karten,A2,Map,TBD,TBD
+Wissen,das,-,B1,Knowledge,TBD,TBD
+Anfang,der,Anfänge,B1,Beginning,TBD,TBD
+Kälte,die,-,A2,Cold,TBD,TBD
+Schrank,der,Schränke,A2,Closet,TBD,TBD
+Morgendämmerung,die,Morgendämmerungen,B1,Dawn,TBD,TBD
+Tempel,der,Tempel,A2,Temple,TBD,TBD
+Freude,die,-,B1,Joy,TBD,TBD
+Pflicht,die,Pflichten,B1,Duty,TBD,TBD
+Übung,die,Übungen,A2,Practice,TBD,TBD
+Absatz,der,Absätze,A2,Heel,TBD,TBD
+Tal,das,Täler,A1,Valley,TBD,TBD
+Kampf,der,Kämpfe,A2,Fight,TBD,TBD
+Kabel,das,Kabel,A2,Wire,TBD,TBD
+Jeans,die,-,A2,Jeans,TBD,TBD
+Kuss,der,Küsse,A2,Kiss,TBD,TBD
+Kiefer,der,Kiefer,A1,Jaw,TBD,TBD
+Lauf,der,Läufe,A2,Run,TBD,TBD
+Halten,das,Halten,B1,Hold,TBD,TBD
+Beziehung,die,Beziehungen,B1,Relationship,TBD,TBD
+Objekt,das,Objekte,B1,Object,TBD,TBD
+Angriff,der,Angriffe,B1,Attack,TBD,TBD
+Gericht,das,Gerichte,A2,Dish,TBD,TBD
+Autobahn,die,Autobahnen,A2,Highway,TBD,TBD
+Schatten,der,Schatten,A2,Shade,TBD,TBD
+Verbrechen,das,Verbrechen,B2,Crime,TBD,TBD
+Weiß,das,-,A2,White,TBD,TBD
+Partner,der,Partner,B1,Partner,TBD,TBD
+Priester,der,Priester,B1,Priest,TBD,TBD
+Rasen,der,Rasen,A2,Lawn,TBD,TBD
+Lachen,das,-,A2,Laugh,TBD,TBD
+Stamm,der,Stämme,A2,Trunk,TBD,TBD
+Weinen,das,Weinen,A2,Cry,TBD,TBD
+Programm,das,Programme,B1,Program,TBD,TBD
+Fahrt,die,Fahrten,A2,Ride,TBD,TBD
+Regal,das,Regale,A2,Shelf,TBD,TBD
+Herr,der,Herren,A1,Gentleman,TBD,TBD
+Wesen,das,Wesen,B1,Being,TBD,TBD
+Stahl,der,-,A2,Steel,TBD,TBD
+Bürgersteig,der,Bürgersteige,A1,Sidewalk,TBD,TBD
+Uniform,die,Uniformen,A2,Uniform,TBD,TBD
+Muster,das,Muster,B1,Pattern,TBD,TBD
+Beweis,der,Beweise,B1,Evidence,TBD,TBD
+Spieler,der,Spieler,A2,Player,TBD,TBD
+Roman,der,Romane,A2,Novel,TBD,TBD
+Kissen,das,Kissen,A1,Pillow,TBD,TBD
+Lampe,die,Lampen,A1,Lamp,TBD,TBD
+Schublade,die,Schubladen,A2,Drawer,TBD,TBD
+Gefahr,die,Gefahren,B1,Danger,TBD,TBD
+Detektiv,der,Detektive,B1,Detective,TBD,TBD
+Augenblick,der,Augenblicke,A2,Instant,TBD,TBD
+Denken,das,-,B1,Thinking,TBD,TBD
+Riss,der,Risse,A2,Crack,TBD,TBD
+Gebet,das,Gebete,A2,Prayer,TBD,TBD
+Handtuch,das,Handtücher,A1,Towel,TBD,TBD
+Handschuh,der,Handschuhe,A1,Glove,TBD,TBD
+Bucht,die,Buchten,A2,Bay,TBD,TBD
+Publikum,das,-,B1,Audience,TBD,TBD
+Dose,die,Dosen,A2,Can,TBD,TBD
+Zustand,der,Zustände,B1,Condition,TBD,TBD
+Pfad,der,Pfade,A2,Trail,TBD,TBD
+Taille,die,Taillen,A2,Waist,TBD,TBD
+Druck,der,Drücke,B1,Pressure,TBD,TBD
+Telefon,das,Telefone,A2,Telephone,TBD,TBD
+Waschbecken,das,Waschbecken,A1,Sink,TBD,TBD
+Rückkehr,die,Rückkehr,B1,Return,TBD,TBD
+Brise,die,Brisen,A2,Breeze,TBD,TBD
+Geschmack,der,Geschmäcker,B1,Taste,TBD,TBD
+Fehler,der,Fehler,B1,Fault,TBD,TBD
+Strom,der,Ströme,A2,Stream,TBD,TBD
+Ergebnis,das,Ergebnisse,B1,Result,TBD,TBD
+Autor,der,Autoren,A2,Author,TBD,TBD
+Tipp,der,Tipps,A2,Tip,TBD,TBD
+Dusche,die,Duschen,A1,Shower,TBD,TBD
+Zehe,die,Zehen,A1,Toe,TBD,TBD
+Jahreszeit,die,Jahreszeiten,A2,Season,TBD,TBD
+Hälfte,die,Hälften,B1,Half,TBD,TBD
+Narr,der,Narren,A2,Fool,TBD,TBD
+Tunnel,der,Tunnel,A2,Tunnel,TBD,TBD
+Kunde,der,Kunden,A2,Client,TBD,TBD
+Garage,die,Garagen,A2,Garage,TBD,TBD
+Mission,die,Missionen,B1,Mission,TBD,TBD
+Chef,der,Chefs,A2,Boss,TBD,TBD
+Kugel,die,Kugeln,A2,Bullet,TBD,TBD
+Markt,der,Märkte,A1,Market,TBD,TBD
+Verlust,der,Verluste,B1,Loss,TBD,TBD
+Serie,die,Serien,A2,Series,TBD,TBD
+Stift,der,Stifte,A1,Pen,TBD,TBD
+Begriff,der,Begriffe,B1,Term,TBD,TBD
+Gedicht,das,Gedichte,B1,Poem,TBD,TBD
+Prinz,der,Prinzen,A2,Prince,TBD,TBD
+Ton,der,Tone,A2,Clay,TBD,TBD
+Schloss,das,Schlösser,A2,Lock,TBD,TBD
+Realität,die,Realitäten,B1,Reality,TBD,TBD
+Schlange,die,Schlangen,A1,Snake,TBD,TBD
+Apfel,der,Äpfel,A1,Apple,TBD,TBD
+Maske,die,Masken,A2,Mask,TBD,TBD
+Kunde,der,Kunden,A2,Customer,TBD,TBD
+Geburt,die,Geburten,B1,Birth,TBD,TBD
+Pause,die,Pausen,A2,Break,TBD,TBD
+Wunder,das,Wunder,B1,Wonder,TBD,TBD
+Sonnenlicht,das,-,A2,Sunlight,TBD,TBD
+Panzer,der,Panzer,B1,Tank,TBD,TBD
+Personal,das,-,B1,Staff,TBD,TBD
+Lüge,die,Lügen,A2,Lie,TBD,TBD
+Glaube,der,-,B1,Faith,TBD,TBD
+Ehre,die,-,B1,Honor,TBD,TBD
+Sahne,die,-,A1,Cream,TBD,TBD
+Grund,der,-,B1,Sake,TBD,TBD
+Opfer,das,Opfer,A2,Victim,TBD,TBD
+Möglichkeit,die,Möglichkeiten,B1,Possibility,TBD,TBD
+Kontakt,der,Kontakte,B1,Contact,TBD,TBD
+Stimmung,die,Stimmungen,B1,Mood,TBD,TBD
+Daumen,der,Daumen,A1,Thumb,TBD,TBD
+Lesen,das,-,A2,Reading,TBD,TBD
+Spaß,der,-,A2,Fun,TBD,TBD
+Kerze,die,Kerzen,A1,Candle,TBD,TBD
+Höhle,die,Höhlen,A2,Cave,TBD,TBD
+Post,die,-,A2,Post,TBD,TBD
+Gefängnis,das,Gefängnisse,B2,Prison,TBD,TBD
+Emotion,die,Emotionen,B1,Emotion,TBD,TBD
+Führer,der,Führer,B1,Leader,TBD,TBD
+Abschluss,der,Abschlüsse,B2,Degree,TBD,TBD
+Merkmal,das,Merkmale,B1,Feature,TBD,TBD
+Eintrittskarte,die,Eintrittskarten,A2,Ticket,TBD,TBD
+Alien,das,Aliens,A2,Alien,TBD,TBD
+Lektion,die,Lektionen,B1,Lesson,TBD,TBD
+Wüste,die,Wüsten,A2,Desert,TBD,TBD
+Schnitt,der,Schnitte,B1,Cut,TBD,TBD
+Durcheinander,das,-,B1,Mess,TBD,TBD
+Warnung,die,Warnungen,B1,Warning,TBD,TBD
+Märchen,das,Märchen,A2,Tale,TBD,TBD
+Beerdigung,die,Beerdigungen,B2,Funeral,TBD,TBD
+Taxi,das,Taxis,A1,Cab,TBD,TBD
+Reporter,der,Reporter,B1,Reporter,TBD,TBD
+Geschenk,das,Geschenke,A1,Present,TBD,TBD
+Theater,das,Theater,A2,Theater,TBD,TBD
+Länge,die,-,A2,Length,TBD,TBD
+Schlamm,der,-,A2,Mud,TBD,TBD
+Wissenschaft,die,-,B2,Science,TBD,TBD
+Tropfen,der,Tropfen,A2,Drop,TBD,TBD
+Schnur,die,Schnüre,A2,String,TBD,TBD
+Rede,die,Reden,A2,Speech,TBD,TBD
+Exemplar,das,Exemplare,B1,Copy,TBD,TBD
+Kuh,die,Kühe,A1,Cow,TBD,TBD
+Arbeiter,der,Arbeiter,A2,Worker,TBD,TBD
+Oberschenkel,der,Oberschenkel,A1,Thigh,TBD,TBD
+Labor,das,Labore,A2,Lab,TBD,TBD
+Rolle,die,Rollen,A2,Roll,TBD,TBD
+Frucht,die,Früchte,A2,Fruit,TBD,TBD
+Patch,das,Patches,A2,Patch,TBD,TBD
+Seide,die,-,A2,Silk,TBD,TBD
+Dollar,der,Dollars,A2,Buck,TBD,TBD
+Ziegel,der,Ziegel,A2,Brick,TBD,TBD
+Gewehr,das,Gewehre,B1,Rifle,TBD,TBD
+Karriere,die,Karrieren,B1,Career,TBD,TBD
+Ausgabe,die,Ausgaben,B1,Issue,TBD,TBD
+Gelegenheit,die,Gelegenheiten,B1,Opportunity,TBD,TBD
+Regisseur,der,Regisseure,B2,Director,TBD,TBD
+Monster,das,Monster,A2,Monster,TBD,TBD
+Fahrzeug,das,Fahrzeuge,B1,Vehicle,TBD,TBD
+Gasse,die,Gassen,A1,Alley,TBD,TBD
+Ärmel,der,Ärmel,A1,Sleeve,TBD,TBD
+Grab,das,Gräber,A2,Grave,TBD,TBD
+Busch,der,Büsche,A1,Bush,TBD,TBD
+Esszimmer,das,-,A1,Dining,TBD,TBD
+Öffnung,die,Öffnungen,B1,Opening,TBD,TBD
+Zwilling,das,Zwillinge,A2,Twin,TBD,TBD
+Scheune,die,Scheunen,A2,Barn,TBD,TBD
+Pfund,das,Pfunde,A2,Pound,TBD,TBD
+Seite,die,Seiten,A2,Site,TBD,TBD
+Blitz,der,Blitze,A1,Flash,TBD,TBD
+Richter,der,Richter,B1,Judge,TBD,TBD
+Masse,die,Massen,B1,Mass,TBD,TBD
+Prozess,der,Prozesse,B1,Process,TBD,TBD
+Krawatte,die,Krawatten,A2,Tie,TBD,TBD
+Geldbörse,die,Geldbörsen,A2,Purse,TBD,TBD
+Pfeife,die,Pfeifen,A2,Pipe,TBD,TBD
+Drache,der,Drachen,A1,Dragon,TBD,TBD
+Horizont,der,Horizonte,B1,Horizon,TBD,TBD
+Tablett,das,Tabletts,A2,Tray,TBD,TBD
+Umschlag,der,Umschläge,A2,Envelope,TBD,TBD
+Scheck,der,Schecks,B1,Check,TBD,TBD
+Erwachsene,der,Erwachsenen,B1,Adult,TBD,TBD
+Notfall,der,Notfälle,B1,Emergency,TBD,TBD
+Material,das,Materialien,B1,Material,TBD,TBD
+Kindheit,die,-,B1,Childhood,TBD,TBD
+Gewohnheit,die,Gewohnheiten,B1,Habit,TBD,TBD
+Künstler,der,Künstler,B1,Artist,TBD,TBD
+Adresse,die,Adressen,A2,Address,TBD,TBD
+Duft,der,Düfte,A2,Scent,TBD,TBD
+Universum,das,Universen,B2,Universe,TBD,TBD
+Nicken,das,-,A2,Nod,TBD,TBD
+Muschel,die,Muscheln,A1,Shell,TBD,TBD
+Gemeinschaft,die,Gemeinschaften,B2,Community,TBD,TBD
+Start,der,Starts,A2,Start,TBD,TBD
+Wunde,die,Wunden,A2,Wound,TBD,TBD
+Maus,die,Mäuse,A1,Mouse,TBD,TBD
+Pilot,der,Piloten,A2,Pilot,TBD,TBD
+Note,die,Noten,A2,Grade,TBD,TBD
+Video,das,Videos,A2,Video,TBD,TBD
+Korb,der,Körbe,A2,Basket,TBD,TBD
+Waggon,der,Waggons,A2,Wagon,TBD,TBD
+Versuch,der,Versuche,B1,Attempt,TBD,TBD
+Sofa,das,Sofas,A1,Sofa,TBD,TBD
+Kuchen,der,Kuchen,A1,Cake,TBD,TBD
+Kerl,der,Kerle,A2,Fellow,TBD,TBD
+Angelegenheit,die,Angelegenheiten,B2,Affair,TBD,TBD
+Küste,die,Küsten,A1,Shore,TBD,TBD
+General,der,Generäle,B1,General,TBD,TBD
+Wurzel,die,Wurzeln,A2,Root,TBD,TBD
+Umhang,der,Umhänge,A2,Robe,TBD,TBD
+Sorge,die,Sorgen,A2,Concern,TBD,TBD
+Presse,die,-,B1,Press,TBD,TBD
+Ratte,die,Ratten,A1,Rat,TBD,TBD
+Gesellschaft,die,Gesellschaften,B2,Society,TBD,TBD
+Stil,der,Stile,A2,Style,TBD,TBD
+Bezirk,der,Bezirke,B1,County,TBD,TBD
+Befehl,der,Befehle,B1,Command,TBD,TBD
+Besucher,der,Besucher,A2,Visitor,TBD,TBD
+Modell,das,Modelle,B1,Model,TBD,TBD
+Kammer,die,Kammern,B1,Chamber,TBD,TBD
+Tier,das,Tiere,A1,Beast,TBD,TBD
+Strauß,der,Sträuße,A2,Bunch,TBD,TBD
+Hintergrund,der,Hintergründe,B2,Background,TBD,TBD
+Einheit,die,Einheiten,B1,Unit,TBD,TBD
+Möbel,das,Möbel,A2,Furniture,TBD,TBD
+Nagel,der,Nägel,A2,Nail,TBD,TBD
+Schrei,der,Schreie,B1,Scream,TBD,TBD
+Eigentum,das,-,B1,Property,TBD,TBD
+Ausrüstung,die,-,B2,Equipment,TBD,TBD
+Auffahrt,die,Auffahrten,A2,Driveway,TBD,TBD
+Griff,der,Griffe,A2,Grip,TBD,TBD
+Röhre,die,Röhren,A2,Tube,TBD,TBD
+Asche,die,Aschen,A2,Ash,TBD,TBD
+Ventilator,der,Ventilatoren,A2,Fan,TBD,TBD
+Meinung,die,Meinungen,B1,Opinion,TBD,TBD
+Daten,die,-,A2,Data,TBD,TBD
+Verbindung,die,Verbindungen,B1,Connection,TBD,TBD
+Trick,der,Tricks,A2,Trick,TBD,TBD
+Geheimnis,das,Geheimnisse,B1,Mystery,TBD,TBD
+Periode,die,Perioden,B1,Period,TBD,TBD
+Schrift,die,Schriften,B1,Writing,TBD,TBD
+Horror,der,-,B1,Horror,TBD,TBD
+Süßigkeiten,die,-,A2,Candy,TBD,TBD
+Hündin,die,Hündinnen,A2,Bitch,TBD,TBD
+Gesundheit,die,-,B1,Health,TBD,TBD
+Manager,der,Manager,B1,Manager,TBD,TBD
+Sicherheit,die,-,B2,Safety,TBD,TBD
+Höhe,die,Höhen,A2,Height,TBD,TBD
+Aussehen,das,-,B1,Appearance,TBD,TBD
+Seufzer,der,Seufzer,A2,Sigh,TBD,TBD
+Mine,die,Minen,A2,Mine,TBD,TBD
+Stoff,der,Stoffe,A2,Cloth,TBD,TBD
+Reaktion,die,Reaktionen,B1,Reaction,TBD,TBD
+Quelle,die,Quellen,B1,Source,TBD,TBD
+Selbst,das,-,B1,Self,TBD,TBD
+Pistole,die,Pistolen,B1,Pistol,TBD,TBD
+Flughafen,der,Flughäfen,A1,Airport,TBD,TBD
+Held,der,Helden,A2,Hero,TBD,TBD
+Versprechen,das,Versprechen,B1,Promise,TBD,TBD
+Bogen,der,Bögen,A2,Bow,TBD,TBD
+Zelt,das,Zelte,A1,Tent,TBD,TBD
+Stand,der,Stände,A2,Booth,TBD,TBD
+Bargeld,das,-,A2,Cash,TBD,TBD
+Allee,die,Alleen,A2,Avenue,TBD,TBD
+T-Shirt,das,T-Shirts,A1,TShirt,TBD,TBD
+Teppich,der,Teppiche,A2,Carpet,TBD,TBD
+Keller,der,Keller,A1,Basement,TBD,TBD
+Freundin,die,Freundinnen,A1,Girlfriend,TBD,TBD
+Bart,der,Bärte,A1,Beard,TBD,TBD
+Augenbraue,die,Augenbrauen,A1,Brow,TBD,TBD
+Bildschirm,der,Bildschirme,A2,Display,TBD,TBD
+Signal,das,Signale,B1,Signal,TBD,TBD
+Diener,der,Diener,A2,Servant,TBD,TBD
+Flüstern,das,Flüstern,A2,Whisper,TBD,TBD
+Zweifel,der,Zweifel,B1,Doubt,TBD,TBD
+Konto,das,Konten,A2,Account,TBD,TBD
+Magie,die,-,B1,Magic,TBD,TBD
+Klumpen,der,Klumpen,A2,Hank,TBD,TBD
+Glied,das,Glieder,A2,Limb,TBD,TBD
+Bastard,der,Bastarde,A2,Bastard,TBD,TBD
+Schädel,der,Schädel,A1,Skull,TBD,TBD
+Satz,der,Sätze,A2,Sentence,TBD,TBD
+Kragen,der,Kragen,A2,Collar,TBD,TBD
+Horn,das,Hörner,A2,Horn,TBD,TBD
+Eiche,die,Eichen,A1,Oak,TBD,TBD
+Knöchel,der,Knöchel,A1,Ankle,TBD,TBD
+Puppe,die,Puppen,A1,Doll,TBD,TBD
+Sandwich,das,Sandwiches,A2,Sandwich,TBD,TBD
+Rotkehlchen,das,Rotkehlchen,A2,Robin,TBD,TBD
+Gerechtigkeit,die,-,C1,Justice,TBD,TBD
+Stolz,der,-,B1,Pride,TBD,TBD
+Jugend,die,-,B1,Youth,TBD,TBD
+Sekretär,der,Sekretäre,B1,Secretary,TBD,TBD
+Forschung,die,-,B2,Research,TBD,TBD
+Sport,der,Sportarten,A2,Sport,TBD,TBD
+Aufgabe,die,Aufgaben,B1,Task,TBD,TBD
+Stipendium,das,Stipendien,B2,Grant,TBD,TBD
+Sheriff,der,Sheriffs,B1,Sheriff,TBD,TBD
+Mitternacht,die,-,A1,Midnight,TBD,TBD
+Chip,der,Chips,A2,Chip,TBD,TBD
+Theorie,die,Theorien,B1,Theory,TBD,TBD
+Alarm,der,Alarme,A2,Alarm,TBD,TBD
+Sammlung,die,Sammlungen,B1,Collection,TBD,TBD
+Kreuz,das,Kreuze,A2,Cross,TBD,TBD
+Kiefer,die,Kiefern,A2,Pine,TBD,TBD
+Generation,die,Generationen,B2,Generation,TBD,TBD
+Autorität,die,Autoritäten,B2,Authority,TBD,TBD
+Papa,der,Papas,A1,Papa,TBD,TBD
+Reise,die,Reisen,A2,Journey,TBD,TBD
+Perle,die,Perlen,A2,Pearl,TBD,TBD
+Toilette,die,Toiletten,A1,Toilet,TBD,TBD
+Mörder,der,Mörder,B1,Killer,TBD,TBD
+Werkzeug,das,Werkzeuge,A2,Tool,TBD,TBD
+Medizin,die,Medizinen,B1,Medicine,TBD,TBD
+Zucker,der,-,A2,Sugar,TBD,TBD
+Prinzessin,die,Prinzessinnen,A2,Princess,TBD,TBD
+Argument,das,Argumente,B1,Argument,TBD,TBD
+Klippe,die,Klippen,A2,Cliff,TBD,TBD
+Wagen,der,Wagen,A2,Cart,TBD,TBD
+Kristall,der,Kristalle,A2,Crystal,TBD,TBD
+Bohne,die,Bohnen,A1,Bean,TBD,TBD
+Käfig,der,Käfige,A2,Cage,TBD,TBD
+Schokolade,die,-,A1,Chocolate,TBD,TBD
+Küste,die,Küsten,A1,Coast,TBD,TBD
+Jahrzehnt,das,Jahrzehnte,B2,Decade,TBD,TBD
+Bedeutung,die,Bedeutungen,C1,Meaning,TBD,TBD
+Getriebe,das,Getriebe,B1,Gear,TBD,TBD
+Koffer,der,Koffer,A2,Suitcase,TBD,TBD
+Operation,die,Operationen,B2,Operation,TBD,TBD
+Atmen,das,-,A2,Breathing,TBD,TBD
+Rolle,die,Rollen,A2,Role,TBD,TBD
+Version,die,Versionen,B1,Version,TBD,TBD
+Gefangene,der,Gefangenen,B1,Prisoner,TBD,TBD
+Spiel,das,Spiele,A2,Match,TBD,TBD
+Strahl,der,Strahlen,A2,Beam,TBD,TBD
+Schloss,das,Schlösser,A1,Castle,TBD,TBD
+Rausch,der,Räusche,B1,Rush,TBD,TBD
+Fahrspur,die,Fahrspuren,A2,Lane,TBD,TBD
+Kleidung,die,-,A2,Clothing,TBD,TBD
+Pfahl,der,Pfähle,A2,Pole,TBD,TBD
+Freiheit,die,-,B1,Freedom,TBD,TBD
+Fähigkeit,die,Fähigkeiten,B1,Skill,TBD,TBD
+Leidenschaft,die,Leidenschaften,B2,Passion,TBD,TBD
+Aktivität,die,Aktivitäten,B2,Activity,TBD,TBD
+Fick,der,Ficks,A2,Fuck,TBD,TBD
+Plattform,die,Plattformen,B2,Platform,TBD,TBD
+Salz,das,-,A2,Salt,TBD,TBD
+Fahrrad,das,Fahrräder,A1,Bike,TBD,TBD
+Stapel,der,Stapel,A2,Stack,TBD,TBD
+Begleiter,der,Begleiter,B1,Companion,TBD,TBD
+Schicksal,das,-,B2,Fate,TBD,TBD
+Wut,die,-,A2,Rage,TBD,TBD
+Versorgung,die,Versorgungen,B2,Supply,TBD,TBD
+Wal,der,Wale,A1,Whale,TBD,TBD
+Schwein,das,Schweine,A1,Pig,TBD,TBD
+Kaninchen,das,Kaninchen,A1,Rabbit,TBD,TBD
+Gang,der,Gänge,A2,Aisle,TBD,TBD
+Monitor,der,Monitore,A2,Monitor,TBD,TBD
+Helm,der,Helme,A1,Helmet,TBD,TBD
+Respekt,der,-,B1,Respect,TBD,TBD
+Aufregung,die,-,B1,Excitement,TBD,TBD
+Lobby,die,Lobbys,A2,Lobby,TBD,TBD
+Freund,der,Freunde,A1,Boyfriend,TBD,TBD
+Pelz,der,Felle,A2,Fur,TBD,TBD
+Bandbreite,die,Bandbreiten,B2,Range,TBD,TBD
+Schwanz,der,Schwänze,A2,Dick,TBD,TBD
+Code,der,Codes,A2,Code,TBD,TBD
+Kapitel,das,Kapitel,A2,Chapter,TBD,TBD
+Reflexion,die,Reflexionen,B2,Reflection,TBD,TBD
+Post,die,Mails,A2,Mail,TBD,TBD
+Fliege,die,Fliegen,A1,Fly,TBD,TBD
+Schrank,der,Schränke,A2,Cabinet,TBD,TBD
+Spielzeug,das,Spielzeuge,A1,Toy,TBD,TBD
+Baseball,der,Baseballs,A2,Baseball,TBD,TBD
+Innere,das,-,B1,Inside,TBD,TBD
+Tempo,das,-,A2,Pace,TBD,TBD
+Griff,der,Griffe,A2,Handle,TBD,TBD
+Blei,das,-,A2,Lead,TBD,TBD
+Menge,die,Mengen,A2,Amount,TBD,TBD
+Nerv,der,Nerven,A2,Nerve,TBD,TBD
+Terror,der,-,B1,Terror,TBD,TBD
+Pullover,der,Pullover,A1,Sweater,TBD,TBD
+Qualität,die,Qualitäten,B1,Quality,TBD,TBD
+Jäger,der,Jäger,A2,Hunter,TBD,TBD
+Farbe,die,Farben,A1,Paint,TBD,TBD
+Zerstörer,der,Zerstörer,B2,Buster,TBD,TBD
+Baumwolle,die,-,A2,Cotton,TBD,TBD
+Feldwebel,der,Feldwebel,B2,Sergeant,TBD,TBD
+Kredit,der,Kredite,B1,Credit,TBD,TBD
+Schlag,der,Schläge,A2,Blow,TBD,TBD
+Teufel,der,Teufel,A2,Devil,TBD,TBD
+Bedrohung,die,Bedrohungen,B2,Threat,TBD,TBD
+Erfolg,der,Erfolge,B1,Success,TBD,TBD
+Abend,der,Abende,A1,Eve,TBD,TBD
+Kabel,das,Kabel,A2,Cable,TBD,TBD
+Pfanne,die,Pfannen,A2,Pan,TBD,TBD
+Angestellte,der,Angestellten,A2,Clerk,TBD,TBD
+Titel,der,Titel,A2,Title,TBD,TBD
+Meter,der,Meter,A2,Meter,TBD,TBD
+Schande,die,-,B1,Shame,TBD,TBD
+Nadel,die,Nadeln,A1,Needle,TBD,TBD
+Lunge,die,Lungen,A1,Lung,TBD,TBD
+Krieger,der,Krieger,A2,Warrior,TBD,TBD
+Umstände,die,-,B1,Circumstance,TBD,TBD
+Studio,das,Studios,A2,Studio,TBD,TBD
+Panik,die,-,B1,Panic,TBD,TBD
+Mangel,der,-,B1,Lack,TBD,TBD
+Bauer,der,Bauern,A2,Farmer,TBD,TBD
+Akzent,der,Akzente,B1,Accent,TBD,TBD
+Bombe,die,Bomben,A2,Bomb,TBD,TBD
+Panel,das,Panels,A2,Panel,TBD,TBD
+Fähigkeit,die,Fähigkeiten,B1,Ability,TBD,TBD
+Glück,das,-,A2,Fortune,TBD,TBD
+Sieger,der,Sieger,A2,Victor,TBD,TBD
+Feder,die,Federn,A1,Feather,TBD,TBD
+Oma,die,Omas,A1,Grandma,TBD,TBD
+Leuchten,das,Leuchten,B1,Glow,TBD,TBD
+Verhalten,das,-,B2,Behavior,TBD,TBD
+Durchgang,der,Durchgänge,A2,Passage,TBD,TBD
+Sklave,der,Sklaven,B1,Slave,TBD,TBD
+Leutnant,der,Leutnants,B1,Lieutenant,TBD,TBD
+Fass,das,Fässer,A2,Barrel,TBD,TBD
+Wärme,die,-,A2,Warmth,TBD,TBD
+Eindruck,der,Eindrücke,B1,Impression,TBD,TBD
+Maurer,der,Maurer,A2,Mason,TBD,TBD
+Braut,die,Bräute,A1,Bride,TBD,TBD
+Paket,das,Pakete,A2,Package,TBD,TBD
+Nebel,der,-,A1,Fog,TBD,TBD
+Gehen,das,-,A2,Walking,TBD,TBD
+Gleichgewicht,das,-,B1,Balance,TBD,TBD
+Socke,die,Socken,A1,Sock,TBD,TBD
+Roboter,der,Roboter,A2,Robot,TBD,TBD
+Kartoffel,die,Kartoffeln,A1,Potato,TBD,TBD
+Gegenstand,der,Gegenstände,B1,Item,TBD,TBD
+Bad,das,Bäder,A2,Bath,TBD,TBD
+Diamant,der,Diamanten,A2,Diamond,TBD,TBD
+Leiche,die,Leichen,B1,Corpse,TBD,TBD
+Erklärung,die,Erklärungen,B2,Explanation,TBD,TBD
+Struktur,die,Strukturen,B1,Structure,TBD,TBD
+Ausgang,der,Ausgänge,A1,Exit,TBD,TBD
+Kissen,das,Kissen,A1,Pad,TBD,TBD
+Herd,der,Herde,A2,Stove,TBD,TBD
+Blau,das,-,A2,Blue,TBD,TBD
+Amerikaner,der,Amerikaner,A2,American,TBD,TBD
+Rubin,der,Rubine,A2,Ruby,TBD,TBD
+Blitz,das,Blitze,A1,Lightning,TBD,TBD
+Grube,die,Gruben,A2,Pit,TBD,TBD
+Oberst,der,Obersten,B1,Colonel,TBD,TBD
+Hafen,der,Häfen,A1,Dock,TBD,TBD
+Bach,der,Bäche,A1,Creek,TBD,TBD
+Rat,der,Ratschläge,A2,Advice,TBD,TBD
+Tourist,der,Touristen,A2,Tourist,TBD,TBD
+Trauer,die,-,B1,Grief,TBD,TBD
+Verteidigung,die,-,B2,Defense,TBD,TBD
+Biss,der,Bisse,A2,Bite,TBD,TBD
+Museum,das,Museen,A2,Museum,TBD,TBD
+Gefallen,der,Gefallen,B1,Favor,TBD,TBD
+Abendessen,das,-,A2,Supper,TBD,TBD
+Komfort,der,-,B1,Comfort,TBD,TBD
+Dekan,der,-,B1,Dean,TBD,TBD
+Wert,der,Werte,A2,Value,TBD,TBD
+Marsch,der,Märsche,B1,March,TBD,TBD
+Anwesen,das,Anwesen,B1,Estate,TBD,TBD
+Dichter,der,Dichter,B1,Poet,TBD,TBD
+Palast,der,Paläste,A2,Palace,TBD,TBD
+Suppe,die,Suppen,A1,Soup,TBD,TBD
+Nation,die,Nationen,B1,Nation,TBD,TBD
+Glas,das,Gläser,A1,Jar,TBD,TBD
+Stand,der,-,A2,Standing,TBD,TBD
+Sack,der,Säcke,A2,Sack,TBD,TBD
+Dämon,der,Dämonen,A2,Demon,TBD,TBD
+Konferenz,die,Konferenzen,B2,Conference,TBD,TBD
+Saft,der,Säfte,A1,Juice,TBD,TBD
+Verantwortung,die,-,B2,Responsibility,TBD,TBD
+Bürste,die,Bürsten,A1,Brush,TBD,TBD
+Route,die,Routen,A2,Route,TBD,TBD
+Käse,der,Käse,A1,Cheese,TBD,TBD
+Motorhaube,die,Motorhauben,B2,Hood,TBD,TBD
+Ente,die,Enten,A1,Duck,TBD,TBD
+Heilige,der,Heiligen,B1,Saint,TBD,TBD
+Pass,der,Pässe,A2,Pass,TBD,TBD
+Ziel,das,Ziele,A2,Target,TBD,TBD
+Orange,die,Orangen,A1,Orange,TBD,TBD
+Kultur,die,Kulturen,B2,Culture,TBD,TBD
+Tour,die,Touren,A2,Tour,TBD,TBD
+Kommandant,der,Kommandanten,B2,Commander,TBD,TBD
+Haken,der,Haken,A2,Hook,TBD,TBD
+Nebel,der,-,A1,Mist,TBD,TBD
+Training,das,Trainings,B1,Training,TBD,TBD
+Suche,die,Suchen,A2,Search,TBD,TBD
+Münze,die,Münzen,A2,Coin,TBD,TBD
+Wunder,das,Wunder,B1,Miracle,TBD,TBD
+Vorteil,der,Vorteile,B1,Advantage,TBD,TBD
+Austausch,der,Austausche,B1,Exchange,TBD,TBD
+Fiktion,die,-,B1,Fiction,TBD,TBD
+Teich,der,Teiche,A2,Pond,TBD,TBD
+Assistent,der,Assistenten,B1,Assistant,TBD,TBD
+Design,das,Designs,B1,Design,TBD,TBD
+Angeln,das,-,A2,Fishing,TBD,TBD
+Hang,der,Hänge,A2,Slope,TBD,TBD
+Graf,der,Grafen,A2,Earl,TBD,TBD
+Kommentar,der,Kommentare,B1,Comment,TBD,TBD
+Kellner,der,Kellner,A1,Waiter,TBD,TBD
+Lebensmittel,der,Lebensmittel,B1,Grocery,TBD,TBD
+Leiter,die,Leitern,A2,Ladder,TBD,TBD
+Kurve,die,Kurven,A2,Curve,TBD,TBD
+Volumen,das,Volumina,B1,Volume,TBD,TBD
+Risiko,das,Risiken,B1,Risk,TBD,TBD
+Albtraum,der,Albträume,B1,Nightmare,TBD,TBD
+Existenz,die,-,B1,Existence,TBD,TBD
+Spur,die,Spuren,A2,Trace,TBD,TBD
+Krankheit,die,Krankheiten,B1,Disease,TBD,TBD
+Unterstützung,die,-,B2,Support,TBD,TBD
+Zeuge,der,Zeugen,A2,Witness,TBD,TBD
+Bestand,der,Bestände,B1,Stock,TBD,TBD
+Gerät,das,Geräte,A2,Device,TBD,TBD
+Landschaft,die,Landschaften,B2,Landscape,TBD,TBD
+Feiertag,der,Feiertage,A2,Holiday,TBD,TBD
+Ass,das,Asse,A2,Ace,TBD,TBD
+Klavier,das,Klaviere,A2,Piano,TBD,TBD
+Darm,der,-,A2,Gut,TBD,TBD
+Talent,das,Talente,B1,Talent,TBD,TBD
+Fantasie,die,-,B1,Imagination,TBD,TBD
+Schwarz,das,-,A2,Black,TBD,TBD
+Rohrkolben,der,Rohrkolben,B2,Reed,TBD,TBD
+Deckel,der,Deckel,A2,Lid,TBD,TBD
+Hinweis,der,Hinweise,B1,Hint,TBD,TBD
+Spaziergänger,der,Spaziergänger,B1,Walker,TBD,TBD
+Schaudern,das,-,B1,Chill,TBD,TBD
+Prozess,der,Prozesse,B1,Trial,TBD,TBD
+Interview,das,Interviews,B1,Interview,TBD,TBD
+Ansatz,der,Ansätze,B1,Approach,TBD,TBD
+Narbe,die,Narben,A1,Scar,TBD,TBD
+Mode,die,-,A2,Fashion,TBD,TBD
+Kanal,der,Kanäle,A2,Channel,TBD,TBD
+Fußabdruck,der,Fußabdrücke,A2,Footstep,TBD,TBD
+Pick-up,der,Pick-ups,A2,Pickup,TBD,TBD
+Habicht,der,Habichte,B1,Hawk,TBD,TBD
+Anhänger,der,Anhänger,A2,Trailer,TBD,TBD
+Statue,die,Statuen,A2,Statue,TBD,TBD
+Pille,die,Pillen,A2,Pill,TBD,TBD
+Käfer,der,Käfer,A1,Bug,TBD,TBD
+Eimer,der,Eimer,A1,Bucket,TBD,TBD
+Urlaub,der,Urlaube,A2,Vacation,TBD,TBD
+Art,die,Arten,A2,Species,TBD,TBD
+Säule,die,Säulen,A2,Column,TBD,TBD
+Schaden,der,-,B1,Damage,TBD,TBD
+Instrument,das,Instrumente,B2,Instrument,TBD,TBD
+Hafen,der,Häfen,A1,Port,TBD,TBD
+Schicht,die,Schichten,B1,Layer,TBD,TBD
+Streifen,der,Streifen,A2,Strip,TBD,TBD
+Müll,der,-,A1,Garbage,TBD,TBD
+Rippe,die,Rippen,A1,Rib,TBD,TBD
+Notizbuch,das,Notizbücher,A2,Notebook,TBD,TBD
+Mais,der,-,A1,Corn,TBD,TBD
+Angebot,das,Angebote,B1,Offer,TBD,TBD
+Zeichnung,die,Zeichnungen,A2,Drawing,TBD,TBD
+Aussage,die,Aussagen,B1,Statement,TBD,TBD
+Intelligenz,die,-,B2,Intelligence,TBD,TBD
+Entschuldigung,die,Entschuldigungen,A2,Excuse,TBD,TBD
+Landung,die,Landungen,A2,Landing,TBD,TBD
+Urheberrecht,das,-,B2,Copyright,TBD,TBD
+Stange,die,Stangen,A2,Rod,TBD,TBD
+Fantasie,die,Fantasien,B1,Fantasy,TBD,TBD
+Neugierde,die,-,B1,Curiosity,TBD,TBD
+Gewand,das,Gewänder,B2,Gown,TBD,TBD
+Grenze,die,Grenzen,B1,Border,TBD,TBD
+Poesie,die,-,B2,Poetry,TBD,TBD
+Firma,die,Firmen,A2,Firm,TBD,TBD
+Anstieg,der,Anstiege,B1,Rise,TBD,TBD
+Handvoll,die,Handvoll,B1,Handful,TBD,TBD
+Porzellan,das,-,A2,China,TBD,TBD
+Franzose,der,Franzosen,A2,French,TBD,TBD
+Durchschnitt,der,Durchschnitte,B2,Mean,TBD,TBD
+Reh,das,Rehe,A1,Deer,TBD,TBD
+Druck,der,Drucke,A2,Print,TBD,TBD
+Schiene,die,Schienen,A2,Rail,TBD,TBD
+Tarif,der,Tarife,A2,Rate,TBD,TBD
+Mut,der,-,A2,Courage,TBD,TBD
+Ankunft,die,Ankünfte,A2,Arrival,TBD,TBD
+Wunsch,der,Wünsche,B1,Wish,TBD,TBD
+Bergrücken,der,Bergrücken,B2,Ridge,TBD,TBD
+Idiot,der,Idioten,A2,Idiot,TBD,TBD
+Stier,der,Stiere,A2,Bull,TBD,TBD
+Samen,der,Samen,A2,Seed,TBD,TBD
+Fortschritt,der,-,B2,Progress,TBD,TBD
+Gefühl,das,Gefühle,B1,Feel,TBD,TBD
+kurze Hose,die,kurzen Hosen,A2,Shorts,TBD,TBD
+Bürger,der,Bürger,B1,Citizen,TBD,TBD
+Müll,der,-,A2,Trash,TBD,TBD
+Baumstamm,der,Baumstämme,A2,Log,TBD,TBD
+Geduld,die,-,B1,Patience,TBD,TBD
+Fledermaus,die,Fledermäuse,A2,Bat,TBD,TBD
+Fußball,der,Fußbälle,A2,Football,TBD,TBD
+Routine,die,Routinen,B1,Routine,TBD,TBD
+Explosion,die,Explosionen,B2,Explosion,TBD,TBD
+Inhalt,der,Inhalte,B1,Content,TBD,TBD
+Wissenschaftler,der,Wissenschaftler,B2,Scientist,TBD,TBD
+Versagen,das,-,B1,Failure,TBD,TBD
+Sünde,die,Sünden,A2,Sin,TBD,TBD
+Hintern,der,Hintern,A2,Butt,TBD,TBD
+Verwirrung,die,-,B1,Confusion,TBD,TBD
+Verständnis,das,-,B1,Understanding,TBD,TBD
+Handel,der,-,B1,Trade,TBD,TBD
+Kühlschrank,der,Kühlschränke,A2,Refrigerator,TBD,TBD
+Herr,der,Herren,A1,Mister,TBD,TBD
+Taschenlampe,die,Taschenlampen,A2,Flashlight,TBD,TBD
+Netz,das,Netze,A2,Net,TBD,TBD
+Matrose,der,Matrosen,A2,Sailor,TBD,TBD
+Einstellung,die,Einstellungen,B2,Attitude,TBD,TBD
+Schuld,die,-,B1,Guilt,TBD,TBD
+Weinen,das,-,A2,Crying,TBD,TBD
+Schluck,der,Schlucke,A2,Sip,TBD,TBD
+Reisen,das,Reisen,A2,Travel,TBD,TBD
+Keks,der,Kekse,A2,Cookie,TBD,TBD
+Flucht,die,Fluchten,B1,Escape,TBD,TBD
+Anweisung,die,Anweisungen,B2,Instruction,TBD,TBD
+Stoff,der,Stoffe,A2,Fabric,TBD,TBD
+Marmor,der,Marmore,B2,Marble,TBD,TBD
+Blick,der,Blicke,A2,Glimpse,TBD,TBD
+Dämmerung,die,-,B2,Dusk,TBD,TBD
+Hütte,die,Hütten,A2,Cottage,TBD,TBD
+Affe,der,Affen,A1,Monkey,TBD,TBD
+Make up,das,-,A2,Makeup,TBD,TBD
+Arzt,der,Ärzte,A2,Doc,TBD,TBD
+Bluse,die,Blusen,A2,Blouse,TBD,TBD
+Rhythmus,der,Rhythmen,B1,Rhythm,TBD,TBD
+Dampf,der,-,A2,Steam,TBD,TBD
+Phrase,die,Phrasen,B1,Phrase,TBD,TBD
+Mutter,die,Muttern,A1,Nut,TBD,TBD
+Bleistift,der,Bleistifte,A2,Pencil,TBD,TBD
+Koch,der,Köche,A2,Cook,TBD,TBD
+Flagge,die,Flaggen,A2,Flag,TBD,TBD
+Trainer,der,Trainer,A2,Coach,TBD,TBD
+Schwung,der,Schwünge,B1,Swing,TBD,TBD
+Lautsprecher,der,Lautsprecher,B2,Speaker,TBD,TBD
+Bolzen,der,Bolzen,B1,Bolt,TBD,TBD
+Fett,das,Fette,A2,Fat,TBD,TBD
+Teppich,der,Teppiche,A2,Rug,TBD,TBD
+Klopfen,das,-,A2,Knock,TBD,TBD
+Zauber,der,Zauber,B1,Spell,TBD,TBD
+Taxi,das,Taxis,A2,Taxi,TBD,TBD
+Runde,die,Runden,A2,Round,TBD,TBD
+Strohhalm,der,Strohhalme,A2,Straw,TBD,TBD
+Luke,die,Luken,A2,Hatch,TBD,TBD
+Gabel,die,Gabeln,A2,Fork,TBD,TBD
+Böse,das,-,B1,Evil,TBD,TBD
+Dienstmädchen,die,-,B1,Maid,TBD,TBD
+Verwandte,der,Verwandten,A2,Relative,TBD,TBD
+Hexe,die,Hexen,A2,Witch,TBD,TBD
+Innenhof,der,Innenhöfe,A2,Courtyard,TBD,TBD
+Sensation,die,Sensationen,B2,Sensation,TBD,TBD
+Blase,die,Blasen,A2,Bubble,TBD,TBD
+Leser,der,Leser,A2,Reader,TBD,TBD
+Locke,die,Locken,A2,Curl,TBD,TBD
+Kuchen,der,Kuchen,A2,Pie,TBD,TBD
+Düsenflugzeug,das,Düsenflugzeuge,B2,Jet,TBD,TBD
+Schicht,die,Schichten,B1,Shift,TBD,TBD
+Union,die,Unionen,B2,Union,TBD,TBD
+Teenager,der,Teenager,A2,Teenager,TBD,TBD
+Ebene,die,Ebenen,A2,Plain,TBD,TBD
+Kellnerin,die,Kellnerinnen,A2,Waitress,TBD,TBD
+Antwort,die,Antworten,A2,Reply,TBD,TBD
+Gerücht,das,Gerüchte,B1,Rumor,TBD,TBD
+Schwerkraft,die,-,B2,Gravity,TBD,TBD
+Schutz,das,Schutz,A2,Shelter,TBD,TBD
+Abenteuer,das,Abenteuer,A2,Adventure,TBD,TBD
+Löwe,der,Löwen,A1,Lion,TBD,TBD
+Wirbelsäule,die,Wirbelsäulen,B2,Spine,TBD,TBD
+Vertrauen,das,Vertrauen,B1,Confidence,TBD,TBD
+Tiefe,die,Tiefen,A2,Depth,TBD,TBD
+Reichweite,die,Reichweiten,B2,Reach,TBD,TBD
+Hammer,der,Hämmer,A2,Hammer,TBD,TBD
+Bibel,die,Bibeln,A2,Bible,TBD,TBD
+Vertrag,der,Verträge,B1,Contract,TBD,TBD
+Brieftasche,die,Brieftaschen,A2,Wallet,TBD,TBD
+Dschungel,der,Dschungel,A2,Jungle,TBD,TBD
+Fabrik,die,Fabriken,B1,Factory,TBD,TBD
+Indianer,der,Indianer,B1,Indian,TBD,TBD
+Balkon,der,Balkone,A2,Balcony,TBD,TBD
+Reis,der,-,A1,Rice,TBD,TBD
+Knoten,der,Knoten,A2,Knot,TBD,TBD
+Kabel,das,Kabel,A2,Cord,TBD,TBD
+Kollege,der,Kollegen,B1,Colleague,TBD,TBD
+Absicht,die,Absichten,B1,Intention,TBD,TBD
+Motel,das,Motels,A2,Motel,TBD,TBD
+Anwalt,der,Anwälte,B1,Attorney,TBD,TBD
+Liebling,der,Lieblinge,A2,Darling,TBD,TBD
+Diskussion,die,Diskussionen,B2,Discussion,TBD,TBD
+Atmosphäre,die,Atmosphären,B2,Atmosphere,TBD,TBD
+Aufführung,die,Aufführungen,B2,Performance,TBD,TBD
+Spannung,die,Spannungen,B1,Tension,TBD,TBD
+Text,der,Texte,A2,Text,TBD,TBD
+Strand,der,Strände,A1,Strand,TBD,TBD
+Mittag,der,-,A1,Noon,TBD,TBD
+Ader,die,Adern,A2,Vein,TBD,TBD
+Experte,der,Experten,B1,Expert,TBD,TBD
+Bande,die,Banden,A2,Gang,TBD,TBD
+Polizist,der,Polizisten,A2,Policeman,TBD,TBD
+Krebs,der,-,B1,Cancer,TBD,TBD
+Fuchs,der,Füchse,A1,Fox,TBD,TBD
+Scheidung,die,Scheidungen,B2,Divorce,TBD,TBD
+Puls,der,Pulse,A2,Pulse,TBD,TBD
+Abwesenheit,die,-,C1,Absence,TBD,TBD
+Gewalt,die,-,B1,Violence,TBD,TBD
+Humor,der,-,B1,Humor,TBD,TBD
+Hocker,der,Hocker,A2,Stool,TBD,TBD
+Kies,der,-,A2,Gravel,TBD,TBD
+Schatz,der,Schätze,B1,Treasure,TBD,TBD
+Butter,die,-,A1,Butter,TBD,TBD
+Schalter,der,Schalter,A2,Switch,TBD,TBD
+Zigarre,die,Zigarren,A2,Cigar,TBD,TBD
+Leinwand,die,Leinwände,B2,Canvas,TBD,TBD
+Glück,das,-,B1,Happiness,TBD,TBD
+Führer,der,Führer,B1,Guide,TBD,TBD
+Stecknadel,die,Stecknadeln,A2,Pin,TBD,TBD
+Schauspieler,der,Schauspieler,B1,Actor,TBD,TBD
+Ganze,das,-,B1,Whole,TBD,TBD
+Anordnung,die,Anordnungen,B2,Arrangement,TBD,TBD
+Braun,das,-,A2,Brown,TBD,TBD
+Gastgeber,der,Gastgeber,B1,Host,TBD,TBD
+Band,das,Bänder,A2,Ribbon,TBD,TBD
+Schal,der,Schals,A2,Scarf,TBD,TBD
+Skala,die,Skalen,A2,Scale,TBD,TBD
+Beweis,der,Beweise,B1,Proof,TBD,TBD
+Pfeil,der,Pfeile,A2,Arrow,TBD,TBD
+Temperatur,die,Temperaturen,B2,Temperature,TBD,TBD
+Technologie,die,Technologien,B2,Technology,TBD,TBD
+Erlaubnis,die,Erlaubnisse,B1,Permission,TBD,TBD
+Standort,der,Standorte,B2,Location,TBD,TBD
+Klaue,die,Klauen,A2,Claw,TBD,TBD
+Cowboy,der,Cowboys,A2,Cowboy,TBD,TBD
+Agentur,die,Agenturen,B2,Agency,TBD,TBD
+Bau,der,-,A2,Construction,TBD,TBD
+Jagd,die,-,A2,Hunting,TBD,TBD
+Gemüse,das,Gemüse,A2,Vegetable,TBD,TBD
+Konservendose,die,Konservendosen,B1,Tin,TBD,TBD
+Hubschrauber,der,Hubschrauber,B2,Helicopter,TBD,TBD
+Falle,die,Fallen,A2,Trap,TBD,TBD
+Schlag,der,-,A2,Pat,TBD,TBD
+Lücke,die,Lücken,A2,Gap,TBD,TBD
+Haustier,das,Haustiere,A2,Pet,TBD,TBD
+Bildung,das,-,B1,Education,TBD,TBD
+Einkauf,die,Einkäufe,A2,Shopping,TBD,TBD
+Schuppen,der,Schuppen,A2,Shed,TBD,TBD
+Vereinbarung,die,Vereinbarungen,B2,Agreement,TBD,TBD
+Boden,der,-,A2,Soil,TBD,TBD
+Herzog,der,Herzöge,B1,Duke,TBD,TBD
+Schrotflinte,das,Schrotflinten,B2,Shotgun,TBD,TBD
+Idee,die,Ideen,B1,Notion,TBD,TBD
+Heck,das,-,A2,Rear,TBD,TBD
+Zeremonie,die,Zeremonien,B2,Ceremony,TBD,TBD
+Löffel,der,Löffel,A1,Spoon,TBD,TBD
+Badewanne,die,Badewannen,A2,Tub,TBD,TBD
+Hinweis,der,Hinweise,B1,Clue,TBD,TBD
+Iris,die,Irisse,A2,Iris,TBD,TBD
+Vorfall,der,Vorfälle,B1,Incident,TBD,TBD
+Zusammenstoß,der,Zusammenstöße,B2,Crash,TBD,TBD
+Journal,das,Journale,B1,Journal,TBD,TBD
+Zugriff,der,-,B2,Access,TBD,TBD
+Messing,das,-,B2,Brass,TBD,TBD
+Mama,die,Mamas,A1,Mommy,TBD,TBD
+Sidebar,die,Sidebars,B2,Sidebar,TBD,TBD
+Schaf,das,Schafe,A1,Sheep,TBD,TBD
+Ingenieur,der,Ingenieure,B2,Engineer,TBD,TBD
+Rumpf,der,Rümpfe,A2,Hull,TBD,TBD
+Geruch,der,Gerüche,A2,Odor,TBD,TBD
+Termin,die,Termine,A2,Appointment,TBD,TBD
+Einladung,die,Einladungen,B2,Invitation,TBD,TBD
+Lumpen,das,Lumpen,A2,Rag,TBD,TBD
+Gute,das,-,A2,Good,TBD,TBD
+Typ,der,Typen,A2,Dude,TBD,TBD
+Behandlung,die,Behandlungen,B2,Treatment,TBD,TBD
+Weisheit,die,-,B1,Wisdom,TBD,TBD
+Preis,der,Preise,A2,Prize,TBD,TBD
+Element,das,Elemente,B1,Element,TBD,TBD
+Riese,der,Riesen,A1,Giant,TBD,TBD
+Serviette,die,Servietten,A2,Napkin,TBD,TBD
+Wäsche,die,-,A2,Laundry,TBD,TBD
+Option,die,Optionen,B1,Option,TBD,TBD
+Regal,das,Regale,A2,Rack,TBD,TBD
+Anfrage,die,Anfragen,B1,Request,TBD,TBD
+Gefängnis,das,Gefängnisse,B1,Jail,TBD,TBD
+Opa,der,Opas,A1,Grandpa,TBD,TBD
+Ranch,die,Ranches,A2,Ranch,TBD,TBD
+Punkt,der,Punkte,A2,Dot,TBD,TBD
+Skript,das,Skripte,B1,Script,TBD,TBD
+Einkaufszentrum,das,Einkaufszentren,B2,Mall,TBD,TBD
+Furt,die,Furten,A2,Ford,TBD,TBD
+Übung,die,Übungen,A2,Exercise,TBD,TBD
+Witwe,die,Witwen,A2,Widow,TBD,TBD
+Krähe,die,Krähen,A1,Crow,TBD,TBD
+Faden,der,Fäden,A2,Thread,TBD,TBD
+Selbstmord,der,Selbstmorde,B2,Suicide,TBD,TBD
+Hinweis,das,Hinweise,B1,Notice,TBD,TBD
+Sonnenuntergang,der,Sonnenuntergänge,A2,Sunset,TBD,TBD
+Galerie,die,Galerien,B1,Gallery,TBD,TBD
+Gefäß,das,Gefäße,A2,Vessel,TBD,TBD
+Donner,der,-,A2,Thunder,TBD,TBD
+Seife,die,Seifen,A1,Soap,TBD,TBD
+Whisky,der,-,A2,Whiskey,TBD,TBD
+Frau,die,Frauen,A1,Female,TBD,TBD
+Bürgermeister,der,Bürgermeister,B2,Mayor,TBD,TBD
+Schlaganfall,der,Schlaganfälle,B2,Stroke,TBD,TBD
+Klick,der,Klicks,A2,Click,TBD,TBD
+Ruf,der,Rufe,B1,Reputation,TBD,TBD
+Müller,der,Müller,B1,Miller,TBD,TBD
+Rat,der,Räte,B1,Council,TBD,TBD
+Zeitplan,der,Zeitpläne,B1,Schedule,TBD,TBD
+Friedhof,der,Friedhöfe,B1,Cemetery,TBD,TBD
+Kampf,der,Kämpfe,B1,Struggle,TBD,TBD
+Instinkt,der,Instinkte,B1,Instinct,TBD,TBD
+Ruhe,die,-,A2,Calm,TBD,TBD
+Mitarbeiter,der,Mitarbeiter,B2,Employee,TBD,TBD
+Nest,das,Nester,A2,Nest,TBD,TBD
+Grenze,die,Grenzen,B1,Limit,TBD,TBD
+Deutsche,der,Deutschen,B1,German,TBD,TBD
+Mönch,der,Mönche,A2,Monk,TBD,TBD
+Wurm,der,Würmer,A1,Worm,TBD,TBD
+Dokument,das,Dokumente,B1,Document,TBD,TBD
+Trauer,die,-,B1,Sadness,TBD,TBD
+Hut,der,Hüte,A1,Hut,TBD,TBD
+Leben,das,Leben,A1,Lifetime,TBD,TBD
+Tänzer,der,Tänzer,A2,Dancer,TBD,TBD
+Versicherung,die,Versicherungen,B2,Insurance,TBD,TBD
+Schwierigkeit,die,Schwierigkeiten,B1,Difficulty,TBD,TBD
+Matratze,die,Matratzen,A2,Mattress,TBD,TBD
+Mann,der,Männer,A1,Male,TBD,TBD
+Klinik,die,Kliniken,B1,Clinic,TBD,TBD
+Anzeige,die,Anzeigen,B1,Ad,TBD,TBD
+Becher,der,Becher,A2,Mug,TBD,TBD
+Set,das,Sets,A2,Kit,TBD,TBD
+Kommunikation,die,Kommunikationen,B2,Communication,TBD,TBD
+Katastrophe,die,Katastrophen,B2,Disaster,TBD,TBD
+Fliese,die,Fliesen,A2,Tile,TBD,TBD
+Empfänger,der,Empfänger,B2,Receiver,TBD,TBD
+Gebrüll,das,-,B1,Roar,TBD,TBD
+Truppe,die,Truppen,B1,Troop,TBD,TBD
+Sarg,der,Särge,A2,Coffin,TBD,TBD
+Freundschaft,die,Freundschaften,B1,Friendship,TBD,TBD
+Untersuchung,die,Untersuchungen,B2,Investigation,TBD,TBD
+Verkauf,der,Verkäufe,A2,Sale,TBD,TBD
+Tor,das,Tore,A2,Goal,TBD,TBD
+Krankenwagen,der,Krankenwagen,B2,Ambulance,TBD,TBD
+Mondschein,das,-,B2,Moonlight,TBD,TBD
+Station,die,Stationen,B2,Ward,TBD,TBD
+Hose,die,Hosen,A2,Trousers,TBD,TBD
+Wolle,die,-,A2,Wool,TBD,TBD
+Regenmantel,der,Regenmäntel,A2,Mac,TBD,TBD
+Minister,der,Minister,B2,Minister,TBD,TBD
+Eintrag,der,Einträge,B1,Entry,TBD,TBD
+Dieb,der,Diebe,A2,Thief,TBD,TBD
+Aktenkoffer,der,Aktentaschen,B2,Briefcase,TBD,TBD
+Mitleid,das,-,B1,Pity,TBD,TBD
+Fingerspitze,die,Fingerspitzen,A2,Fingertip,TBD,TBD
+Marine,die,Marinen,B2,Navy,TBD,TBD
+Insekt,das,Insekten,A2,Insect,TBD,TBD
+Samt,der,-,A2,Velvet,TBD,TBD
+Biene,die,Bienen,A1,Bee,TBD,TBD
+Stock,der,Stöcke,A2,Cane,TBD,TBD
+Gen,das,Gene,B2,Gene,TBD,TBD
+Salat,der,Salate,A2,Salad,TBD,TBD
+Windschutzscheibe,die,Windschutzscheiben,B2,Windshield,TBD,TBD
+Outfit,das,Outfits,A2,Outfit,TBD,TBD
+Shuttle,das,Shuttle,B1,Shuttle,TBD,TBD
+Schrei,der,Schreie,A2,Shout,TBD,TBD
+Wut,die,-,B1,Fury,TBD,TBD
+Herausforderung,die,Herausforderungen,B2,Challenge,TBD,TBD
+Zufriedenheit,die,-,C1,Satisfaction,TBD,TBD
+Motor,der,Motoren,A2,Motor,TBD,TBD
+Produkt,das,Produkte,B2,Product,TBD,TBD
+Unkraut,das,-,A2,Weed,TBD,TBD
+Stretch,der,-,B1,Stretch,TBD,TBD
+Fitnessstudio,das,Fitnessstudios,B2,Gym,TBD,TBD
+Hauptstadt,die,Hauptstädte,B2,Capital,TBD,TBD
+Rand,der,Ränder,A2,Rim,TBD,TBD
+Pfote,die,Pfoten,A2,Paw,TBD,TBD
+Fort,das,Forts,A2,Fort,TBD,TBD
+Kosten,die,-,B1,Cost,TBD,TBD
+Poster,das,Poster,A2,Poster,TBD,TBD
+Vampir,der,Vampire,A2,Vampire,TBD,TBD
+Schaft,der,Schäfte,A2,Shaft,TBD,TBD
+Identität,die,Identitäten,B2,Identity,TBD,TBD
+Gehweg,der,Gehwege,A1,Pavement,TBD,TBD
+Arschloch,das,Arschlöcher,B2,Asshole,TBD,TBD
+Band,das,Bänder,A2,Strap,TBD,TBD
+Salon,der,Salons,A2,Parlor,TBD,TBD
+Hafen,der,Häfen,A1,Harbor,TBD,TBD
+Beispiel,das,Beispiele,B1,Example,TBD,TBD
+Netz,das,Netze,A2,Web,TBD,TBD
+Golf,der,(usually uncountable),A2,Golf,TBD,TBD
+Mist,der,(usually uncountable),A2,Crap,TBD,TBD
+Freude,die,(usually uncountable),B1,Delight,TBD,TBD
+Steppdecke,die,Steppdecken,A2,Quilt,TBD,TBD
+Steuer,die,Steuern,B2,Tax,TBD,TBD
+Falte,die,Falten,A2,Fold,TBD,TBD
+Porträt,das,Porträts,B1,Portrait,TBD,TBD
+Gewebe,das,Gewebe,B1,Tissue,TBD,TBD
+Glaube,der,Glauben,B1,Belief,TBD,TBD
+Kostüm,das,Kostüme,A2,Costume,TBD,TBD
+Maß,das,Maße,A2,Measure,TBD,TBD
+Kutsche,die,Kutschen,A2,Carriage,TBD,TBD
+Gitarre,die,Gitarren,A2,Guitar,TBD,TBD
+Ritter,der,Ritter,A2,Knight,TBD,TBD
+Rang,der,Ränge,A2,Rank,TBD,TBD
+Major,der,Majore,B1,Major,TBD,TBD
+Brunnen,der,Brunnen,A2,Fountain,TBD,TBD
+Stall,der,Ställe,A2,Stall,TBD,TBD
+Ladung,die,Ladungen,B1,Load,TBD,TBD
+Funke,der,Funken,A2,Spark,TBD,TBD
+Abfall,der,(usually uncountable),B1,Waste,TBD,TBD
+Champagner,der,(usually uncountable),B2,Champagne,TBD,TBD
+Bezirk,der,Bezirke,B2,District,TBD,TBD
+Schutz,der,(usually uncountable),B1,Protection,TBD,TBD
+Urteil,das,Urteile,B1,Judgment,TBD,TBD
+Mitgefühl,das,(usually uncountable),B2,Sympathy,TBD,TBD
+Veilchen,das,Veilchen,A2,Violet,TBD,TBD
+Aufprall,der,Aufprälle,B1,Impact,TBD,TBD
+Enttäuschung,die,Enttäuschungen,B2,Disappointment,TBD,TBD
+Trinken,das,(usually uncountable),A2,Drinking,TBD,TBD
+Bewusstsein,das,(usually uncountable),B2,Consciousness,TBD,TBD
+Taschentuch,das,Taschentücher,A2,Handkerchief,TBD,TBD
+Tanzen,das,(usually uncountable),A2,Dancing,TBD,TBD
+Parfüm,das,Parfüms,A2,Perfume,TBD,TBD
+Netzwerk,das,Netzwerke,B2,Network,TBD,TBD
+Forderung,die,Forderungen,B2,Claim,TBD,TBD
+Nonne,die,Nonnen,A2,Nun,TBD,TBD
+Krone,die,Kronen,A2,Crown,TBD,TBD
+Geländer,das,Geländer,A2,Railing,TBD,TBD
+Lizenz,die,Lizenzen,B1,License,TBD,TBD
+Gnade,die,(usually uncountable),B1,Mercy,TBD,TBD
+Ballon,der,Ballons,A2,Balloon,TBD,TBD
+Chaos,das,(usually uncountable),B1,Chaos,TBD,TBD
+Fieber,das,(usually uncountable),B1,Fever,TBD,TBD
+Schließfach,der,Schließfächer,A2,Locker,TBD,TBD
+Sitzung,die,Sitzungen,B2,Session,TBD,TBD
+Ausbruch,der,Ausbrüche,B1,Burst,TBD,TBD
+Gipfel,der,Gipfel,A2,Peak,TBD,TBD
+Trommel,die,Trommeln,A2,Drum,TBD,TBD
+Fokus,der,Foki,B1,Focus,TBD,TBD
+Frosch,der,Frösche,A1,Frog,TBD,TBD
+Nutzen,der,Nutzen,B1,Benefit,TBD,TBD
+Bemerkung,die,Bemerkungen,B2,Remark,TBD,TBD
+Flut,die,Fluten,A2,Tide,TBD,TBD
+Verdacht,der,Verdächte,B1,Suspicion,TBD,TBD
+Jeep,der,Jeeps,A2,Jeep,TBD,TBD
+Sorge,die,Sorgen,A2,Worry,TBD,TBD
+Literatur,die,(usually uncountable),B2,Literature,TBD,TBD
+Bogenschütze,der,Bogenschützen,A2,Archer,TBD,TBD
+Haushalt,der,Haushalte,B1,Household,TBD,TBD
+Pulver,das,Pulver,A2,Powder,TBD,TBD
+Hirte,der,Hirten,A2,Shepherd,TBD,TBD
+Linse,die,Linsen,A2,Lens,TBD,TBD
+Favorit,der,Favoriten,B1,Favorite,TBD,TBD
+Dame,die,(no plural form),A2,Madame,TBD,TBD
+Villa,die,Villen,A2,Mansion,TBD,TBD
+Boom,der,Booms,A2,Boom,TBD,TBD
+Spitze,die,Spitzen,A2,Lace,TBD,TBD
+Bewertung,die,Bewertungen,B2,Review,TBD,TBD
+Empfang,der,Empfänge,B2,Reception,TBD,TBD
+Schrott,der,(usually uncountable),A2,Scrap,TBD,TBD
+Perle,die,Perlen,A2,Bead,TBD,TBD
+Blenden,das,(usually uncountable),B1,Glare,TBD,TBD
+Fluss,der,Flüsse,A2,Flow,TBD,TBD
+Café,das,Cafés,A2,Cafe,TBD,TBD
+Status,der,Stati,B2,Status,TBD,TBD
+Hämmern,das,(usually uncountable),B1,Pounding,TBD,TBD
+Rakete,die,Raketen,A2,Rocket,TBD,TBD
+Schlucht,die,Schluchten,A2,Canyon,TBD,TBD
+Trauer,die,(usually uncountable),B1,Sorrow,TBD,TBD
+Spinne,die,Spinnen,A1,Spider,TBD,TBD
+Explosion,die,Explosionen,B2,Blast,TBD,TBD
+Persönlichkeit,die,Persönlichkeiten,C1,Personality,TBD,TBD
+Campus,der,Campi,B2,Campus,TBD,TBD
+Fluch,der,Flüche,A2,Curse,TBD,TBD
+Treppenhaus,das,Treppenhäuser,A2,Staircase,TBD,TBD
+Drang,der,Dränge,B1,Urge,TBD,TBD
+Frustration,die,(usually uncountable),B2,Frustration,TBD,TBD
+Pumpe,die,Pumpen,A2,Pump,TBD,TBD
+Leichtigkeit,die,(usually uncountable),C1,Ease,TBD,TBD
+Graf,der,Grafen,B2,Count,TBD,TBD
+Lösung,die,Lösungen,B1,Solution,TBD,TBD
+Schmuck,der,(usually uncountable),A2,Jewelry,TBD,TBD
+Sirene,die,Sirenen,A2,Siren,TBD,TBD
+Hit,der,Hits,A2,Hit,TBD,TBD
+Tradition,die,Traditionen,B2,Tradition,TBD,TBD
+Bordstein,der,Bordsteine,A2,Curb,TBD,TBD
+Vielfalt,die,Vielfalten,B1,Variety,TBD,TBD
+Pirat,der,Piraten,A2,Pirate,TBD,TBD
+Beschreibung,die,Beschreibungen,B2,Description,TBD,TBD
+Liebling,der,Lieblinge,A2,Dear,TBD,TBD
+Angst,die,Ängste,B1,Anxiety,TBD,TBD
+Tonhöhe,die,Tonhöhen,B2,Pitch,TBD,TBD
+Pizza,die,Pizzen,A2,Pizza,TBD,TBD
+Elefant,der,Elefanten,A2,Elephant,TBD,TBD
+Politik,die,(usually uncountable),B2,Politics,TBD,TBD
+Tennis,das,(usually uncountable),A2,Tennis,TBD,TBD
+Hunger,der,(usually uncountable),A2,Hunger,TBD,TBD
+Genie,das,Genies,B1,Genius,TBD,TBD
+Ziege,die,Ziegen,A1,Goat,TBD,TBD
+Sieg,der,Siege,B1,Victory,TBD,TBD
+Kombination,die,Kombinationen,B2,Combination,TBD,TBD
+Zugehörigkeit,die,Zugehörigkeiten,C1,Affiliation,TBD,TBD
+Mama,die,Mamas,A1,Momma,TBD,TBD
+Kap,das,Kaps,B2,Cape,TBD,TBD
+Scheinwerfer,der,Scheinwerfer,A2,Headlight,TBD,TBD
+Gouverneur,der,Gouverneure,B2,Governor,TBD,TBD
+Sauerstoff,der,(usually uncountable),B2,Oxygen,TBD,TBD
+Bischof,der,Bischöfe,A2,Bishop,TBD,TBD
+Bündel,das,Bündel,A2,Bundle,TBD,TBD
+Entwicklung,die,Entwicklungen,B2,Development,TBD,TBD
+Fingernagel,der,Fingernägel,A2,Fingernail,TBD,TBD
+Punktestand,der,Punktestände,B2,Score,TBD,TBD
+Kamerad,der,Kameraden,A2,Mate,TBD,TBD
+Reiter,der,Reiter,A2,Rider,TBD,TBD
+Umlaufbahn,die,Umlaufbahnen,B2,Orbit,TBD,TBD
+Rebe,die,Reben,A2,Vine,TBD,TBD
+Suite,die,Suiten,A2,Suite,TBD,TBD
+Barkeeper,der,Barkeeper,A2,Bartender,TBD,TBD
+Cola,die,(usually uncountable),A2,Coke,TBD,TBD
+Melodie,die,Melodien,A2,Tune,TBD,TBD
+Ruhm,der,(usually uncountable),B1,Glory,TBD,TBD
+Rabbi,der,(plural form is Rabbiner),A2,Rabbi,TBD,TBD
+Operation,die,Operationen,B2,Surgery,TBD,TBD
+Rindvieh,das,(usually uncountable),A2,Cattle,TBD,TBD
+Ritual,das,Rituale,B1,Ritual,TBD,TBD
+Gruß,der,Grüße,A2,Greeting,TBD,TBD
+Scheibe,die,Scheiben,A2,Slice,TBD,TBD
+Homer,der,Homers,B2,Homer,TBD,TBD
+Kamin,der,Kamine,A2,Fireplace,TBD,TBD
+Trikot,das,Trikots,A2,Jersey,TBD,TBD
+Medien,die,(plural noun),B1,Media,TBD,TBD
+Knall,der,Knalle,A2,Pop,TBD,TBD
+Ladung,die,Ladungen,A2,Cargo,TBD,TBD
+Herberge,die,Herbergen,A2,Inn,TBD,TBD
+Stellvertreter,der,Stellvertreter,B2,Deputy,TBD,TBD
+Verzweiflung,die,(usually uncountable),B2,Despair,TBD,TBD
+Gebiet,das,Gebiete,B1,Territory,TBD,TBD
+Schlag,der,Schläge,B1,Punch,TBD,TBD
+Jazz,der,(usually uncountable),A2,Jazz,TBD,TBD
+Umarmung,die,Umarmungen,A2,Hug,TBD,TBD
+Pfeife,die,Pfeifen,A2,Whistle,TBD,TBD
+Menschheit,die,(usually uncountable),B2,Humanity,TBD,TBD
+Handwerk,das,Handwerke,B1,Craft,TBD,TBD
+Tageslicht,das,(usually uncountable),A2,Daylight,TBD,TBD
+Wert,der,Werte,B1,Worth,TBD,TBD
+Einlage,die,Einlagen,B1,Slip,TBD,TBD
+Rüstung,die,Rüstungen,B1,Armor,TBD,TBD
+Rucksack,der,Rucksäcke,A2,Backpack,TBD,TBD
+Vorschlag,der,Vorschläge,B1,Suggestion,TBD,TBD
+Höhle,die,Höhlen,A1,Den,TBD,TBD
+Symbol,das,Symbole,B1,Symbol,TBD,TBD
+Kolonie,die,Kolonien,B1,Colony,TBD,TBD
+Schluss,der,Schlüsse,B1,Conclusion,TBD,TBD
+Nasenloch,das,Nasenlöcher,A2,Nostril,TBD,TBD
+Speer,der,Speere,A2,Spear,TBD,TBD
+Impuls,der,Impulse,B1,Impulse,TBD,TBD
+Tomate,die,Tomaten,A2,Tomato,TBD,TBD
+Kalb,das,Kälber,A2,Calf,TBD,TBD
+Herbst,der,(usually uncountable),A1,Autumn,TBD,TBD
+Entdeckung,die,Entdeckungen,B2,Discovery,TBD,TBD
+Klassenzimmer,das,Klassenzimmer,A2,Classroom,TBD,TBD
+Lieferung,die,Lieferungen,B2,Delivery,TBD,TBD
+Spray,das,Sprays,A2,Spray,TBD,TBD
+Flüssigkeit,die,Flüssigkeiten,B2,Liquid,TBD,TBD
+Treibstoff,der,(usually uncountable),B2,Fuel,TBD,TBD
+Unterwäsche,die,(no plural form),A2,Underwear,TBD,TBD
+Kuppel,die,Kuppeln,B1,Dome,TBD,TBD
+Bevölkerung,die,(usually uncountable),B2,Population,TBD,TBD
+Zuneigung,die,(usually uncountable),B2,Affection,TBD,TBD
+Religion,die,Religionen,B1,Religion,TBD,TBD
+Sänger,der,Sängerinnen,A2,Singer,TBD,TBD
+Bedienstete,der,Bediensteten,B2,Attendant,TBD,TBD
+Illusion,die,Illusionen,B1,Illusion,TBD,TBD
+Link,der,Links,A2,Link,TBD,TBD
+Lounge,die,Lounges,A2,Lounge,TBD,TBD
+Innere,das,Innenräume,B1,Interior,TBD,TBD
+Achselzucken,das,(usually uncountable),B2,Shrug,TBD,TBD
+Zone,die,Zonen,A2,Zone,TBD,TBD
+Standard,der,Standards,B1,Standard,TBD,TBD
+Kohle,die,(usually uncountable),A2,Coal,TBD,TBD
+Jagd,die,Jagden,A2,Chase,TBD,TBD
+Kloß,der,Klöße,A2,Lump,TBD,TBD
+Charme,der,Charmes,B2,Charm,TBD,TBD
+Legende,die,Legenden,B1,Legend,TBD,TBD
+Konsequenz,die,Konsequenzen,C1,Consequence,TBD,TBD
+Beobachtung,die,Beobachtungen,B2,Observation,TBD,TBD
+Fahrrad,das,Fahrräder,A1,Bicycle,TBD,TBD
+Schaden,der,(usually uncountable),B1,Harm,TBD,TBD
+Lohn,der,Löhne,A2,Pay,TBD,TBD
+Aussicht,die,Aussichten,B1,Prospect,TBD,TBD
+U-Bahn,die,U-Bahnen,A2,Subway,TBD,TBD
+Muster,das,Muster,B1,Sample,TBD,TBD
+Kirsche,die,Kirschen,A1,Cherry,TBD,TBD
+Händler,der,Händler,B1,Dealer,TBD,TBD
+Aufgabe,die,Aufgaben,A2,Assignment,TBD,TBD
+Eile,die,(usually uncountable),A2,Hurry,TBD,TBD
+Geliebte,die,Geliebten,B1,Mistress,TBD,TBD
+Hügel,der,Hügel,A2,Mound,TBD,TBD
+Unsinn,der,(usually uncountable),B1,Nonsense,TBD,TBD
+Ausschuss,der,Ausschüsse,B2,Committee,TBD,TBD
+Echo,das,Echos,A2,Echo,TBD,TBD
+Nachgiebigkeit,die,(usually uncountable),C1,Slack,TBD,TBD
+Decker,die,(plural noun),B1,Decker,TBD,TBD
+Lager,das,Lager,A2,Warehouse,TBD,TBD
+Kampf,der,Kämpfe,A2,Bout,TBD,TBD
+Toast,der,Toasts,A2,Toast,TBD,TBD
+Einrichtung,die,Einrichtungen,B2,Facility,TBD,TBD
+Basketball,der,(usually uncountable),A2,Basketball,TBD,TBD
+Schnurrbart,der,Schnurrbärte,A2,Mustache,TBD,TBD
+Senator,der,Senatoren,B2,Senator,TBD,TBD
+Aktie,die,Aktien,B2,Share,TBD,TBD
+Augenlid,das,Augenlider,A2,Eyelid,TBD,TBD
+Begeisterung,die,(usually uncountable),B2,Enthusiasm,TBD,TBD
+Stück,das,Stücke,A2,Chunk,TBD,TBD
+Schildkröte,die,Schildkröten,A1,Turtle,TBD,TBD
+Alkohol,der,(usually uncountable),A2,Alcohol,TBD,TBD
+Kaugummi,der,Kaugummis,A2,Gum,TBD,TBD
+Truthahn,der,Truthähne,A2,Turkey,TBD,TBD
+Prediger,der,Prediger,B2,Preacher,TBD,TBD
+Besitz,der,(usually uncountable),B1,Possession,TBD,TBD
+Sackkarre,die,Sackkarren,B2,Dolly,TBD,TBD
+Leinen,das,(usually uncountable),B1,Linen,TBD,TBD
+Entschuldigung,die,Entschuldigungen,B1,Apology,TBD,TBD
+Vortrag,der,Vorträge,B1,Lecture,TBD,TBD
+Fels,der,Felsen,A2,Boulder,TBD,TBD
+Haufen,der,Haufen,A2,Heap,TBD,TBD
+Fotograf,der,Fotografen,A2,Photographer,TBD,TBD
+Bremse,die,Bremsen,A2,Brake,TBD,TBD
+Nachfrage,die,Nachfragen,B2,Demand,TBD,TBD
+Schürze,die,Schürzen,A2,Apron,TBD,TBD
+Umhang,der,Umhänge,A2,Cloak,TBD,TBD
+Jury,die,Jurys,B1,Jury,TBD,TBD
+Anhörung,die,Anhörungen,B2,Hearing,TBD,TBD
+Grau,das,(usually uncountable),A1,Gray,TBD,TBD
+Kiste,die,Kisten,A2,Crate,TBD,TBD
+Methode,die,Methoden,B1,Method,TBD,TBD
+Referenz,die,Referenzen,B2,Reference,TBD,TBD
+Ekel,der,(usually uncountable),B1,Disgust,TBD,TBD
+Schnaps,der,Schnäpse,A2,Liquor,TBD,TBD
+Lippenstift,der,Lippenstifte,A2,Lipstick,TBD,TBD
+Kern,der,Kerne,A2,Core,TBD,TBD
+Individuum,das,Individuen,B2,Individual,TBD,TBD
+Container,der,Container,A2,Container,TBD,TBD
+Hure,die,Huren,A2,Whore,TBD,TBD
+Kleinkind,das,Kleinkinder,A2,Infant,TBD,TBD
+Sonnenbrille,die,Sonnenbrillen,A2,Sunglasses,TBD,TBD
+Hose,die,Hosen,A2,Hose,TBD,TBD
+Konzert,das,Konzerte,B1,Concert,TBD,TBD
+Unsinn,der,(usually uncountable),B1,Bullshit,TBD,TBD
+Eisenbahn,die,Eisenbahnen,A2,Railroad,TBD,TBD
+Parade,die,Paraden,A2,Parade,TBD,TBD
+Abteil,das,Abteile,B1,Compartment,TBD,TBD
+Bewohner,der,Bewohner,B1,Resident,TBD,TBD
+Ofen,der,Öfen,A2,Oven,TBD,TBD
+Techniker,der,Techniker,B2,Technician,TBD,TBD
+Verfahren,das,Verfahren,B2,Procedure,TBD,TBD
+Kämpfer,der,Kämpfer,A2,Fighter,TBD,TBD
+Korn,das,Körner,A2,Grain,TBD,TBD
+Picknick,das,Picknicks,A2,Picnic,TBD,TBD
+Stamm,der,Stämme,A2,Tribe,TBD,TBD
+Knospe,die,Knospen,A2,Bud,TBD,TBD
+Wiese,die,Wiesen,A1,Meadow,TBD,TBD
+Öffentlichkeit,die,(usually uncountable),C1,Public,TBD,TBD
+Gift,das,Gifte,A2,Poison,TBD,TBD
+Büffel,der,Büffel,A2,Buffalo,TBD,TBD
+Region,die,Regionen,B2,Region,TBD,TBD
+Produktion,die,Produktionen,B2,Production,TBD,TBD
+Laufen,das,(usually uncountable),A2,Running,TBD,TBD
+Schleife,die,Schleifen,A2,Loop,TBD,TBD
+Schlafen,das,(usually uncountable),A2,Sleeping,TBD,TBD
+Limonade,die,Limonaden,A2,Soda,TBD,TBD
+Eule,die,Eulen,A1,Owl,TBD,TBD
+Menü,das,Menüs,A2,Menu,TBD,TBD
+Tritt,der,Tritte,A2,Kick,TBD,TBD
+Ruin,der,Ruinen,A2,Ruin,TBD,TBD
+Rampe,die,Rampen,A2,Ramp,TBD,TBD
+Streif,die,Streifen,B1,Streak,TBD,TBD
+Unterarm,der,Unterarme,A2,Forearm,TBD,TBD
+Büro,das,Büros,A2,Bureau,TBD,TBD
+Gelenk,das,Gelenke,A2,Knuckle,TBD,TBD
+Gans,die,Gänse,A1,Goose,TBD,TBD
+Fortschritt,der,Fortschritte,B2,Advance,TBD,TBD
+Fee,die,Feen,A2,Fairy,TBD,TBD
+Krankheit,die,Krankheiten,B1,Illness,TBD,TBD
+Kommando,das,Kommandos,B1,Squad,TBD,TBD
+Beamte,der,Beamten,B1,Official,TBD,TBD
+Marke,die,Marken,A2,Brand,TBD,TBD
+Organ,das,Organe,A2,Organ,TBD,TBD
+Schmetterling,der,Schmetterlinge,A2,Butterfly,TBD,TBD
+Imperium,das,Reiche,B1,Empire,TBD,TBD
+Profil,das,Profile,B1,Profile,TBD,TBD
+Freiheit,die,Freiheiten,B1,Liberty,TBD,TBD
+Unglaube,der,(usually uncountable),B2,Disbelief,TBD,TBD
+Hain,der,Haine,B2,Grove,TBD,TBD
+Schild,der,Schilde,A2,Shield,TBD,TBD
+Sattel,der,Sättel,A2,Saddle,TBD,TBD
+Chancen,die,(plural noun),B1,Odds,TBD,TBD
+Cluster,der,Cluster,B2,Cluster,TBD,TBD
+Satellit,der,Satelliten,B1,Satellite,TBD,TBD
+Auslöser,der,Auslöser,B1,Trigger,TBD,TBD
+Welpe,der,Welpen,A1,Puppy,TBD,TBD
+Warten,das,(usually uncountable),B1,Waiting,TBD,TBD
+Glühbirne,die,Glühbirnen,A2,Bulb,TBD,TBD
+Kommode,die,Kommoden,A2,Dresser,TBD,TBD
+Patrouille,die,Patrouillen,B2,Patrol,TBD,TBD
+Adler,der,Adler,A2,Eagle,TBD,TBD
+Privatsphäre,die,(no plural form),B2,Privacy,TBD,TBD
+Flüssigkeit,die,Flüssigkeiten,B2,Fluid,TBD,TBD
+Herde,die,(plural noun),A2,Herd,TBD,TBD
+Kopfschmerzen,die,(plural noun),A2,Headache,TBD,TBD
+Unterhaltung,die,Unterhaltungen,B2,Amusement,TBD,TBD
+Rollstuhl,der,Rollstühle,A2,Wheelchair,TBD,TBD
+Politik,die,(usually uncountable),B2,Policy,TBD,TBD
+Schönheit,die,Schönheiten,B2,Belle,TBD,TBD
+Tabak,der,(usually uncountable),A2,Tobacco,TBD,TBD
+Einstellung,die,Einstellungen,B2,Setting,TBD,TBD
+Tattoo,das,Tattoos,A2,Tattoo,TBD,TBD
+Belastung,die,Belastungen,B2,Burden,TBD,TBD
+Händler,der,Händler,A2,Merchant,TBD,TBD
+Rutsche,die,Rutschen,A2,Slide,TBD,TBD
+Fleck,der,Flecken,A2,Stain,TBD,TBD
+Essen,das,(usually uncountable),A1,Eating,TBD,TBD
+Bindung,die,Bindungen,B1,Bond,TBD,TBD
+Schwimmen,das,(usually uncountable),A2,Swimming,TBD,TBD
+Stiftung,die,Stiftungen,B2,Foundation,TBD,TBD
+Verletzung,die,Verletzungen,B2,Injury,TBD,TBD
+Liga,die,Ligen,A2,League,TBD,TBD
+Batterie,die,Batterien,A2,Battery,TBD,TBD
+Regenschirm,der,Regenschirme,A1,Umbrella,TBD,TBD
+Kaiser,der,Kaiser,A2,Emperor,TBD,TBD
+Pier,der,Piers,A2,Pier,TBD,TBD
+Wasserhahn,der,Wasserhähne,A2,Tap,TBD,TBD
+Witz,das,Witze,A2,Wit,TBD,TBD
+Cutter,der,Cutter,A2,Cutter,TBD,TBD
+Dachboden,der,Dachböden,A2,Attic,TBD,TBD
+Tiger,der,Tiger,A2,Tiger,TBD,TBD
+Freund,der,Freunde,A2,Pal,TBD,TBD
+Vorfahr,der,Vorfahren,B1,Ancestor,TBD,TBD
+Konzentration,die,(usually uncountable),C1,Concentration,TBD,TBD
+Berg,der,Berge,A1,Mount,TBD,TBD
+Kosten,die,(plural noun),B1,Expense,TBD,TBD
+Segen,der,Segen,A2,Blessing,TBD,TBD
+Urlaub,der,(usually uncountable),A2,Leave,TBD,TBD
+Vorsprung,der,Vorsprünge,B2,Ledge,TBD,TBD
+Fackel,die,Fackeln,A2,Torch,TBD,TBD
+Tinte,die,(usually uncountable),A2,Ink,TBD,TBD
+Handlung,die,Handlungen,B1,Plot,TBD,TBD
+Miete,die,Mieten,A2,Rent,TBD,TBD
+Maultier,die,Maultiere,A2,Mule,TBD,TBD
+Bogen,der,Bögen,A2,Arch,TBD,TBD
+Umwelt,die,Umwelten,B2,Environment,TBD,TBD
+Stirnrunzeln,die,(plural noun),B2,Frown,TBD,TBD
+Inspektor,der,Inspektoren,B2,Inspector,TBD,TBD
+Mitte,die,Mitte,A1,Midst,TBD,TBD
+Peinlichkeit,die,Peinlichkeiten,B1,Embarrassment,TBD,TBD
+Beschwerde,die,Beschwerden,B1,Complaint,TBD,TBD
+Portion,die,Portionen,A2,Portion,TBD,TBD
+Wegwerfen,die,(usually uncountable),B2,Chuck,TBD,TBD
+Lichtung,die,Lichtungen,A2,Clearing,TBD,TBD
+Krise,die,Krisen,B1,Crisis,TBD,TBD
+Halskette,die,Halsketten,A2,Necklace,TBD,TBD
+Laterne,die,Laternen,A2,Lantern,TBD,TBD
+Reichtum,der,(usually uncountable),B1,Wealth,TBD,TBD
+Mörder,der,Mörder,B1,Murderer,TBD,TBD
+Zivilisation,die,Zivilisationen,B2,Civilization,TBD,TBD
+Konzept,das,Konzepte,B2,Concept,TBD,TBD
+Lamm,das,Lämmer,A2,Lamb,TBD,TBD
+Schritt,die,Schritte,A2,Stride,TBD,TBD
+Manschette,das,Manschetten,B2,Cuff,TBD,TBD
+Jungfrau,die,Jungfrauen,B1,Virgin,TBD,TBD
+Eichhörnchen,das,Eichhörnchen,A2,Squirrel,TBD,TBD
+Baby,das,Babys,A1,Babe,TBD,TBD
+Star,der,Stare,A2,Starling,TBD,TBD
+Depression,die,Depressionen,B2,Depression,TBD,TBD
+Lagerung,die,Lagerungen,B2,Storage,TBD,TBD
+Altar,der,Altäre,A2,Altar,TBD,TBD
+Tragödie,die,Tragödien,B1,Tragedy,TBD,TBD
+Ressource,die,Ressourcen,B2,Resource,TBD,TBD
+Reisende,der,Reisenden,A2,Traveler,TBD,TBD
+Vertrauen,das,(usually uncountable),B1,Trust,TBD,TBD
+Bogen,der,Bögen,A2,Arc,TBD,TBD
+Königreich,das,Königreiche,B2,Kingdom,TBD,TBD
+Juwel,das,Juwelen,A2,Jewel,TBD,TBD
+Musiker,der,Musiker,A2,Musician,TBD,TBD
+Flugzeug,das,Flugzeuge,A2,Airplane,TBD,TBD
+Müll,der,(usually uncountable),A2,Junk,TBD,TBD
+Sonnenschein,der,(usually uncountable),A1,Sunshine,TBD,TBD
+Junge,der,Jungen,A1,Lad,TBD,TBD
+Elf,der,Elfen,A2,Elf,TBD,TBD
+Protest,der,Proteste,B1,Protest,TBD,TBD
+Jagd,die,Jagden,A2,Hunt,TBD,TBD
+Geschäftsführer,der,Geschäftsführer,B2,Executive,TBD,TBD
+Tagebuch,das,Tagebücher,A2,Diary,TBD,TBD
+Aspekt,der,Aspekte,B2,Aspect,TBD,TBD
+Zifferblatt,das,Zifferblätter,A2,Dial,TBD,TBD
+Pantoffel,der,Pantoffel,A2,Slipper,TBD,TBD
+Schauspielerin,die,Schauspielerinnen,A2,Actress,TBD,TBD
+Schießen,das,(usually uncountable),A2,Shooting,TBD,TBD
+Ohrring,der,Ohrringe,A2,Earring,TBD,TBD
+Ameise,die,Ameisen,A1,Ant,TBD,TBD
+Brötchen,das,Brötchen,A1,Bread roll,TBD,TBD
+Sauce,die,Saucen,A2,Sauce,TBD,TBD
+Rakete,die,Raketen,A2,Missile,TBD,TBD
+Intensität,die,(usually uncountable),B2,Intensity,TBD,TBD
+Graben,der,Gräben,A2,Ditch,TBD,TBD
+Gänseblümchen,das,Gänseblümchen,A2,Daisy,TBD,TBD
+Kapelle,die,Kapellen,A2,Chapel,TBD,TBD
+Sumpf,das,Sümpfe,A2,Swamp,TBD,TBD
+Beziehung,die,Beziehungen,B1,Relation,TBD,TBD
+Vermutung,die,Vermutungen,B1,Guess,TBD,TBD
+Kran,der,Kräne,A2,Crane,TBD,TBD
+Aufeinandertreffen,das,Aufeinandertreffen,B2,Encounter,TBD,TBD
+Abfolge,die,Abfolgen,B1,Sequence,TBD,TBD
+Fragment,das,Fragmente,B1,Fragment,TBD,TBD
+Ausarbeitung,die,Ausarbeitungen,B2,Draft,TBD,TBD
+Speiselokal,das,Speiselokale,B2,Diner,TBD,TBD
+Funktion,die,Funktionen,B1,Function,TBD,TBD
+Organisation,die,Organisationen,B2,Organization,TBD,TBD
+Skelett,das,Skelette,A2,Skeleton,TBD,TBD
+Elend,das,(usually uncountable),B1,Misery,TBD,TBD
+Kraut,das,Kräuter,A2,Herb,TBD,TBD
+Stumpf,der,Stümpfe,A2,Stump,TBD,TBD
+Einsatz,der,Einsätze,B1,Stake,TBD,TBD
+Puff,das,Puffs,A2,Puff,TBD,TBD
+Schaffung,die,Schaffungen,B2,Creation,TBD,TBD
+Erwachen,das,Erwachen,B2,Wake,TBD,TBD
+Zauberer,der,Zauberer,A2,Wizard,TBD,TBD
+Matte,das,Matten,A2,Mat,TBD,TBD
+Dichtung,die,Dichtungen,B2,Seal,TBD,TBD
+Dämmerung,die,(usually uncountable),B2,Twilight,TBD,TBD
+Grunzen,das,Grunzen,A2,Grunt,TBD,TBD
+Bestrafung,die,Bestrafungen,B2,Punishment,TBD,TBD
+Clan,der,Clans,A2,Clan,TBD,TBD
+Kupfer,das,(usually uncountable),B1,Copper,TBD,TBD
+Schutt,der,(no plural form),B1,Debris,TBD,TBD
+Maler,der,Maler,A2,Painter,TBD,TBD
+Lenkung,die,Lenkungen,B2,Steering,TBD,TBD
+Mathematik,die,(usually uncountable),B2,Math,TBD,TBD
+Anerkennung,die,(usually uncountable),B2,Recognition,TBD,TBD
+Gemüt,der,(usually uncountable),B1,Temper,TBD,TBD
+Bedauern,das,(usually uncountable),B1,Regret,TBD,TBD
+Ziel,das,Ziele,A2,Destination,TBD,TBD
+Mühle,die,Mühlen,A2,Mill,TBD,TBD
+Fehler,der,Fehler,B1,Error,TBD,TBD
+Romanze,die,Romanzen,B1,Romance,TBD,TBD
+Thema,das,Themen,A2,Topic,TBD,TBD
+Terrasse,die,Terrassen,A2,Patio,TBD,TBD
+Schaufel,die,Schaufeln,A2,Shovel,TBD,TBD
+Schlafanzug,der,Schlafanzüge,A2,Pajamas,TBD,TBD
+E-Mail,die,E-Mails,A2,EMail,TBD,TBD
+Taube,die,Tauben,A1,Pigeon,TBD,TBD
+Dinosaurier,der,Dinosaurier,A2,Dinosaur,TBD,TBD
+Industrie,die,Industrien,B2,Industry,TBD,TBD
+Operator,der,Operatoren,B2,Operator,TBD,TBD
+Aufzug,der,Aufzüge,A2,Lift,TBD,TBD
+Berater,der,Berater,B1,Counselor,TBD,TBD
+Treffen,das,Treffen,A2,Gathering,TBD,TBD
+Prinzip,das,Prinzipien,B1,Principle,TBD,TBD
+Drama,das,Dramen,B1,Drama,TBD,TBD
+Küken,das,Küken,A1,Chick,TBD,TBD
+Diagramm,das,Diagramme,B1,Chart,TBD,TBD
+Kampagne,die,Kampagnen,B2,Campaign,TBD,TBD
+Lorbeer,der,Lorbeeren,B2,Laurel,TBD,TBD
+Steak,das,Steaks,A2,Steak,TBD,TBD
+Verbrecher,der,Verbrecher,B1,Criminal,TBD,TBD
+Globus,der,Globen,A2,Globe,TBD,TBD
+Bluterguss,der,Blutergüsse,B2,Bruise,TBD,TBD
+Knopf,der,Knöpfe,A2,Knob,TBD,TBD
+Mord,der,Morde,B1,Killing,TBD,TBD
+Liebste,die,Liebsten,A2,Sweetheart,TBD,TBD
+Oper,die,Opern,A2,Opera,TBD,TBD
+Frost,der,(no plural form),A2,Frost,TBD,TBD
+Brustwarze,die,Brustwarzen,A2,Nipple,TBD,TBD
+Pfarrer,der,Pfarrer,A2,Reverend,TBD,TBD
+Dunst,der,(usually uncountable),A2,Haze,TBD,TBD
+Überschwemmung,die,Überschwemmungen,B1,Flood,TBD,TBD
+Lied,das,Lieder,A1,Carol,TBD,TBD
+Schwäche,die,Schwächen,B1,Weakness,TBD,TBD
+Kochen,das,(usually uncountable),A2,Cooking,TBD,TBD

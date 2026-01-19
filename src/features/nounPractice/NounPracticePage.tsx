@@ -132,6 +132,8 @@ export default function NounPracticePage() {
   }, []);
 
   const stats = progress.byNoun[noun.id];
+  const promptGloss =
+    noun.glosses[Math.floor(Math.random() * noun.glosses.length)];
 
   return (
     <main style={{ maxWidth: 480, margin: "3rem auto" }}>
@@ -144,7 +146,8 @@ export default function NounPracticePage() {
       />
 
       <p>
-        <strong>Translate:</strong> {noun.english}
+        <strong>Translate:</strong> {noun.glosses.join(" / ")}
+        {/* <strong>Translate:</strong> {promptGloss} */}
       </p>
 
       {/* <label>

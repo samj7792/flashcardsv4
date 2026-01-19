@@ -62,7 +62,7 @@ export default function ProgressOverviewPage() {
           : Math.round((stats.articleCorrect / stats.articleAttempts) * 100);
 
       return {
-        noun: `${noun.english} → ${noun.article} ${noun.german}`,
+        noun: `${noun.glosses.join(" / ")} → ${noun.article} ${noun.german}`,
         fullAccuracy,
         articleAccuracy,
         attempts: stats.attempts,
@@ -106,7 +106,7 @@ export default function ProgressOverviewPage() {
         : Math.round((stats.articleCorrect / stats.articleAttempts) * 100);
 
     nounRowsByLevel[level].push({
-      noun: `${noun.english} → ${noun.article} ${noun.german}`,
+      noun: `${noun.glosses.join(" / ")} → ${noun.article} ${noun.german}`,
       fullAccuracy,
       articleAccuracy,
       attempts: stats.attempts,
