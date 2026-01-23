@@ -7,7 +7,7 @@ const STORAGE_KEY = "german-practice:v1";
 const legacyKeyToId = new Map<string, string>();
 
 NOUNS.forEach((noun) => {
-  const legacyKey = `${noun.english}|${noun.german}|${noun.article}`;
+  const legacyKey = `${noun.glosses[0]}|${noun.german}|${noun.article}`;
   legacyKeyToId.set(legacyKey, noun.id);
 });
 
