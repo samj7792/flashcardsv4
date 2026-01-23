@@ -1,0 +1,4 @@
+id,german,level,glosses,ich,du,er,sie,es,wir,ihr,Sie,separable
+verb-sein,sein,A1,be,bin,bist,ist,ist,ist,sind,seid,sind,false
+verb-haben,haben,A1,have,habe,hast,hat,hat,hat,haben,habt,haben,false
+verb-gehen,gehen,A1,go|walk,gehe,gehst,geht,geht,geht,gehen,geht,gehen,false

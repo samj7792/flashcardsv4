@@ -16,7 +16,7 @@ export interface Verb {
   level: Level;
   glosses: string[];
 
-  conjugations: Record<Tense, Conjugation>;
+  conjugations: Partial<Record<Tense, Conjugation>>;
 
   // morphology & syntax
   separable: boolean;
