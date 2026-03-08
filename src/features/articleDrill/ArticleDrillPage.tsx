@@ -1,21 +1,18 @@
 import { useEffect, useState } from "react";
 import { NOUNS } from "../nounPractice/nounData";
 import { getRandomNoun, updateNounProgress } from "../nounPractice/logic";
-import { Article, Noun, Progress } from "../nounPractice/types";
+import { Article, Noun } from "../nounPractice/types";
 import { selectWeakArticleNoun } from "../nounPractice/weakSelection";
-import {
-  loadOrInitProgress,
-  loadProgress,
-  saveProgress,
-} from "../../shared/storage";
+import { loadOrInitProgress, saveProgress } from "../../shared/storage";
 import { loadLevels } from "../../shared/level";
 import ModeToggle from "../../shared/ModeToggle";
+import { Progress } from "../../shared/progressTypes";
 
 const ARTICLES: Article[] = ["der", "die", "das"];
 
 export default function ArticleDrillPage() {
   const [progress, setProgress] = useState<Progress>(() =>
-    loadOrInitProgress()
+    loadOrInitProgress(),
   );
   const [weakMode, setWeakMode] = useState(true);
   const [noun, setNoun] = useState<Noun>(() => nextNoun());
@@ -30,9 +27,9 @@ export default function ArticleDrillPage() {
     const pool = getNounPool();
 
     if (weakMode) {
-      const progress = loadProgress();
+      const progress = loadOrInitProgress();
       if (progress) {
-        return selectWeakArticleNoun(pool, progress);
+        return selectWeakArticleNoun(pool, progress.nouns);
       }
     }
 
@@ -41,18 +38,19 @@ export default function ArticleDrillPage() {
 
   function submit(article: Article) {
     const correct = article === noun.article;
-    setProgress((p) =>
-      updateNounProgress(
-        p,
+    setProgress((p) => ({
+      ...p,
+      nouns: updateNounProgress(
+        p.nouns,
         noun,
         {
           correctArticle: correct,
           correctTranslation: false,
           isCorrect: false,
         },
-        "ARTICLE_ONLY"
-      )
-    );
+        "ARTICLE_ONLY",
+      ),
+    }));
 
     setSelected(article);
 
@@ -108,8 +106,8 @@ export default function ArticleDrillPage() {
                 background: isCorrect
                   ? "#d1fae5"
                   : isWrong
-                  ? "#fee2e2"
-                  : undefined,
+                    ? "#fee2e2"
+                    : undefined,
               }}
             >
               {article} <small>({i + 1})</small>

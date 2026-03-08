@@ -5,7 +5,8 @@ import ModeToggle from "../../shared/ModeToggle";
 import { CASE_EXPLANATIONS } from "./caseExplanations";
 import { loadOrInitProgress, saveProgress } from "../../shared/storage";
 import { updateCaseProgress } from "./caseProgress";
-import { ExerciseStats, Progress } from "../nounPractice/types";
+import { ExerciseStats } from "./types";
+import { Progress } from "../../shared/progressTypes";
 
 type Exercise = (typeof CASE_EXERCISES)[number];
 type GrammaticalCase = "Nominativ" | "Akkusativ" | "Dativ" | "Genitiv";
@@ -50,13 +51,13 @@ const CASE_COLORS = {
 
 export default function CasePracticePage() {
   const [progress, setProgress] = useState<Progress>(() =>
-    loadOrInitProgress()
+    loadOrInitProgress(),
   );
   const [selected, setSelected] = useState<string | null>(null);
   const [hasAnswered, setHasAnswered] = useState(false);
   const [weakMode, setWeakMode] = useState(true);
   const [enabledCases, setEnabledCases] = useState<Set<GrammaticalCase>>(
-    () => new Set(DEFAULT_CASES)
+    () => new Set(DEFAULT_CASES),
   );
   const [enabledArticleType, setEnabledArticleType] = useState<
     Set<ArticleType>
@@ -89,14 +90,15 @@ export default function CasePracticePage() {
     setHasAnswered(true);
 
     setProgress((p) => {
-      const next = updateCaseProgress(
-        p,
+      const nextCases = updateCaseProgress(
+        p.cases,
         exercise.id,
         exercise.grammaticalCase,
-        correct
+        correct,
       );
-      saveProgress(next);
-      return next;
+      const updatedProgress = { ...p, cases: nextCases };
+      saveProgress(updatedProgress);
+      return updatedProgress;
     });
   }
 
@@ -120,7 +122,7 @@ export default function CasePracticePage() {
 
     const weighted = pool.map((ex) => ({
       exercise: ex,
-      weight: exerciseWeight(progress.byCaseExercise[ex.id]),
+      weight: exerciseWeight(progress.cases.byExercise[ex.id]),
     }));
 
     const totalWeight = weighted.reduce((sum, w) => sum + w.weight, 0);
@@ -154,7 +156,7 @@ export default function CasePracticePage() {
 
   const filledSentence = exercise.baseSentence.replace(
     "___",
-    selected ?? "___"
+    selected ?? "___",
   );
 
   return (
@@ -205,7 +207,7 @@ export default function CasePracticePage() {
                   if (next.size > 0) setEnabledArticleType(next);
                 }}
               />
-            )
+            ),
           )}
         </div>
       </section>

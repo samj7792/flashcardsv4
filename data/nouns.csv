@@ -213,7 +213,7 @@ Katze,die,Katzen,A1,Cat,TBD,TBD
 Bildschirm,der,Bildschirme,A2,Screen,TBD,TBD
 Flasche,die,Flaschen,A2,Bottle,TBD,TBD
 Anruf,der,Anrufe,A2,Call,TBD,TBD
-Wohnzimmer,das,Wohnzimmer,A1,Living,TBD,TBD
+Wohnzimmer,das,Wohnzimmer,A1,Living Room,TBD,TBD
 Wange,die,Wangen,A1,Cheek,TBD,TBD
 Student,der,Studenten,A2,Student,TBD,TBD
 Ball,der,Bälle,A1,Ball,TBD,TBD
@@ -780,7 +780,7 @@ Gasse,die,Gassen,A1,Alley,TBD,TBD
 Ärmel,der,Ärmel,A1,Sleeve,TBD,TBD
 Grab,das,Gräber,A2,Grave,TBD,TBD
 Busch,der,Büsche,A1,Bush,TBD,TBD
-Esszimmer,das,-,A1,Dining,TBD,TBD
+Esszimmer,das,-,A1,Dining room,TBD,TBD
 Öffnung,die,Öffnungen,B1,Opening,TBD,TBD
 Zwilling,das,Zwillinge,A2,Twin,TBD,TBD
 Scheune,die,Scheunen,A2,Barn,TBD,TBD
@@ -1785,9 +1785,7 @@ Gift,das,Gifte,A2,Poison,TBD,TBD
 Büffel,der,Büffel,A2,Buffalo,TBD,TBD
 Region,die,Regionen,B2,Region,TBD,TBD
 Produktion,die,Produktionen,B2,Production,TBD,TBD
-Laufen,das,(usually uncountable),A2,Running,TBD,TBD
 Schleife,die,Schleifen,A2,Loop,TBD,TBD
-Schlafen,das,(usually uncountable),A2,Sleeping,TBD,TBD
 Limonade,die,Limonaden,A2,Soda,TBD,TBD
 Eule,die,Eulen,A1,Owl,TBD,TBD
 Menü,das,Menüs,A2,Menu,TBD,TBD
@@ -1943,7 +1941,6 @@ Stumpf,der,Stümpfe,A2,Stump,TBD,TBD
 Einsatz,der,Einsätze,B1,Stake,TBD,TBD
 Puff,das,Puffs,A2,Puff,TBD,TBD
 Schaffung,die,Schaffungen,B2,Creation,TBD,TBD
-Erwachen,das,Erwachen,B2,Wake,TBD,TBD
 Zauberer,der,Zauberer,A2,Wizard,TBD,TBD
 Matte,das,Matten,A2,Mat,TBD,TBD
 Dichtung,die,Dichtungen,B2,Seal,TBD,TBD

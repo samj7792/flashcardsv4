@@ -6,20 +6,21 @@ import {
   Article,
   Noun,
   PracticeResult,
-  Progress,
   ClozeMode,
   NounStats,
+  NounProgress,
 } from "./types";
 import { loadOrInitProgress, saveProgress } from "../../shared/storage";
 import { loadLevels } from "../../shared/level";
 import ModeToggle from "../../shared/ModeToggle";
 import { makeClozeSentence } from "./cloze";
+import { Progress } from "../../shared/progressTypes";
 
 const ARTICLES: Article[] = ["der", "die", "das"];
 
 export default function NounPracticePage() {
   const [progress, setProgress] = useState<Progress>(() =>
-    loadOrInitProgress()
+    loadOrInitProgress(),
   );
   const [weakMode, setWeakMode] = useState(true);
   const [noun, setNoun] = useState<Noun>(() => nextNoun());
@@ -60,7 +61,7 @@ export default function NounPracticePage() {
 
     const weighted = pool.map((noun) => ({
       noun,
-      weight: nounWeight(progress.byNoun[noun.id]),
+      weight: nounWeight(progress.nouns.byNoun[noun.id]),
     }));
 
     const total = weighted.reduce((s, w) => s + w.weight, 0);
@@ -79,7 +80,12 @@ export default function NounPracticePage() {
     setHasAnswered(true);
     const validated = validateAnswer(noun, answer as Answer);
     setResult(validated);
-    setProgress((p) => updateNounProgress(p, noun, validated, "FULL"));
+    setProgress((p) =>
+      ({
+        ...p,
+        nouns: updateNounProgress(p.nouns, noun, validated, "FULL"),
+      })
+    );
   }
 
   function next() {
@@ -131,9 +137,9 @@ export default function NounPracticePage() {
     inputRef.current?.focus();
   }, []);
 
-  const stats = progress.byNoun[noun.id];
-  const promptGloss =
-    noun.glosses[Math.floor(Math.random() * noun.glosses.length)];
+  const stats = progress.nouns.byNoun[noun.id];
+  // const promptGloss =
+  //   noun.glosses[Math.floor(Math.random() * noun.glosses.length)];
 
   return (
     <main style={{ maxWidth: 480, margin: "3rem auto" }}>
@@ -207,9 +213,9 @@ export default function NounPracticePage() {
 
       <section style={{ marginTop: "1rem" }}>
         {!result ? (
-          <button onClick={submit}>Submit (Enter)</button>
+          <button onClick={submit}>Submit</button>
         ) : (
-          <button onClick={next}>Next (Enter)</button>
+          <button onClick={next}>Next</button>
         )}
       </section>
 

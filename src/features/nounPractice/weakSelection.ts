@@ -1,10 +1,13 @@
-import { Noun, Progress } from "./types";
+import { Noun, NounProgress } from "./types";
 
 function unseenWeight(): number {
   return 1.5;
 }
 
-export function selectWeakFullNoun(nouns: Noun[], progress: Progress): Noun {
+export function selectWeakFullNoun(
+  nouns: Noun[],
+  progress: NounProgress,
+): Noun {
   const weights = nouns.map((noun) => {
     const key = noun.id;
     const stats = progress.byNoun[key];
@@ -28,7 +31,10 @@ export function selectWeakFullNoun(nouns: Noun[], progress: Progress): Noun {
   return nouns[0];
 }
 
-export function selectWeakArticleNoun(nouns: Noun[], progress: Progress): Noun {
+export function selectWeakArticleNoun(
+  nouns: Noun[],
+  progress: NounProgress,
+): Noun {
   const weights = nouns.map((noun) => {
     const key = noun.id;
     const stats = progress.byNoun[key];

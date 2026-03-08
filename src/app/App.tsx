@@ -5,6 +5,7 @@ import ProgressOverviewPage from "../features/progress/ProgressOverviewPage";
 import ArticleDrillPage from "../features/articleDrill/ArticleDrillPage";
 import CasePracticePage from "../features/cases/CasePracticePage";
 import Header from "../shared/Header";
+import VerbPracticePage from "../features/verbPractice/VerbPracticePage";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/nouns" element={<NounPracticePage />} />
         <Route path="/articles" element={<ArticleDrillPage />} />
         <Route path="/cases" element={<CasePracticePage />} />
+        <Route path="/verbs" element={<VerbPracticePage />} />
         <Route path="/progress" element={<ProgressOverviewPage />} />
       </Routes>
     </BrowserRouter>

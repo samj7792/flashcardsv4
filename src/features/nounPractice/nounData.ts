@@ -3622,7 +3622,7 @@ export const NOUNS: Noun[] = [
     "plural": "Wohnzimmer",
     "level": "A1",
     "glosses": [
-      "living"
+      "living room"
     ],
     "examples": [
       {
@@ -12462,7 +12462,7 @@ export const NOUNS: Noun[] = [
     "plural": "-",
     "level": "A1",
     "glosses": [
-      "dining"
+      "dining room"
     ],
     "examples": [
       {
@@ -26656,22 +26656,6 @@ export const NOUNS: Noun[] = [
     ]
   },
   {
-    "id": "noun-laufen-das",
-    "german": "Laufen",
-    "article": "das",
-    "plural": "(usually uncountable)",
-    "level": "A2",
-    "glosses": [
-      "running"
-    ],
-    "examples": [
-      {
-        "german": "TBD",
-        "english": "TBD"
-      }
-    ]
-  },
-  {
     "id": "noun-schleife-die",
     "german": "Schleife",
     "article": "die",
@@ -26679,22 +26663,6 @@ export const NOUNS: Noun[] = [
     "level": "A2",
     "glosses": [
       "loop"
-    ],
-    "examples": [
-      {
-        "german": "TBD",
-        "english": "TBD"
-      }
-    ]
-  },
-  {
-    "id": "noun-schlafen-das",
-    "german": "Schlafen",
-    "article": "das",
-    "plural": "(usually uncountable)",
-    "level": "A2",
-    "glosses": [
-      "sleeping"
     ],
     "examples": [
       {
@@ -28727,22 +28695,6 @@ export const NOUNS: Noun[] = [
     "level": "B2",
     "glosses": [
       "creation"
-    ],
-    "examples": [
-      {
-        "german": "TBD",
-        "english": "TBD"
-      }
-    ]
-  },
-  {
-    "id": "noun-erwachen-das",
-    "german": "Erwachen",
-    "article": "das",
-    "plural": "Erwachen",
-    "level": "B2",
-    "glosses": [
-      "wake"
     ],
     "examples": [
       {

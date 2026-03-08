@@ -32,6 +32,10 @@ export default function HomePage() {
       </div>
 
       <div style={{ marginTop: "1rem" }}>
+        <button onClick={() => navigate("/verbs")}>Verb Practice</button>
+      </div>
+
+      <div style={{ marginTop: "1rem" }}>
         <button onClick={() => navigate("/progress")}>View Progress</button>
       </div>
     </main>

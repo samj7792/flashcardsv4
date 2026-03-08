@@ -1,3 +1,5 @@
+// import { VerbStats } from "../verbPractice/types";
+
 export type Article = "der" | "die" | "das";
 export type Level = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
 export type PracticeMode = "FULL" | "ARTICLE_ONLY";
@@ -38,30 +40,6 @@ export interface NounStats {
   lastSeen: number;
 }
 
-export interface CaseStats {
-  attempts: number;
-  correct: number;
-}
-
-export interface CaseExercise {
-  id: string;
-  level: Level;
-  baseSentence: string;
-  slot: string;
-  grammaticalCase: GrammaticalCase;
-  correctForm: string;
-  english: string;
-}
-
-export interface ExerciseStats {
-  attempts: number;
-  correct: number;
-}
-
-export interface Progress {
-  total: number;
-  correct: number;
+export interface NounProgress {
   byNoun: Record<string, NounStats>;
-  byCase: Partial<Record<GrammaticalCase, CaseStats>>;
-  byCaseExercise: Record<string, ExerciseStats>;
 }

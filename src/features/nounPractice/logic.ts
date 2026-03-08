@@ -2,9 +2,9 @@ import {
   Answer,
   Noun,
   PracticeResult,
-  Progress,
   PracticeMode,
   NounStats,
+  NounProgress,
 } from "./types";
 
 export function getRandomNoun(nouns: Noun[]): Noun {
@@ -45,11 +45,11 @@ function emptyStats(): NounStats {
 }
 
 export function updateNounProgress(
-  progress: Progress,
+  progress: NounProgress,
   noun: Noun,
   result: PracticeResult,
-  mode: PracticeMode
-): Progress {
+  mode: PracticeMode,
+): NounProgress {
   const key = noun.id;
   const prev = progress.byNoun[key] ?? emptyStats();
 
@@ -66,9 +66,9 @@ export function updateNounProgress(
   }
 
   return {
-    ...progress, // ✅ preserve byCase and future fields
-    total: progress.total + (mode === "FULL" ? 1 : 0),
-    correct: progress.correct + (mode === "FULL" && result.isCorrect ? 1 : 0),
+    // ...progress, // ✅ preserve byCase and future fields
+    // total: progress.total + (mode === "FULL" ? 1 : 0),
+    // correct: progress.correct + (mode === "FULL" && result.isCorrect ? 1 : 0),
     byNoun: {
       ...progress.byNoun,
       [key]: nextStats,
@@ -76,12 +76,8 @@ export function updateNounProgress(
   };
 }
 
-export function initialProgress(): Progress {
+export function initialNounProgress(): NounProgress {
   return {
-    total: 0,
-    correct: 0,
     byNoun: {},
-    byCase: {},
-    byCaseExercise: {},
   };
 }

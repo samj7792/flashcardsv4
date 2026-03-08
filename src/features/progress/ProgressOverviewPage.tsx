@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import ResetProgress from "../../shared/ResetProgress";
 import { loadOrInitProgress } from "../../shared/storage";
-import { Progress } from "../nounPractice/types";
+// import { Progress } from "../nounPractice/types";
 import { NOUNS } from "../nounPractice/nounData";
 import CollapsibleSection from "../../shared/CollapsibleSection";
+import { Progress } from "../../shared/progressTypes";
 
 interface Row {
   noun: string;
@@ -22,7 +23,7 @@ const nounById = new Map(NOUNS.map((n) => [n.id, n]));
 
 export default function ProgressOverviewPage() {
   const [progress, setProgress] = useState<Progress>(() =>
-    loadOrInitProgress()
+    loadOrInitProgress(),
   );
 
   useEffect(() => {
@@ -35,8 +36,8 @@ export default function ProgressOverviewPage() {
   }, []);
 
   if (
-    Object.keys(progress.byNoun).length == 0 &&
-    Object.keys(progress.byCase).length == 0
+    Object.keys(progress.nouns.byNoun).length == 0 &&
+    Object.keys(progress.cases.byCase).length == 0
   ) {
     return (
       <main style={{ maxWidth: 640, margin: "3rem auto" }}>
@@ -46,8 +47,8 @@ export default function ProgressOverviewPage() {
     );
   }
 
-  const nounRows: Row[] = Object.entries(progress.byNoun)
-    .map(([id, stats]) => {
+  const nounRows: Row[] = Object.entries(progress.nouns.byNoun)
+    .map(([id, stats]: [string, any]) => {
       const noun = nounById.get(id);
       if (!noun) return null;
 
@@ -78,7 +79,7 @@ export default function ProgressOverviewPage() {
   nounRows.sort((a, b) =>
     a.fullAccuracy !== null && b.fullAccuracy !== null
       ? a.fullAccuracy - b.fullAccuracy
-      : a.articleAccuracy - b.articleAccuracy
+      : a.articleAccuracy - b.articleAccuracy,
   );
 
   const nounRowsByLevel: Record<string, Row[]> = {
@@ -88,41 +89,43 @@ export default function ProgressOverviewPage() {
     B2: [],
   };
 
-  Object.entries(progress.byNoun).forEach(([id, stats]) => {
-    const noun = nounById.get(id);
-    if (!noun) return null;
-    const level = nounLevelMap.get(id);
+  Object.entries(progress.nouns.byNoun).forEach(
+    ([id, stats]: [string, any]) => {
+      const noun = nounById.get(id);
+      if (!noun) return null;
+      const level = nounLevelMap.get(id);
 
-    if (!level) return;
+      if (!level) return;
 
-    const fullAccuracy =
-      stats.attempts === 0
-        ? null
-        : Math.round((stats.correct / stats.attempts) * 100);
+      const fullAccuracy =
+        stats.attempts === 0
+          ? null
+          : Math.round((stats.correct / stats.attempts) * 100);
 
-    const articleAccuracy =
-      stats.articleAttempts === 0
-        ? 0
-        : Math.round((stats.articleCorrect / stats.articleAttempts) * 100);
+      const articleAccuracy =
+        stats.articleAttempts === 0
+          ? 0
+          : Math.round((stats.articleCorrect / stats.articleAttempts) * 100);
 
-    nounRowsByLevel[level].push({
-      noun: `${noun.glosses.join(" / ")} → ${noun.article} ${noun.german}`,
-      fullAccuracy,
-      articleAccuracy,
-      attempts: stats.attempts,
-    });
-  });
+      nounRowsByLevel[level].push({
+        noun: `${noun.glosses.join(" / ")} → ${noun.article} ${noun.german}`,
+        fullAccuracy,
+        articleAccuracy,
+        attempts: stats.attempts,
+      });
+    },
+  );
 
   Object.values(nounRowsByLevel).forEach((rows) =>
     rows.sort((a, b) =>
       a.fullAccuracy !== null && b.fullAccuracy !== null
         ? a.fullAccuracy - b.fullAccuracy
-        : a.articleAccuracy - b.articleAccuracy
-    )
+        : a.articleAccuracy - b.articleAccuracy,
+    ),
   );
 
-  const caseRows: CaseRow[] = Object.entries(progress.byCase ?? {}).map(
-    ([grammaticalCase, stats]) => {
+  const caseRows: CaseRow[] = Object.entries(progress.cases.byCase ?? {}).map(
+    ([grammaticalCase, stats]: [string, any]) => {
       const accuracy =
         stats.attempts === 0
           ? 0
@@ -134,7 +137,7 @@ export default function ProgressOverviewPage() {
         attempts: stats.attempts,
         accuracy,
       };
-    }
+    },
   );
 
   caseRows.sort((a, b) => a.accuracy - b.accuracy);
@@ -189,10 +192,12 @@ export default function ProgressOverviewPage() {
               </tbody>
             </table>
           </CollapsibleSection>
-        ) : null
+        ) : (
+          "no data"
+        ),
       )}
 
-      {caseRows.length > 0 && (
+      {caseRows.length > 0 ? (
         <CollapsibleSection
           title={`Cases`}
           detail={`(Overall Accuracy: ${(
@@ -225,11 +230,13 @@ export default function ProgressOverviewPage() {
                       <td align="right">{row.accuracy}%</td>
                     </tr>
                   );
-                }
+                },
               )}
             </tbody>
           </table>
         </CollapsibleSection>
+      ) : (
+        "no data"
       )}
     </main>
   );

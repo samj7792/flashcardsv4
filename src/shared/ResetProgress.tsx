@@ -1,9 +1,9 @@
-import { Progress } from "../features/nounPractice/types";
 import { useState, Dispatch, SetStateAction, useEffect } from "react";
 import { resetProgress } from "./storage";
+import { Progress } from "./progressTypes";
 
 export default function ResetProgress({
-  setProgress,
+  // setProgress,
   progress,
 }: {
   setProgress: Dispatch<SetStateAction<Progress>>;
@@ -16,13 +16,13 @@ export default function ResetProgress({
       setConfirmReset(true);
       return;
     }
-    const fresh = resetProgress();
-    setProgress(fresh);
+    resetProgress();
+    // setProgress(fresh);
   }
 
   const isEmpty =
-    Object.keys(progress.byNoun || {}).length === 0 &&
-    Object.keys(progress.byCase || {}).length === 0;
+    Object.keys(progress.nouns.byNoun || {}).length === 0 &&
+    Object.keys(progress.cases.byCase || {}).length === 0;
   useEffect(() => {
     if (isEmpty) setConfirmReset(false);
   }, [isEmpty]);
@@ -45,8 +45,8 @@ export default function ResetProgress({
         {isEmpty
           ? "Progress already empty"
           : confirmReset
-          ? "Click again to confirm"
-          : "Reset Progress"}
+            ? "Click again to confirm"
+            : "Reset Progress"}
       </button>
     </>
   );
