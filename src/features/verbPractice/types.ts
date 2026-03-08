@@ -40,6 +40,11 @@ export interface Verb {
   // pedagogy
   irregular?: boolean;
   notes?: string[];
+
+  examples?: {
+    german: string;
+    english?: string;
+  }[];
 }
 
 export interface VerbStats {
@@ -50,8 +55,6 @@ export interface VerbStats {
   byForm?: Record<Form, { attempts: number; correct: number }>;
 }
 
-export interface Progress {
-  total: number;
-  correct: number;
+export interface VerbProgress {
   byVerb: Record<string, VerbStats>;
 }

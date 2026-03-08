@@ -1,4 +1,7 @@
-id,german,level,glosses,ich,du,er,sie,es,wir,ihr,Sie,separable
-verb-sein,sein,A1,be,bin,bist,ist,ist,ist,sind,seid,sind,false
-verb-haben,haben,A1,have,habe,hast,hat,hat,hat,haben,habt,haben,false
-verb-gehen,gehen,A1,go|walk,gehe,gehst,geht,geht,geht,gehen,geht,gehen,false
+id,german,level,glosses,separable,prefix,auxiliary,irregular,reflexivePronoun,reflexiveCase,object,prep,prepCase,sentence,sentenceEnglish
+haben,haben,A1,to have|to possess,false,,haben,true,,,akkusativ,,,Ich habe ein Buch,I have a book
+machen,machen,A1,to make|to do,false,,haben,false,,,akkusativ,,,Ich mache meine Hausaufgaben,I do my homework
+gehen,gehen,A1,to go|to walk,false,,sein,true,,,,,,Ich gehe nach Hause,I go home
+können,können,A1,can|to be able to,false,,haben,true,,,,,,Ich kann Deutsch sprechen,I can speak German
+müssen,müssen,A1,must|to have to,false,,haben,true,,,,,,Ich muss heute arbeiten,I must work today
+sollen,sollen,A1,should|to be supposed to,false,,haben,true,,,,,,Ich soll mehr lernen,I should study more
